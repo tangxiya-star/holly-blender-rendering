@@ -1,0 +1,123 @@
+{
+  "source": "alchemist_05_final.blend",
+  "source_sha256": "317aafc6bdcaa9fa9f6b8fbb8c23414ab1cd6ce24f8b363c03c04c14ab622e86",
+  "reference": "references/door_refine06/user_entrance_eatweek.jpg",
+  "reference_interpretation": "Photo-guided bronze relief reconstruction; unseen geometry and exact dimensions inferred. Real editable geometry, no photo cards.",
+  "door": {
+    "objects": [
+      "REF06_Door_Left_SolidCastLeaf",
+      "REF06_Door_Left_RecessedCastPanel_1",
+      "REF06_Door_Left_RecessedCastPanel_2",
+      "REF06_Door_Left_RecessedCastPanel_3",
+      "REF06_Door_Left_RecessedCastPanel_4",
+      "REF06_Door_Left_MitredSteppedMouldings",
+      "REF06_Door_Left_TwistedTrunksAndCarvedBark",
+      "REF06_Door_Left_WornReliefBosses",
+      "REF06_Door_Left_HingePintlesAndBackStraps",
+      "REF06_Door_Right_SolidCastLeaf",
+      "REF06_Door_Right_RecessedCastPanel_1",
+      "REF06_Door_Right_RecessedCastPanel_2",
+      "REF06_Door_Right_RecessedCastPanel_3",
+      "REF06_Door_Right_RecessedCastPanel_4",
+      "REF06_Door_Right_MitredSteppedMouldings",
+      "REF06_Door_Right_TwistedTrunksAndCarvedBark",
+      "REF06_Door_Right_WornReliefBosses",
+      "REF06_Door_Right_HingePintlesAndBackStraps"
+    ],
+    "hinges": [
+      "REF06_Door_Left_Hinge",
+      "REF06_Door_Right_Hinge"
+    ],
+    "hidden_legacy_objects": [
+      "Entrance_Bronze_Leaf_-1",
+      "Entrance_Bronze_Leaf_1",
+      "Entrance_Leaf_Crossrail",
+      "Entrance_Leaf_Crossrail.001",
+      "Entrance_Leaf_Crossrail.002",
+      "Entrance_Leaf_Crossrail.003",
+      "Entrance_Leaf_Crossrail.004",
+      "Entrance_Leaf_Crossrail.005",
+      "Entrance_Leaf_Crossrail.006",
+      "Entrance_Leaf_Crossrail.007",
+      "Entrance_Leaf_Stile",
+      "Entrance_Leaf_Stile.001",
+      "Entrance_Leaf_Stile.002",
+      "Entrance_Leaf_Stile.003",
+      "Entry_Bronze_Root_Relief_Left",
+      "Entry_Bronze_Root_Relief_Right"
+    ],
+    "vertices": 1168745,
+    "triangles": 2281002,
+    "leaf_counts": {
+      "Left": {
+        "primary_branches": 26,
+        "bark_lamellae": 0,
+        "forked_splinters": 40,
+        "broken_bark_plates": 6493,
+        "relief_vertices": 542527
+      },
+      "Right": {
+        "primary_branches": 28,
+        "bark_lamellae": 0,
+        "forked_splinters": 44,
+        "broken_bark_plates": 6882,
+        "relief_vertices": 577442
+      }
+    },
+    "leaf_width_m": 1.588,
+    "center_seam_m": 0.024,
+    "leaf_height_m": 4.15,
+    "solid_leaf_thickness_m": 0.139,
+    "attributes": [
+      "bronze_wear",
+      "bronze_cavity"
+    ],
+    "animation": {
+      "closed": [
+        1,
+        40
+      ],
+      "open": 85,
+      "left_degrees": 90,
+      "right_degrees": -90
+    },
+    "source": "references/entrance.jpg",
+    "geometry_is_scan": false
+  },
+  "furniture": {
+    "material": "REF06 | charcoal upholstery",
+    "seats": 28,
+    "backs": 28,
+    "seam_curves": 56,
+    "largest_inward_vertex_adjustment_m": 0.001098990433903239,
+    "source_envelope_expansion_m": 0.0,
+    "chair_world_transforms_unchanged": true,
+    "yarn_pitch_m": [
+      0.00072,
+      0.00068
+    ],
+    "source_height_and_walkthrough_preserved": true,
+    "other_scene_materials_and_lights_changed": false
+  },
+  "materials": {
+    "stone_objects": 8,
+    "floor_roughness_range": [
+      0.23,
+      0.34
+    ]
+  },
+  "lighting": {
+    "adjusted_lights": 48,
+    "service_sources": "Real narrow shelf strips, directional practical lighting, clear glazing"
+  },
+  "entry_second_review_fixes": {
+    "new_bricks": 2250,
+    "door_width_factor": 0.82,
+    "door_opening_m": 2.624,
+    "lighting_multiplier": 0.3,
+    "materials": "Dark charcoal bronze with gentle crest wear; new fired masonry"
+  },
+  "build_seconds": 6.597610950469971,
+  "objects": 906,
+  "total_base_vertices": 1484162
+}

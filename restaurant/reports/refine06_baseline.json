@@ -1,0 +1,4009 @@
+{
+  "alchemist_05_final.blend": {
+    "objects": 804,
+    "vertices": 288289,
+    "cameras": {
+      "CAM_Arrival": {
+        "location": [
+          -0.5,
+          -24.0,
+          1.7000000476837158
+        ],
+        "rotation": [
+          1.6752749681472778,
+          5.675151015793745e-09,
+          -0.08749532699584961
+        ],
+        "lens": 25.0
+      },
+      "CAM_Hero": {
+        "location": [
+          0.0,
+          -6.800000190734863,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.7359449863433838,
+          -0.0,
+          0.0
+        ],
+        "lens": 20.0
+      },
+      "CAM_Dome": {
+        "location": [
+          5.199999809265137,
+          -4.599999904632568,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.7779932022094727,
+          6.169022270796631e-08,
+          0.6321380138397217
+        ],
+        "lens": 18.0
+      },
+      "CAM_Table": {
+        "location": [
+          1.2000000476837158,
+          1.100000023841858,
+          1.4500000476837158
+        ],
+        "rotation": [
+          1.3059239387512207,
+          -4.3142019734432324e-08,
+          -1.1631652116775513
+        ],
+        "lens": 35.0
+      },
+      "CAM_Exit": {
+        "location": [
+          0.0,
+          -15.5,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -1.5099578831723193e-07,
+          3.141592502593994
+        ],
+        "lens": 26.0
+      },
+      "CAM_Plan": {
+        "location": [
+          20.0,
+          -32.0,
+          30.0
+        ],
+        "rotation": [
+          0.8178885579109192,
+          9.860116279014619e-09,
+          0.6747409701347351
+        ],
+        "lens": 40.0
+      },
+      "WALKTHROUGH": {
+        "location": [
+          0.0,
+          -22.0,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.6828254461288452,
+          -0.0,
+          0.0
+        ],
+        "lens": 25.0
+      },
+      "CAM_Lounge": {
+        "location": [
+          2.5999999046325684,
+          -16.799999237060547,
+          1.600000023841858
+        ],
+        "rotation": [
+          1.570796251296997,
+          -1.043592732230536e-07,
+          1.1999051570892334
+        ],
+        "lens": 25.0
+      }
+    },
+    "lights": [
+      {
+        "name": "Dome_Bounce",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          -4.0,
+          0.0,
+          6.0
+        ],
+        "color": [
+          0.1899999976158142,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      {
+        "name": "Dome_Bounce.001",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          4.0,
+          0.0,
+          6.0
+        ],
+        "color": [
+          0.1899999976158142,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      {
+        "name": "Dome_Bounce.002",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          0.0,
+          4.0,
+          6.0
+        ],
+        "color": [
+          0.1899999976158142,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      {
+        "name": "Island_Warm_Pool",
+        "type": "AREA",
+        "energy": 4.0,
+        "location": [
+          0.0,
+          -3.5,
+          1.25
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3499999940395355
+        ]
+      },
+      {
+        "name": "Island_Warm_Pool.001",
+        "type": "AREA",
+        "energy": 4.0,
+        "location": [
+          0.0,
+          0.0,
+          1.25
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3499999940395355
+        ]
+      },
+      {
+        "name": "Island_Warm_Pool.002",
+        "type": "AREA",
+        "energy": 4.0,
+        "location": [
+          0.0,
+          3.5,
+          1.25
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3499999940395355
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow",
+        "type": "AREA",
+        "energy": 40.0,
+        "location": [
+          -3.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow.001",
+        "type": "AREA",
+        "energy": 40.0,
+        "location": [
+          -1.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow.002",
+        "type": "AREA",
+        "energy": 40.0,
+        "location": [
+          1.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow.003",
+        "type": "AREA",
+        "energy": 40.0,
+        "location": [
+          3.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Counter_Indirect",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          -2.4000000953674316,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.001",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          -0.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.002",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          2.5999999046325684,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.003",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          4.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.004",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          -2.4000000953674316,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.005",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          -0.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.006",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          2.5999999046325684,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.007",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          4.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Arrival_Pendant_Light",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          -2.700000047683716,
+          -16.399999618530273,
+          2.7699999809265137
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.46000000834465027
+        ]
+      },
+      {
+        "name": "Arrival_Pendant_Light.001",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          -2.700000047683716,
+          -15.0,
+          2.7699999809265137
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.46000000834465027
+        ]
+      },
+      {
+        "name": "Arrival_Pendant_Light.002",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          -2.700000047683716,
+          -13.600000381469727,
+          2.7699999809265137
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.46000000834465027
+        ]
+      },
+      {
+        "name": "Arrival_Bar_Wash",
+        "type": "AREA",
+        "energy": 100.0,
+        "location": [
+          -3.9000000953674316,
+          -15.0,
+          3.5999999046325684
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.44999998807907104
+        ]
+      },
+      {
+        "name": "Arrival_Lounge_Fill",
+        "type": "AREA",
+        "energy": 85.0,
+        "location": [
+          2.5,
+          -15.5,
+          3.9000000953674316
+        ],
+        "color": [
+          1.0,
+          0.800000011920929,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Arrival_Soft_Orientation",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          0.0,
+          -17.0,
+          3.799999952316284
+        ],
+        "color": [
+          1.0,
+          0.7599999904632568,
+          0.5199999809265137
+        ]
+      },
+      {
+        "name": "Transition_Recessed",
+        "type": "AREA",
+        "energy": 12.0,
+        "location": [
+          0.0,
+          -11.5,
+          2.9700000286102295
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.33000001311302185
+        ]
+      },
+      {
+        "name": "Transition_Recessed.001",
+        "type": "AREA",
+        "energy": 12.0,
+        "location": [
+          0.0,
+          -9.300000190734863,
+          2.9700000286102295
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.33000001311302185
+        ]
+      },
+      {
+        "name": "Portal_Uplight",
+        "type": "AREA",
+        "energy": 30.0,
+        "location": [
+          -1.7000000476837158,
+          -19.549999237060547,
+          0.15000000596046448
+        ],
+        "color": [
+          1.0,
+          0.7599999904632568,
+          0.5099999904632568
+        ]
+      },
+      {
+        "name": "Portal_Uplight.001",
+        "type": "AREA",
+        "energy": 30.0,
+        "location": [
+          1.7000000476837158,
+          -19.549999237060547,
+          0.15000000596046448
+        ],
+        "color": [
+          1.0,
+          0.7599999904632568,
+          0.5099999904632568
+        ]
+      },
+      {
+        "name": "Street_Overcast",
+        "type": "AREA",
+        "energy": 900.0,
+        "location": [
+          0.0,
+          -24.0,
+          8.0
+        ],
+        "color": [
+          0.6399999856948853,
+          0.75,
+          1.0
+        ]
+      },
+      {
+        "name": "TableExperience_01_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -2.8572425842285156,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_02_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -2.7427573204040527,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_03_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -4.057242393493652,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_04_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -3.9427573680877686,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_05_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -5.257242679595947,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_06_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -5.142757415771484,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_07_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -6.335533618927002,
+          -1.572757363319397,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_08_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -2.8572428226470947,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_09_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -2.7427573204040527,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_10_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -4.057242393493652,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_11_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -3.9427573680877686,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_12_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -5.257242679595947,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_13_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -5.142757415771484,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_14_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          -6.335533618927002,
+          3.4272425174713135,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_15_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          2.7427573204040527,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_16_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          2.8572428226470947,
+          -0.04446613788604736,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_17_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          3.9427573680877686,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_18_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          4.057242393493652,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_19_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          5.142757415771484,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_20_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          5.257242679595947,
+          -0.04446613788604736,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_21_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          6.335533618927002,
+          -1.6872426271438599,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_22_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          2.7427573204040527,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_23_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          2.8572428226470947,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_24_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          3.9427573680877686,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_25_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          4.057242393493652,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_26_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          5.142757415771484,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_27_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          5.257242679595947,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "TableExperience_28_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 13.0,
+        "location": [
+          6.335533618927002,
+          3.3127572536468506,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.5699999928474426,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "Service_Oblique_Reflection",
+        "type": "AREA",
+        "energy": 25.0,
+        "location": [
+          -3.4000000953674316,
+          8.899999618530273,
+          2.0999999046325684
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3400000035762787
+        ]
+      },
+      {
+        "name": "Service_Oblique_Reflection.001",
+        "type": "AREA",
+        "energy": 25.0,
+        "location": [
+          3.4000000953674316,
+          8.899999618530273,
+          1.899999976158142
+        ],
+        "color": [
+          1.0,
+          0.7400000095367432,
+          0.47999998927116394
+        ]
+      },
+      {
+        "name": "Street_Dusk_Wall_Wash",
+        "type": "AREA",
+        "energy": 800.0,
+        "location": [
+          0.0,
+          -27.0,
+          6.5
+        ],
+        "color": [
+          0.5899999737739563,
+          0.7099999785423279,
+          1.0
+        ]
+      },
+      {
+        "name": "Street_Practical",
+        "type": "AREA",
+        "energy": 160.0,
+        "location": [
+          -5.0,
+          -24.5,
+          4.349999904632568
+        ],
+        "color": [
+          1.0,
+          0.7099999785423279,
+          0.4399999976158142
+        ]
+      }
+    ],
+    "materials": [
+      "Entry_Cool_limestone",
+      "Entry_Pale_limestone",
+      "Entry_Warm_limestone",
+      "PBR | aged architectural bronze",
+      "PBR | charcoal mineral plaster",
+      "PBR | concealed warm service strip",
+      "PBR | dark polished dining floor",
+      "PBR | dark smoked oak",
+      "PBR | dim amber service lens",
+      "PBR | dusk industrial glass",
+      "PBR | fine asphalt",
+      "PBR | fine crystal",
+      "PBR | honed blue-grey mineral stone",
+      "PBR | midnight woven upholstery",
+      "PBR | restrained olive tasting form",
+      "PBR | satin blackened steel",
+      "PBR | smoked service glazing",
+      "PBR | warm ivory porcelain",
+      "PBR | warm opal light",
+      "PBR | weathered pale masonry",
+      "PROJECTION | replace this image"
+    ],
+    "object_names": [
+      "Architecture",
+      "Arrival_Bar_Backdrop",
+      "Arrival_Bar_Plinth",
+      "Arrival_Bar_Stone",
+      "Arrival_Bar_Wash",
+      "Arrival_Lounge_Fill",
+      "Arrival_Panel_Joint",
+      "Arrival_Panel_Joint.001",
+      "Arrival_Panel_Joint.002",
+      "Arrival_Panel_Joint.003",
+      "Arrival_Panel_Joint.004",
+      "Arrival_Panel_Joint.005",
+      "Arrival_Panel_Joint.006",
+      "Arrival_Panel_Joint.007",
+      "Arrival_Panel_Joint.008",
+      "Arrival_Panel_Joint.009",
+      "Arrival_Panel_Joint.010",
+      "Arrival_Panel_Joint.011",
+      "Arrival_Panel_Joint.012",
+      "Arrival_Panel_Joint.013",
+      "Arrival_Panel_Joint.014",
+      "Arrival_Panel_Joint.015",
+      "Arrival_Panel_Joint.016",
+      "Arrival_Panel_Joint.017",
+      "Arrival_Panel_Joint.018",
+      "Arrival_Panel_Joint.019",
+      "Arrival_Pendant_Lens",
+      "Arrival_Pendant_Lens.001",
+      "Arrival_Pendant_Lens.002",
+      "Arrival_Pendant_Light",
+      "Arrival_Pendant_Light.001",
+      "Arrival_Pendant_Light.002",
+      "Arrival_Pendant_Tube",
+      "Arrival_Pendant_Tube.001",
+      "Arrival_Pendant_Tube.002",
+      "Arrival_Service_Counter",
+      "Arrival_Skirting",
+      "Arrival_Skirting.001",
+      "Arrival_Soft_Orientation",
+      "Base_East0",
+      "Base_East5",
+      "Base_West0",
+      "Base_West5",
+      "CAM_Arrival",
+      "CAM_Dome",
+      "CAM_Exit",
+      "CAM_Hero",
+      "CAM_Lounge",
+      "CAM_Plan",
+      "CAM_Table",
+      "Ceiling_Arrival",
+      "Ceiling_Service",
+      "Ceiling_Transition",
+      "ChairBack_01_CurvedShell",
+      "ChairBack_02_CurvedShell",
+      "ChairBack_03_CurvedShell",
+      "ChairBack_04_CurvedShell",
+      "ChairBack_05_CurvedShell",
+      "ChairBack_06_CurvedShell",
+      "ChairBack_07_CurvedShell",
+      "ChairBack_08_CurvedShell",
+      "ChairBack_09_CurvedShell",
+      "ChairBack_10_CurvedShell",
+      "ChairBack_11_CurvedShell",
+      "ChairBack_12_CurvedShell",
+      "ChairBack_13_CurvedShell",
+      "ChairBack_14_CurvedShell",
+      "ChairBack_15_CurvedShell",
+      "ChairBack_16_CurvedShell",
+      "ChairBack_17_CurvedShell",
+      "ChairBack_18_CurvedShell",
+      "ChairBack_19_CurvedShell",
+      "ChairBack_20_CurvedShell",
+      "ChairBack_21_CurvedShell",
+      "ChairBack_22_CurvedShell",
+      "ChairBack_23_CurvedShell",
+      "ChairBack_24_CurvedShell",
+      "ChairBack_25_CurvedShell",
+      "ChairBack_26_CurvedShell",
+      "ChairBack_27_CurvedShell",
+      "ChairBack_28_CurvedShell",
+      "Chair_01_BackSupport_L",
+      "Chair_01_BackSupport_R",
+      "Chair_01_TaperedLeg_1",
+      "Chair_01_TaperedLeg_2",
+      "Chair_01_TaperedLeg_3",
+      "Chair_01_TaperedLeg_4",
+      "Chair_01_UpholsteredSeat",
+      "Chair_02_BackSupport_L",
+      "Chair_02_BackSupport_R",
+      "Chair_02_TaperedLeg_1",
+      "Chair_02_TaperedLeg_2",
+      "Chair_02_TaperedLeg_3",
+      "Chair_02_TaperedLeg_4",
+      "Chair_02_UpholsteredSeat",
+      "Chair_03_BackSupport_L",
+      "Chair_03_BackSupport_R",
+      "Chair_03_TaperedLeg_1",
+      "Chair_03_TaperedLeg_2",
+      "Chair_03_TaperedLeg_3",
+      "Chair_03_TaperedLeg_4",
+      "Chair_03_UpholsteredSeat",
+      "Chair_04_BackSupport_L",
+      "Chair_04_BackSupport_R",
+      "Chair_04_TaperedLeg_1",
+      "Chair_04_TaperedLeg_2",
+      "Chair_04_TaperedLeg_3",
+      "Chair_04_TaperedLeg_4",
+      "Chair_04_UpholsteredSeat",
+      "Chair_05_BackSupport_L",
+      "Chair_05_BackSupport_R",
+      "Chair_05_TaperedLeg_1",
+      "Chair_05_TaperedLeg_2",
+      "Chair_05_TaperedLeg_3",
+      "Chair_05_TaperedLeg_4",
+      "Chair_05_UpholsteredSeat",
+      "Chair_06_BackSupport_L",
+      "Chair_06_BackSupport_R",
+      "Chair_06_TaperedLeg_1",
+      "Chair_06_TaperedLeg_2",
+      "Chair_06_TaperedLeg_3",
+      "Chair_06_TaperedLeg_4",
+      "Chair_06_UpholsteredSeat",
+      "Chair_07_BackSupport_L",
+      "Chair_07_BackSupport_R",
+      "Chair_07_TaperedLeg_1",
+      "Chair_07_TaperedLeg_2",
+      "Chair_07_TaperedLeg_3",
+      "Chair_07_TaperedLeg_4",
+      "Chair_07_UpholsteredSeat",
+      "Chair_08_BackSupport_L",
+      "Chair_08_BackSupport_R",
+      "Chair_08_TaperedLeg_1",
+      "Chair_08_TaperedLeg_2",
+      "Chair_08_TaperedLeg_3",
+      "Chair_08_TaperedLeg_4",
+      "Chair_08_UpholsteredSeat",
+      "Chair_09_BackSupport_L",
+      "Chair_09_BackSupport_R",
+      "Chair_09_TaperedLeg_1",
+      "Chair_09_TaperedLeg_2",
+      "Chair_09_TaperedLeg_3",
+      "Chair_09_TaperedLeg_4",
+      "Chair_09_UpholsteredSeat",
+      "Chair_10_BackSupport_L",
+      "Chair_10_BackSupport_R",
+      "Chair_10_TaperedLeg_1",
+      "Chair_10_TaperedLeg_2",
+      "Chair_10_TaperedLeg_3",
+      "Chair_10_TaperedLeg_4",
+      "Chair_10_UpholsteredSeat",
+      "Chair_11_BackSupport_L",
+      "Chair_11_BackSupport_R",
+      "Chair_11_TaperedLeg_1",
+      "Chair_11_TaperedLeg_2",
+      "Chair_11_TaperedLeg_3",
+      "Chair_11_TaperedLeg_4",
+      "Chair_11_UpholsteredSeat",
+      "Chair_12_BackSupport_L",
+      "Chair_12_BackSupport_R",
+      "Chair_12_TaperedLeg_1",
+      "Chair_12_TaperedLeg_2",
+      "Chair_12_TaperedLeg_3",
+      "Chair_12_TaperedLeg_4",
+      "Chair_12_UpholsteredSeat",
+      "Chair_13_BackSupport_L",
+      "Chair_13_BackSupport_R",
+      "Chair_13_TaperedLeg_1",
+      "Chair_13_TaperedLeg_2",
+      "Chair_13_TaperedLeg_3",
+      "Chair_13_TaperedLeg_4",
+      "Chair_13_UpholsteredSeat",
+      "Chair_14_BackSupport_L",
+      "Chair_14_BackSupport_R",
+      "Chair_14_TaperedLeg_1",
+      "Chair_14_TaperedLeg_2",
+      "Chair_14_TaperedLeg_3",
+      "Chair_14_TaperedLeg_4",
+      "Chair_14_UpholsteredSeat",
+      "Chair_15_BackSupport_L",
+      "Chair_15_BackSupport_R",
+      "Chair_15_TaperedLeg_1",
+      "Chair_15_TaperedLeg_2",
+      "Chair_15_TaperedLeg_3",
+      "Chair_15_TaperedLeg_4",
+      "Chair_15_UpholsteredSeat",
+      "Chair_16_BackSupport_L",
+      "Chair_16_BackSupport_R",
+      "Chair_16_TaperedLeg_1",
+      "Chair_16_TaperedLeg_2",
+      "Chair_16_TaperedLeg_3",
+      "Chair_16_TaperedLeg_4",
+      "Chair_16_UpholsteredSeat",
+      "Chair_17_BackSupport_L",
+      "Chair_17_BackSupport_R",
+      "Chair_17_TaperedLeg_1",
+      "Chair_17_TaperedLeg_2",
+      "Chair_17_TaperedLeg_3",
+      "Chair_17_TaperedLeg_4",
+      "Chair_17_UpholsteredSeat",
+      "Chair_18_BackSupport_L",
+      "Chair_18_BackSupport_R",
+      "Chair_18_TaperedLeg_1",
+      "Chair_18_TaperedLeg_2",
+      "Chair_18_TaperedLeg_3",
+      "Chair_18_TaperedLeg_4",
+      "Chair_18_UpholsteredSeat",
+      "Chair_19_BackSupport_L",
+      "Chair_19_BackSupport_R",
+      "Chair_19_TaperedLeg_1",
+      "Chair_19_TaperedLeg_2",
+      "Chair_19_TaperedLeg_3",
+      "Chair_19_TaperedLeg_4",
+      "Chair_19_UpholsteredSeat",
+      "Chair_20_BackSupport_L",
+      "Chair_20_BackSupport_R",
+      "Chair_20_TaperedLeg_1",
+      "Chair_20_TaperedLeg_2",
+      "Chair_20_TaperedLeg_3",
+      "Chair_20_TaperedLeg_4",
+      "Chair_20_UpholsteredSeat",
+      "Chair_21_BackSupport_L",
+      "Chair_21_BackSupport_R",
+      "Chair_21_TaperedLeg_1",
+      "Chair_21_TaperedLeg_2",
+      "Chair_21_TaperedLeg_3",
+      "Chair_21_TaperedLeg_4",
+      "Chair_21_UpholsteredSeat",
+      "Chair_22_BackSupport_L",
+      "Chair_22_BackSupport_R",
+      "Chair_22_TaperedLeg_1",
+      "Chair_22_TaperedLeg_2",
+      "Chair_22_TaperedLeg_3",
+      "Chair_22_TaperedLeg_4",
+      "Chair_22_UpholsteredSeat",
+      "Chair_23_BackSupport_L",
+      "Chair_23_BackSupport_R",
+      "Chair_23_TaperedLeg_1",
+      "Chair_23_TaperedLeg_2",
+      "Chair_23_TaperedLeg_3",
+      "Chair_23_TaperedLeg_4",
+      "Chair_23_UpholsteredSeat",
+      "Chair_24_BackSupport_L",
+      "Chair_24_BackSupport_R",
+      "Chair_24_TaperedLeg_1",
+      "Chair_24_TaperedLeg_2",
+      "Chair_24_TaperedLeg_3",
+      "Chair_24_TaperedLeg_4",
+      "Chair_24_UpholsteredSeat",
+      "Chair_25_BackSupport_L",
+      "Chair_25_BackSupport_R",
+      "Chair_25_TaperedLeg_1",
+      "Chair_25_TaperedLeg_2",
+      "Chair_25_TaperedLeg_3",
+      "Chair_25_TaperedLeg_4",
+      "Chair_25_UpholsteredSeat",
+      "Chair_26_BackSupport_L",
+      "Chair_26_BackSupport_R",
+      "Chair_26_TaperedLeg_1",
+      "Chair_26_TaperedLeg_2",
+      "Chair_26_TaperedLeg_3",
+      "Chair_26_TaperedLeg_4",
+      "Chair_26_UpholsteredSeat",
+      "Chair_27_BackSupport_L",
+      "Chair_27_BackSupport_R",
+      "Chair_27_TaperedLeg_1",
+      "Chair_27_TaperedLeg_2",
+      "Chair_27_TaperedLeg_3",
+      "Chair_27_TaperedLeg_4",
+      "Chair_27_UpholsteredSeat",
+      "Chair_28_BackSupport_L",
+      "Chair_28_BackSupport_R",
+      "Chair_28_TaperedLeg_1",
+      "Chair_28_TaperedLeg_2",
+      "Chair_28_TaperedLeg_3",
+      "Chair_28_TaperedLeg_4",
+      "Chair_28_UpholsteredSeat",
+      "Counter_East0",
+      "Counter_East5",
+      "Counter_Indirect",
+      "Counter_Indirect.001",
+      "Counter_Indirect.002",
+      "Counter_Indirect.003",
+      "Counter_Indirect.004",
+      "Counter_Indirect.005",
+      "Counter_Indirect.006",
+      "Counter_Indirect.007",
+      "Counter_Leg",
+      "Counter_Leg.001",
+      "Counter_Leg.002",
+      "Counter_Leg.003",
+      "Counter_Leg.004",
+      "Counter_Leg.005",
+      "Counter_Leg.006",
+      "Counter_Leg.007",
+      "Counter_Leg.008",
+      "Counter_Leg.009",
+      "Counter_Leg.010",
+      "Counter_Leg.011",
+      "Counter_Leg.012",
+      "Counter_Leg.013",
+      "Counter_Leg.014",
+      "Counter_Leg.015",
+      "Counter_Leg.016",
+      "Counter_Leg.017",
+      "Counter_Leg.018",
+      "Counter_Leg.019",
+      "Counter_Underslab",
+      "Counter_Underslab.001",
+      "Counter_Underslab.002",
+      "Counter_Underslab.003",
+      "Counter_West0",
+      "Counter_West5",
+      "Dome",
+      "Dome_Bounce",
+      "Dome_Bounce.001",
+      "Dome_Bounce.002",
+      "Dome_Projection",
+      "Dome_Rim",
+      "Entrance_Bronze_Leaf_-1",
+      "Entrance_Bronze_Leaf_1",
+      "Entrance_Leaf_Crossrail",
+      "Entrance_Leaf_Crossrail.001",
+      "Entrance_Leaf_Crossrail.002",
+      "Entrance_Leaf_Crossrail.003",
+      "Entrance_Leaf_Crossrail.004",
+      "Entrance_Leaf_Crossrail.005",
+      "Entrance_Leaf_Crossrail.006",
+      "Entrance_Leaf_Crossrail.007",
+      "Entrance_Leaf_Stile",
+      "Entrance_Leaf_Stile.001",
+      "Entrance_Leaf_Stile.002",
+      "Entrance_Leaf_Stile.003",
+      "Entrance_Lettering",
+      "Entry_Brick_Veneer",
+      "Entry_Bronze_Root_Relief_Left",
+      "Entry_Bronze_Root_Relief_Right",
+      "Facade_Wings",
+      "Facade_Wings.001",
+      "Floor_Arrival",
+      "Floor_Dining",
+      "Floor_Service",
+      "Floor_Threshold_Bridge",
+      "Floor_Transition",
+      "Glassware",
+      "InteractionTargets",
+      "Island_0",
+      "Island_1",
+      "Island_2",
+      "Island_Stone_Slab_0",
+      "Island_Stone_Slab_1",
+      "Island_Stone_Slab_2",
+      "Island_Tray_0",
+      "Island_Tray_1",
+      "Island_Tray_2",
+      "Island_Warm_Pool",
+      "Island_Warm_Pool.001",
+      "Island_Warm_Pool.002",
+      "Lighting",
+      "Lounge_Back",
+      "Lounge_Back.001",
+      "Lounge_Leg",
+      "Lounge_Leg.001",
+      "Lounge_Leg.002",
+      "Lounge_Leg.003",
+      "Lounge_Leg.004",
+      "Lounge_Leg.005",
+      "Lounge_Leg.006",
+      "Lounge_Leg.007",
+      "Lounge_Seat",
+      "Lounge_Seat.001",
+      "Lounge_Table",
+      "Lounge_Table.001",
+      "Lounge_Table_Foot",
+      "Lounge_Table_Foot.001",
+      "Lounge_Table_Stem",
+      "Lounge_Table_Stem.001",
+      "Oak_Board_Joint",
+      "Oak_Board_Joint.001",
+      "Oak_Board_Joint.002",
+      "Oak_Board_Joint.003",
+      "Oak_Board_Joint.004",
+      "Oak_Board_Joint.005",
+      "Oak_Board_Joint.006",
+      "Oak_Board_Joint.007",
+      "Oak_Board_Joint.008",
+      "Oak_Board_Joint.009",
+      "Oak_Board_Joint.010",
+      "Oak_Board_Joint.011",
+      "Oak_Board_Joint.012",
+      "Oak_Board_Joint.013",
+      "Oak_Board_Joint.014",
+      "Oak_Board_Joint.015",
+      "Oak_Board_Joint.016",
+      "Oak_Board_Joint.017",
+      "PATH_Walkthrough",
+      "Portal_Bronze_Head",
+      "Portal_Bronze_Jamb",
+      "Portal_Bronze_Jamb.001",
+      "Portal_Lintel",
+      "Portal_Uplight",
+      "Portal_Uplight.001",
+      "Props",
+      "Restaurant",
+      "Seating",
+      "Service_Back_Wall",
+      "Service_Cabinet",
+      "Service_Cabinet.001",
+      "Service_Cabinet.002",
+      "Service_Cabinet.003",
+      "Service_Cabinet.004",
+      "Service_Concealed_Strip",
+      "Service_Concealed_Strip.001",
+      "Service_Concealed_Strip.002",
+      "Service_Concealed_Strip.003",
+      "Service_Glazing_0",
+      "Service_Glazing_1",
+      "Service_Glazing_2",
+      "Service_Glazing_3",
+      "Service_Glazing_4",
+      "Service_Glazing_5",
+      "Service_Lens",
+      "Service_Lens.001",
+      "Service_Lens.002",
+      "Service_Lintel",
+      "Service_Mullion_0",
+      "Service_Mullion_1",
+      "Service_Mullion_2",
+      "Service_Mullion_3",
+      "Service_Mullion_4",
+      "Service_Mullion_5",
+      "Service_Oblique_Reflection",
+      "Service_Oblique_Reflection.001",
+      "Service_Physical_Luminaire",
+      "Service_Physical_Luminaire.001",
+      "Service_Physical_Luminaire.002",
+      "Service_Shelf",
+      "Service_Side_Wall",
+      "Service_Side_Wall.001",
+      "Service_Sill",
+      "Service_Stainless_Rail",
+      "Service_Stainless_Rail.001",
+      "Service_Warm_Glow",
+      "Service_Warm_Glow.001",
+      "Service_Warm_Glow.002",
+      "Service_Warm_Glow.003",
+      "Service_Worktop",
+      "Street_Connector_Kerb",
+      "Street_Connector_Kerb.001",
+      "Street_Connector_Pavement",
+      "Street_Connector_Road",
+      "Street_Dusk_Wall_Wash",
+      "Street_Industrial_Backdrop",
+      "Street_Lamp_Canopy",
+      "Street_Lamp_Post",
+      "Street_Overcast",
+      "Street_Paving_Joint",
+      "Street_Paving_Joint.001",
+      "Street_Paving_Joint.002",
+      "Street_Paving_Joint.003",
+      "Street_Paving_Joint.004",
+      "Street_Paving_Joint.005",
+      "Street_Paving_Joint.006",
+      "Street_Paving_Joint.007",
+      "Street_Paving_Joint.008",
+      "Street_Paving_Joint.009",
+      "Street_Paving_Joint.010",
+      "Street_Paving_Joint.011",
+      "Street_Paving_Joint.012",
+      "Street_Paving_Joint.013",
+      "Street_Paving_Joint.014",
+      "Street_Paving_Joint.015",
+      "Street_Paving_Joint.016",
+      "Street_Paving_Joint.017",
+      "Street_Paving_Joint.018",
+      "Street_Paving_Joint.019",
+      "Street_Paving_Joint.020",
+      "Street_Paving_Joint.021",
+      "Street_Paving_Joint.022",
+      "Street_Practical",
+      "Street_Threshold",
+      "Street_Window",
+      "Street_Window.001",
+      "Street_Window.002",
+      "Street_Window.003",
+      "Street_Window.004",
+      "Street_Window.005",
+      "Street_Window_Crossbar",
+      "Street_Window_Crossbar.001",
+      "Street_Window_Crossbar.002",
+      "Street_Window_Crossbar.003",
+      "Street_Window_Crossbar.004",
+      "Street_Window_Crossbar.005",
+      "Street_Window_Frame",
+      "Street_Window_Frame.001",
+      "Street_Window_Frame.002",
+      "Street_Window_Frame.003",
+      "Street_Window_Frame.004",
+      "Street_Window_Frame.005",
+      "Street_Window_Mullion",
+      "Street_Window_Mullion.001",
+      "Street_Window_Mullion.002",
+      "Street_Window_Mullion.003",
+      "Street_Window_Mullion.004",
+      "Street_Window_Mullion.005",
+      "TableExperience_01_Fork",
+      "TableExperience_01_HollowWineGlass",
+      "TableExperience_01_Knife",
+      "TableExperience_01_PorcelainPlate",
+      "TableExperience_01_TaskLamp_ArchedBrassNeck",
+      "TableExperience_01_TaskLamp_Base",
+      "TableExperience_01_TaskLamp_Pool",
+      "TableExperience_01_TaskLamp_Shade",
+      "TableExperience_01_TaskLamp_WarmLens",
+      "TableExperience_01_TastingBite",
+      "TableExperience_02_Fork",
+      "TableExperience_02_HollowWineGlass",
+      "TableExperience_02_Knife",
+      "TableExperience_02_PorcelainPlate",
+      "TableExperience_02_TaskLamp_ArchedBrassNeck",
+      "TableExperience_02_TaskLamp_Base",
+      "TableExperience_02_TaskLamp_Pool",
+      "TableExperience_02_TaskLamp_Shade",
+      "TableExperience_02_TaskLamp_WarmLens",
+      "TableExperience_02_TastingBite",
+      "TableExperience_03_Fork",
+      "TableExperience_03_HollowWineGlass",
+      "TableExperience_03_Knife",
+      "TableExperience_03_PorcelainPlate",
+      "TableExperience_03_TaskLamp_ArchedBrassNeck",
+      "TableExperience_03_TaskLamp_Base",
+      "TableExperience_03_TaskLamp_Pool",
+      "TableExperience_03_TaskLamp_Shade",
+      "TableExperience_03_TaskLamp_WarmLens",
+      "TableExperience_03_TastingBite",
+      "TableExperience_04_Fork",
+      "TableExperience_04_HollowWineGlass",
+      "TableExperience_04_Knife",
+      "TableExperience_04_PorcelainPlate",
+      "TableExperience_04_TaskLamp_ArchedBrassNeck",
+      "TableExperience_04_TaskLamp_Base",
+      "TableExperience_04_TaskLamp_Pool",
+      "TableExperience_04_TaskLamp_Shade",
+      "TableExperience_04_TaskLamp_WarmLens",
+      "TableExperience_04_TastingBite",
+      "TableExperience_05_Fork",
+      "TableExperience_05_HollowWineGlass",
+      "TableExperience_05_Knife",
+      "TableExperience_05_PorcelainPlate",
+      "TableExperience_05_TaskLamp_ArchedBrassNeck",
+      "TableExperience_05_TaskLamp_Base",
+      "TableExperience_05_TaskLamp_Pool",
+      "TableExperience_05_TaskLamp_Shade",
+      "TableExperience_05_TaskLamp_WarmLens",
+      "TableExperience_05_TastingBite",
+      "TableExperience_06_Fork",
+      "TableExperience_06_HollowWineGlass",
+      "TableExperience_06_Knife",
+      "TableExperience_06_PorcelainPlate",
+      "TableExperience_06_TaskLamp_ArchedBrassNeck",
+      "TableExperience_06_TaskLamp_Base",
+      "TableExperience_06_TaskLamp_Pool",
+      "TableExperience_06_TaskLamp_Shade",
+      "TableExperience_06_TaskLamp_WarmLens",
+      "TableExperience_06_TastingBite",
+      "TableExperience_07_Fork",
+      "TableExperience_07_HollowWineGlass",
+      "TableExperience_07_Knife",
+      "TableExperience_07_PorcelainPlate",
+      "TableExperience_07_TaskLamp_ArchedBrassNeck",
+      "TableExperience_07_TaskLamp_Base",
+      "TableExperience_07_TaskLamp_Pool",
+      "TableExperience_07_TaskLamp_Shade",
+      "TableExperience_07_TaskLamp_WarmLens",
+      "TableExperience_07_TastingBite",
+      "TableExperience_08_Fork",
+      "TableExperience_08_HollowWineGlass",
+      "TableExperience_08_Knife",
+      "TableExperience_08_PorcelainPlate",
+      "TableExperience_08_TaskLamp_ArchedBrassNeck",
+      "TableExperience_08_TaskLamp_Base",
+      "TableExperience_08_TaskLamp_Pool",
+      "TableExperience_08_TaskLamp_Shade",
+      "TableExperience_08_TaskLamp_WarmLens",
+      "TableExperience_08_TastingBite",
+      "TableExperience_09_Fork",
+      "TableExperience_09_HollowWineGlass",
+      "TableExperience_09_Knife",
+      "TableExperience_09_PorcelainPlate",
+      "TableExperience_09_TaskLamp_ArchedBrassNeck",
+      "TableExperience_09_TaskLamp_Base",
+      "TableExperience_09_TaskLamp_Pool",
+      "TableExperience_09_TaskLamp_Shade",
+      "TableExperience_09_TaskLamp_WarmLens",
+      "TableExperience_09_TastingBite",
+      "TableExperience_10_Fork",
+      "TableExperience_10_HollowWineGlass",
+      "TableExperience_10_Knife",
+      "TableExperience_10_PorcelainPlate",
+      "TableExperience_10_TaskLamp_ArchedBrassNeck",
+      "TableExperience_10_TaskLamp_Base",
+      "TableExperience_10_TaskLamp_Pool",
+      "TableExperience_10_TaskLamp_Shade",
+      "TableExperience_10_TaskLamp_WarmLens",
+      "TableExperience_10_TastingBite",
+      "TableExperience_11_Fork",
+      "TableExperience_11_HollowWineGlass",
+      "TableExperience_11_Knife",
+      "TableExperience_11_PorcelainPlate",
+      "TableExperience_11_TaskLamp_ArchedBrassNeck",
+      "TableExperience_11_TaskLamp_Base",
+      "TableExperience_11_TaskLamp_Pool",
+      "TableExperience_11_TaskLamp_Shade",
+      "TableExperience_11_TaskLamp_WarmLens",
+      "TableExperience_11_TastingBite",
+      "TableExperience_12_Fork",
+      "TableExperience_12_HollowWineGlass",
+      "TableExperience_12_Knife",
+      "TableExperience_12_PorcelainPlate",
+      "TableExperience_12_TaskLamp_ArchedBrassNeck",
+      "TableExperience_12_TaskLamp_Base",
+      "TableExperience_12_TaskLamp_Pool",
+      "TableExperience_12_TaskLamp_Shade",
+      "TableExperience_12_TaskLamp_WarmLens",
+      "TableExperience_12_TastingBite",
+      "TableExperience_13_Fork",
+      "TableExperience_13_HollowWineGlass",
+      "TableExperience_13_Knife",
+      "TableExperience_13_PorcelainPlate",
+      "TableExperience_13_TaskLamp_ArchedBrassNeck",
+      "TableExperience_13_TaskLamp_Base",
+      "TableExperience_13_TaskLamp_Pool",
+      "TableExperience_13_TaskLamp_Shade",
+      "TableExperience_13_TaskLamp_WarmLens",
+      "TableExperience_13_TastingBite",
+      "TableExperience_14_Fork",
+      "TableExperience_14_HollowWineGlass",
+      "TableExperience_14_Knife",
+      "TableExperience_14_PorcelainPlate",
+      "TableExperience_14_TaskLamp_ArchedBrassNeck",
+      "TableExperience_14_TaskLamp_Base",
+      "TableExperience_14_TaskLamp_Pool",
+      "TableExperience_14_TaskLamp_Shade",
+      "TableExperience_14_TaskLamp_WarmLens",
+      "TableExperience_14_TastingBite",
+      "TableExperience_15_Fork",
+      "TableExperience_15_HollowWineGlass",
+      "TableExperience_15_Knife",
+      "TableExperience_15_PorcelainPlate",
+      "TableExperience_15_TaskLamp_ArchedBrassNeck",
+      "TableExperience_15_TaskLamp_Base",
+      "TableExperience_15_TaskLamp_Pool",
+      "TableExperience_15_TaskLamp_Shade",
+      "TableExperience_15_TaskLamp_WarmLens",
+      "TableExperience_15_TastingBite",
+      "TableExperience_16_Fork",
+      "TableExperience_16_HollowWineGlass",
+      "TableExperience_16_Knife",
+      "TableExperience_16_PorcelainPlate",
+      "TableExperience_16_TaskLamp_ArchedBrassNeck",
+      "TableExperience_16_TaskLamp_Base",
+      "TableExperience_16_TaskLamp_Pool",
+      "TableExperience_16_TaskLamp_Shade",
+      "TableExperience_16_TaskLamp_WarmLens",
+      "TableExperience_16_TastingBite",
+      "TableExperience_17_Fork",
+      "TableExperience_17_HollowWineGlass",
+      "TableExperience_17_Knife",
+      "TableExperience_17_PorcelainPlate",
+      "TableExperience_17_TaskLamp_ArchedBrassNeck",
+      "TableExperience_17_TaskLamp_Base",
+      "TableExperience_17_TaskLamp_Pool",
+      "TableExperience_17_TaskLamp_Shade",
+      "TableExperience_17_TaskLamp_WarmLens",
+      "TableExperience_17_TastingBite",
+      "TableExperience_18_Fork",
+      "TableExperience_18_HollowWineGlass",
+      "TableExperience_18_Knife",
+      "TableExperience_18_PorcelainPlate",
+      "TableExperience_18_TaskLamp_ArchedBrassNeck",
+      "TableExperience_18_TaskLamp_Base",
+      "TableExperience_18_TaskLamp_Pool",
+      "TableExperience_18_TaskLamp_Shade",
+      "TableExperience_18_TaskLamp_WarmLens",
+      "TableExperience_18_TastingBite",
+      "TableExperience_19_Fork",
+      "TableExperience_19_HollowWineGlass",
+      "TableExperience_19_Knife",
+      "TableExperience_19_PorcelainPlate",
+      "TableExperience_19_TaskLamp_ArchedBrassNeck",
+      "TableExperience_19_TaskLamp_Base",
+      "TableExperience_19_TaskLamp_Pool",
+      "TableExperience_19_TaskLamp_Shade",
+      "TableExperience_19_TaskLamp_WarmLens",
+      "TableExperience_19_TastingBite",
+      "TableExperience_20_Fork",
+      "TableExperience_20_HollowWineGlass",
+      "TableExperience_20_Knife",
+      "TableExperience_20_PorcelainPlate",
+      "TableExperience_20_TaskLamp_ArchedBrassNeck",
+      "TableExperience_20_TaskLamp_Base",
+      "TableExperience_20_TaskLamp_Pool",
+      "TableExperience_20_TaskLamp_Shade",
+      "TableExperience_20_TaskLamp_WarmLens",
+      "TableExperience_20_TastingBite",
+      "TableExperience_21_Fork",
+      "TableExperience_21_HollowWineGlass",
+      "TableExperience_21_Knife",
+      "TableExperience_21_PorcelainPlate",
+      "TableExperience_21_TaskLamp_ArchedBrassNeck",
+      "TableExperience_21_TaskLamp_Base",
+      "TableExperience_21_TaskLamp_Pool",
+      "TableExperience_21_TaskLamp_Shade",
+      "TableExperience_21_TaskLamp_WarmLens",
+      "TableExperience_21_TastingBite",
+      "TableExperience_22_Fork",
+      "TableExperience_22_HollowWineGlass",
+      "TableExperience_22_Knife",
+      "TableExperience_22_PorcelainPlate",
+      "TableExperience_22_TaskLamp_ArchedBrassNeck",
+      "TableExperience_22_TaskLamp_Base",
+      "TableExperience_22_TaskLamp_Pool",
+      "TableExperience_22_TaskLamp_Shade",
+      "TableExperience_22_TaskLamp_WarmLens",
+      "TableExperience_22_TastingBite",
+      "TableExperience_23_Fork",
+      "TableExperience_23_HollowWineGlass",
+      "TableExperience_23_Knife",
+      "TableExperience_23_PorcelainPlate",
+      "TableExperience_23_TaskLamp_ArchedBrassNeck",
+      "TableExperience_23_TaskLamp_Base",
+      "TableExperience_23_TaskLamp_Pool",
+      "TableExperience_23_TaskLamp_Shade",
+      "TableExperience_23_TaskLamp_WarmLens",
+      "TableExperience_23_TastingBite",
+      "TableExperience_24_Fork",
+      "TableExperience_24_HollowWineGlass",
+      "TableExperience_24_Knife",
+      "TableExperience_24_PorcelainPlate",
+      "TableExperience_24_TaskLamp_ArchedBrassNeck",
+      "TableExperience_24_TaskLamp_Base",
+      "TableExperience_24_TaskLamp_Pool",
+      "TableExperience_24_TaskLamp_Shade",
+      "TableExperience_24_TaskLamp_WarmLens",
+      "TableExperience_24_TastingBite",
+      "TableExperience_25_Fork",
+      "TableExperience_25_HollowWineGlass",
+      "TableExperience_25_Knife",
+      "TableExperience_25_PorcelainPlate",
+      "TableExperience_25_TaskLamp_ArchedBrassNeck",
+      "TableExperience_25_TaskLamp_Base",
+      "TableExperience_25_TaskLamp_Pool",
+      "TableExperience_25_TaskLamp_Shade",
+      "TableExperience_25_TaskLamp_WarmLens",
+      "TableExperience_25_TastingBite",
+      "TableExperience_26_Fork",
+      "TableExperience_26_HollowWineGlass",
+      "TableExperience_26_Knife",
+      "TableExperience_26_PorcelainPlate",
+      "TableExperience_26_TaskLamp_ArchedBrassNeck",
+      "TableExperience_26_TaskLamp_Base",
+      "TableExperience_26_TaskLamp_Pool",
+      "TableExperience_26_TaskLamp_Shade",
+      "TableExperience_26_TaskLamp_WarmLens",
+      "TableExperience_26_TastingBite",
+      "TableExperience_27_Fork",
+      "TableExperience_27_HollowWineGlass",
+      "TableExperience_27_Knife",
+      "TableExperience_27_PorcelainPlate",
+      "TableExperience_27_TaskLamp_ArchedBrassNeck",
+      "TableExperience_27_TaskLamp_Base",
+      "TableExperience_27_TaskLamp_Pool",
+      "TableExperience_27_TaskLamp_Shade",
+      "TableExperience_27_TaskLamp_WarmLens",
+      "TableExperience_27_TastingBite",
+      "TableExperience_28_Fork",
+      "TableExperience_28_HollowWineGlass",
+      "TableExperience_28_Knife",
+      "TableExperience_28_PorcelainPlate",
+      "TableExperience_28_TaskLamp_ArchedBrassNeck",
+      "TableExperience_28_TaskLamp_Base",
+      "TableExperience_28_TaskLamp_Pool",
+      "TableExperience_28_TaskLamp_Shade",
+      "TableExperience_28_TaskLamp_WarmLens",
+      "TableExperience_28_TastingBite",
+      "Tables",
+      "Transition_Lintel",
+      "Transition_Recessed",
+      "Transition_Recessed.001",
+      "Transition_Reveal",
+      "Transition_Reveal.001",
+      "WALKTHROUGH",
+      "Wall_Arrival",
+      "Wall_Arrival.001",
+      "Wall_Arrival_Back",
+      "Wall_Arrival_Back.001",
+      "Wall_Dining_East",
+      "Wall_Dining_West",
+      "Wall_Transition",
+      "Wall_Transition.001",
+      "dome",
+      "entrance",
+      "exit",
+      "hero_table"
+    ],
+    "images": [
+      {
+        "name": "pbr_brass_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_brass_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_brass_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_charcoal_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_charcoal_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_charcoal_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_concrete_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_concrete_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_concrete_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_fabric_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_fabric_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_fabric_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_oak_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_oak_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_oak_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_stone_basecolor.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "pbr_stone_normal.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "pbr_stone_roughness.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "projection_underwater_refined.png",
+        "packed": true,
+        "size": [
+          1774,
+          887
+        ]
+      }
+    ]
+  },
+  "alchemist_04c_review.blend": {
+    "objects": 793,
+    "vertices": 288201,
+    "cameras": {
+      "CAM_Arrival": {
+        "location": [
+          -0.5,
+          -24.0,
+          1.7000000476837158
+        ],
+        "rotation": [
+          1.6752749681472778,
+          5.675151015793745e-09,
+          -0.08749532699584961
+        ],
+        "lens": 25.0
+      },
+      "CAM_Hero": {
+        "location": [
+          0.0,
+          -6.800000190734863,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.7359449863433838,
+          -0.0,
+          0.0
+        ],
+        "lens": 20.0
+      },
+      "CAM_Dome": {
+        "location": [
+          5.199999809265137,
+          -4.599999904632568,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.7779932022094727,
+          6.169022270796631e-08,
+          0.6321380138397217
+        ],
+        "lens": 18.0
+      },
+      "CAM_Table": {
+        "location": [
+          1.2000000476837158,
+          1.100000023841858,
+          1.4500000476837158
+        ],
+        "rotation": [
+          1.3059239387512207,
+          -4.3142019734432324e-08,
+          -1.1631652116775513
+        ],
+        "lens": 35.0
+      },
+      "CAM_Exit": {
+        "location": [
+          0.0,
+          -15.5,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -1.5099578831723193e-07,
+          3.141592502593994
+        ],
+        "lens": 26.0
+      },
+      "CAM_Plan": {
+        "location": [
+          20.0,
+          -32.0,
+          30.0
+        ],
+        "rotation": [
+          0.8178885579109192,
+          9.860116279014619e-09,
+          0.6747409701347351
+        ],
+        "lens": 40.0
+      },
+      "WALKTHROUGH": {
+        "location": [
+          0.0,
+          -22.0,
+          1.649999976158142
+        ],
+        "rotation": [
+          1.6828254461288452,
+          -0.0,
+          0.0
+        ],
+        "lens": 25.0
+      },
+      "CAM_Lounge": {
+        "location": [
+          2.0,
+          -17.799999237060547,
+          1.600000023841858
+        ],
+        "rotation": [
+          1.5707964897155762,
+          3.7569513722246484e-08,
+          0.9407627582550049
+        ],
+        "lens": 26.0
+      }
+    },
+    "lights": [
+      {
+        "name": "Dome_Bounce",
+        "type": "AREA",
+        "energy": 100.0,
+        "location": [
+          -4.0,
+          0.0,
+          6.0
+        ],
+        "color": [
+          0.1899999976158142,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      {
+        "name": "Dome_Bounce.001",
+        "type": "AREA",
+        "energy": 100.0,
+        "location": [
+          4.0,
+          0.0,
+          6.0
+        ],
+        "color": [
+          0.1899999976158142,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      {
+        "name": "Dome_Bounce.002",
+        "type": "AREA",
+        "energy": 100.0,
+        "location": [
+          0.0,
+          4.0,
+          6.0
+        ],
+        "color": [
+          0.1899999976158142,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      {
+        "name": "Island_Warm_Pool",
+        "type": "AREA",
+        "energy": 4.0,
+        "location": [
+          0.0,
+          -3.5,
+          1.25
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3499999940395355
+        ]
+      },
+      {
+        "name": "Island_Warm_Pool.001",
+        "type": "AREA",
+        "energy": 4.0,
+        "location": [
+          0.0,
+          0.0,
+          1.25
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3499999940395355
+        ]
+      },
+      {
+        "name": "Island_Warm_Pool.002",
+        "type": "AREA",
+        "energy": 4.0,
+        "location": [
+          0.0,
+          3.5,
+          1.25
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3499999940395355
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          -3.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow.001",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          -1.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow.002",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          1.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Service_Warm_Glow.003",
+        "type": "AREA",
+        "energy": 65.0,
+        "location": [
+          3.0,
+          9.800000190734863,
+          2.3499999046325684
+        ],
+        "color": [
+          1.0,
+          0.699999988079071,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Counter_Indirect",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          -2.4000000953674316,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.001",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          -0.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.002",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          2.5999999046325684,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.003",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          -4.5,
+          4.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.004",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          -2.4000000953674316,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.005",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          -0.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.006",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          2.5999999046325684,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Counter_Indirect.007",
+        "type": "AREA",
+        "energy": 2.0,
+        "location": [
+          4.5,
+          4.5,
+          0.14000000059604645
+        ],
+        "color": [
+          1.0,
+          0.6299999952316284,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Arrival_Pendant_Light",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          -2.700000047683716,
+          -16.399999618530273,
+          2.7699999809265137
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.46000000834465027
+        ]
+      },
+      {
+        "name": "Arrival_Pendant_Light.001",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          -2.700000047683716,
+          -15.0,
+          2.7699999809265137
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.46000000834465027
+        ]
+      },
+      {
+        "name": "Arrival_Pendant_Light.002",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          -2.700000047683716,
+          -13.600000381469727,
+          2.7699999809265137
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.46000000834465027
+        ]
+      },
+      {
+        "name": "Arrival_Bar_Wash",
+        "type": "AREA",
+        "energy": 100.0,
+        "location": [
+          -3.9000000953674316,
+          -15.0,
+          3.5999999046325684
+        ],
+        "color": [
+          1.0,
+          0.7300000190734863,
+          0.44999998807907104
+        ]
+      },
+      {
+        "name": "Arrival_Lounge_Fill",
+        "type": "AREA",
+        "energy": 85.0,
+        "location": [
+          2.5,
+          -15.5,
+          3.9000000953674316
+        ],
+        "color": [
+          1.0,
+          0.800000011920929,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Arrival_Soft_Orientation",
+        "type": "AREA",
+        "energy": 35.0,
+        "location": [
+          0.0,
+          -17.0,
+          3.799999952316284
+        ],
+        "color": [
+          1.0,
+          0.7599999904632568,
+          0.5199999809265137
+        ]
+      },
+      {
+        "name": "Transition_Recessed",
+        "type": "AREA",
+        "energy": 12.0,
+        "location": [
+          0.0,
+          -11.5,
+          2.9700000286102295
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.33000001311302185
+        ]
+      },
+      {
+        "name": "Transition_Recessed.001",
+        "type": "AREA",
+        "energy": 12.0,
+        "location": [
+          0.0,
+          -9.300000190734863,
+          2.9700000286102295
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.33000001311302185
+        ]
+      },
+      {
+        "name": "Portal_Uplight",
+        "type": "AREA",
+        "energy": 30.0,
+        "location": [
+          -1.7000000476837158,
+          -19.549999237060547,
+          0.15000000596046448
+        ],
+        "color": [
+          1.0,
+          0.7599999904632568,
+          0.5099999904632568
+        ]
+      },
+      {
+        "name": "Portal_Uplight.001",
+        "type": "AREA",
+        "energy": 30.0,
+        "location": [
+          1.7000000476837158,
+          -19.549999237060547,
+          0.15000000596046448
+        ],
+        "color": [
+          1.0,
+          0.7599999904632568,
+          0.5099999904632568
+        ]
+      },
+      {
+        "name": "Street_Overcast",
+        "type": "AREA",
+        "energy": 900.0,
+        "location": [
+          0.0,
+          -24.0,
+          8.0
+        ],
+        "color": [
+          0.6399999856948853,
+          0.75,
+          1.0
+        ]
+      },
+      {
+        "name": "TableExperience_01_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -2.8572425842285156,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_02_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -2.7427573204040527,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_03_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -4.057242393493652,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_04_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -3.9427573680877686,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_05_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -5.257242679595947,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_06_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -5.142757415771484,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_07_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -6.335533618927002,
+          -1.572757363319397,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_08_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -2.8572428226470947,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_09_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -2.7427573204040527,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_10_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -4.057242393493652,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_11_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -3.9427573680877686,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_12_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -5.257242679595947,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_13_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -5.142757415771484,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_14_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          -6.335533618927002,
+          3.4272425174713135,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_15_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          2.7427573204040527,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_16_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          2.8572428226470947,
+          -0.04446613788604736,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_17_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          3.9427573680877686,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_18_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          4.057242393493652,
+          -0.04446614161133766,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_19_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          5.142757415771484,
+          -3.205533742904663,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_20_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          5.257242679595947,
+          -0.04446613788604736,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_21_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          6.335533618927002,
+          -1.6872426271438599,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_22_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          2.7427573204040527,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_23_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          2.8572428226470947,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_24_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          3.9427573680877686,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_25_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          4.057242393493652,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_26_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          5.142757415771484,
+          1.7944660186767578,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_27_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          5.257242679595947,
+          4.955533981323242,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "TableExperience_28_TaskLamp_Pool",
+        "type": "SPOT",
+        "energy": 10.0,
+        "location": [
+          6.335533618927002,
+          3.3127572536468506,
+          1.0114461183547974
+        ],
+        "color": [
+          1.0,
+          0.6600000262260437,
+          0.30000001192092896
+        ]
+      },
+      {
+        "name": "Service_Oblique_Reflection",
+        "type": "AREA",
+        "energy": 90.0,
+        "location": [
+          -3.4000000953674316,
+          8.899999618530273,
+          2.0999999046325684
+        ],
+        "color": [
+          1.0,
+          0.6700000166893005,
+          0.3400000035762787
+        ]
+      },
+      {
+        "name": "Service_Oblique_Reflection.001",
+        "type": "AREA",
+        "energy": 70.0,
+        "location": [
+          3.4000000953674316,
+          8.899999618530273,
+          1.899999976158142
+        ],
+        "color": [
+          1.0,
+          0.7400000095367432,
+          0.47999998927116394
+        ]
+      },
+      {
+        "name": "Street_Dusk_Wall_Wash",
+        "type": "AREA",
+        "energy": 800.0,
+        "location": [
+          0.0,
+          -27.0,
+          6.5
+        ],
+        "color": [
+          0.5899999737739563,
+          0.7099999785423279,
+          1.0
+        ]
+      },
+      {
+        "name": "Street_Practical",
+        "type": "AREA",
+        "energy": 160.0,
+        "location": [
+          -5.0,
+          -24.5,
+          4.349999904632568
+        ],
+        "color": [
+          1.0,
+          0.7099999785423279,
+          0.4399999976158142
+        ]
+      }
+    ],
+    "materials": [
+      "Entry_Cool_limestone",
+      "Entry_Pale_limestone",
+      "Entry_Warm_limestone",
+      "PBR | aged architectural bronze",
+      "PBR | charcoal mineral plaster",
+      "PBR | dark polished dining floor",
+      "PBR | dark smoked oak",
+      "PBR | dusk industrial glass",
+      "PBR | fine asphalt",
+      "PBR | fine crystal",
+      "PBR | honed blue-grey mineral stone",
+      "PBR | midnight woven upholstery",
+      "PBR | restrained olive tasting form",
+      "PBR | satin blackened steel",
+      "PBR | smoked service glazing",
+      "PBR | warm ivory porcelain",
+      "PBR | warm opal light",
+      "PBR | weathered pale masonry",
+      "PROJECTION | replace this image"
+    ],
+    "object_names": [
+      "Architecture",
+      "Arrival_Bar_Backdrop",
+      "Arrival_Bar_Plinth",
+      "Arrival_Bar_Stone",
+      "Arrival_Bar_Wash",
+      "Arrival_Lounge_Fill",
+      "Arrival_Panel_Joint",
+      "Arrival_Panel_Joint.001",
+      "Arrival_Panel_Joint.002",
+      "Arrival_Panel_Joint.003",
+      "Arrival_Panel_Joint.004",
+      "Arrival_Panel_Joint.005",
+      "Arrival_Panel_Joint.006",
+      "Arrival_Panel_Joint.007",
+      "Arrival_Panel_Joint.008",
+      "Arrival_Panel_Joint.009",
+      "Arrival_Panel_Joint.010",
+      "Arrival_Panel_Joint.011",
+      "Arrival_Panel_Joint.012",
+      "Arrival_Panel_Joint.013",
+      "Arrival_Panel_Joint.014",
+      "Arrival_Panel_Joint.015",
+      "Arrival_Panel_Joint.016",
+      "Arrival_Panel_Joint.017",
+      "Arrival_Panel_Joint.018",
+      "Arrival_Panel_Joint.019",
+      "Arrival_Pendant_Lens",
+      "Arrival_Pendant_Lens.001",
+      "Arrival_Pendant_Lens.002",
+      "Arrival_Pendant_Light",
+      "Arrival_Pendant_Light.001",
+      "Arrival_Pendant_Light.002",
+      "Arrival_Pendant_Tube",
+      "Arrival_Pendant_Tube.001",
+      "Arrival_Pendant_Tube.002",
+      "Arrival_Service_Counter",
+      "Arrival_Skirting",
+      "Arrival_Skirting.001",
+      "Arrival_Soft_Orientation",
+      "Base_East0",
+      "Base_East5",
+      "Base_West0",
+      "Base_West5",
+      "CAM_Arrival",
+      "CAM_Dome",
+      "CAM_Exit",
+      "CAM_Hero",
+      "CAM_Lounge",
+      "CAM_Plan",
+      "CAM_Table",
+      "Ceiling_Arrival",
+      "Ceiling_Service",
+      "Ceiling_Transition",
+      "ChairBack_01_CurvedShell",
+      "ChairBack_02_CurvedShell",
+      "ChairBack_03_CurvedShell",
+      "ChairBack_04_CurvedShell",
+      "ChairBack_05_CurvedShell",
+      "ChairBack_06_CurvedShell",
+      "ChairBack_07_CurvedShell",
+      "ChairBack_08_CurvedShell",
+      "ChairBack_09_CurvedShell",
+      "ChairBack_10_CurvedShell",
+      "ChairBack_11_CurvedShell",
+      "ChairBack_12_CurvedShell",
+      "ChairBack_13_CurvedShell",
+      "ChairBack_14_CurvedShell",
+      "ChairBack_15_CurvedShell",
+      "ChairBack_16_CurvedShell",
+      "ChairBack_17_CurvedShell",
+      "ChairBack_18_CurvedShell",
+      "ChairBack_19_CurvedShell",
+      "ChairBack_20_CurvedShell",
+      "ChairBack_21_CurvedShell",
+      "ChairBack_22_CurvedShell",
+      "ChairBack_23_CurvedShell",
+      "ChairBack_24_CurvedShell",
+      "ChairBack_25_CurvedShell",
+      "ChairBack_26_CurvedShell",
+      "ChairBack_27_CurvedShell",
+      "ChairBack_28_CurvedShell",
+      "Chair_01_BackSupport_L",
+      "Chair_01_BackSupport_R",
+      "Chair_01_TaperedLeg_1",
+      "Chair_01_TaperedLeg_2",
+      "Chair_01_TaperedLeg_3",
+      "Chair_01_TaperedLeg_4",
+      "Chair_01_UpholsteredSeat",
+      "Chair_02_BackSupport_L",
+      "Chair_02_BackSupport_R",
+      "Chair_02_TaperedLeg_1",
+      "Chair_02_TaperedLeg_2",
+      "Chair_02_TaperedLeg_3",
+      "Chair_02_TaperedLeg_4",
+      "Chair_02_UpholsteredSeat",
+      "Chair_03_BackSupport_L",
+      "Chair_03_BackSupport_R",
+      "Chair_03_TaperedLeg_1",
+      "Chair_03_TaperedLeg_2",
+      "Chair_03_TaperedLeg_3",
+      "Chair_03_TaperedLeg_4",
+      "Chair_03_UpholsteredSeat",
+      "Chair_04_BackSupport_L",
+      "Chair_04_BackSupport_R",
+      "Chair_04_TaperedLeg_1",
+      "Chair_04_TaperedLeg_2",
+      "Chair_04_TaperedLeg_3",
+      "Chair_04_TaperedLeg_4",
+      "Chair_04_UpholsteredSeat",
+      "Chair_05_BackSupport_L",
+      "Chair_05_BackSupport_R",
+      "Chair_05_TaperedLeg_1",
+      "Chair_05_TaperedLeg_2",
+      "Chair_05_TaperedLeg_3",
+      "Chair_05_TaperedLeg_4",
+      "Chair_05_UpholsteredSeat",
+      "Chair_06_BackSupport_L",
+      "Chair_06_BackSupport_R",
+      "Chair_06_TaperedLeg_1",
+      "Chair_06_TaperedLeg_2",
+      "Chair_06_TaperedLeg_3",
+      "Chair_06_TaperedLeg_4",
+      "Chair_06_UpholsteredSeat",
+      "Chair_07_BackSupport_L",
+      "Chair_07_BackSupport_R",
+      "Chair_07_TaperedLeg_1",
+      "Chair_07_TaperedLeg_2",
+      "Chair_07_TaperedLeg_3",
+      "Chair_07_TaperedLeg_4",
+      "Chair_07_UpholsteredSeat",
+      "Chair_08_BackSupport_L",
+      "Chair_08_BackSupport_R",
+      "Chair_08_TaperedLeg_1",
+      "Chair_08_TaperedLeg_2",
+      "Chair_08_TaperedLeg_3",
+      "Chair_08_TaperedLeg_4",
+      "Chair_08_UpholsteredSeat",
+      "Chair_09_BackSupport_L",
+      "Chair_09_BackSupport_R",
+      "Chair_09_TaperedLeg_1",
+      "Chair_09_TaperedLeg_2",
+      "Chair_09_TaperedLeg_3",
+      "Chair_09_TaperedLeg_4",
+      "Chair_09_UpholsteredSeat",
+      "Chair_10_BackSupport_L",
+      "Chair_10_BackSupport_R",
+      "Chair_10_TaperedLeg_1",
+      "Chair_10_TaperedLeg_2",
+      "Chair_10_TaperedLeg_3",
+      "Chair_10_TaperedLeg_4",
+      "Chair_10_UpholsteredSeat",
+      "Chair_11_BackSupport_L",
+      "Chair_11_BackSupport_R",
+      "Chair_11_TaperedLeg_1",
+      "Chair_11_TaperedLeg_2",
+      "Chair_11_TaperedLeg_3",
+      "Chair_11_TaperedLeg_4",
+      "Chair_11_UpholsteredSeat",
+      "Chair_12_BackSupport_L",
+      "Chair_12_BackSupport_R",
+      "Chair_12_TaperedLeg_1",
+      "Chair_12_TaperedLeg_2",
+      "Chair_12_TaperedLeg_3",
+      "Chair_12_TaperedLeg_4",
+      "Chair_12_UpholsteredSeat",
+      "Chair_13_BackSupport_L",
+      "Chair_13_BackSupport_R",
+      "Chair_13_TaperedLeg_1",
+      "Chair_13_TaperedLeg_2",
+      "Chair_13_TaperedLeg_3",
+      "Chair_13_TaperedLeg_4",
+      "Chair_13_UpholsteredSeat",
+      "Chair_14_BackSupport_L",
+      "Chair_14_BackSupport_R",
+      "Chair_14_TaperedLeg_1",
+      "Chair_14_TaperedLeg_2",
+      "Chair_14_TaperedLeg_3",
+      "Chair_14_TaperedLeg_4",
+      "Chair_14_UpholsteredSeat",
+      "Chair_15_BackSupport_L",
+      "Chair_15_BackSupport_R",
+      "Chair_15_TaperedLeg_1",
+      "Chair_15_TaperedLeg_2",
+      "Chair_15_TaperedLeg_3",
+      "Chair_15_TaperedLeg_4",
+      "Chair_15_UpholsteredSeat",
+      "Chair_16_BackSupport_L",
+      "Chair_16_BackSupport_R",
+      "Chair_16_TaperedLeg_1",
+      "Chair_16_TaperedLeg_2",
+      "Chair_16_TaperedLeg_3",
+      "Chair_16_TaperedLeg_4",
+      "Chair_16_UpholsteredSeat",
+      "Chair_17_BackSupport_L",
+      "Chair_17_BackSupport_R",
+      "Chair_17_TaperedLeg_1",
+      "Chair_17_TaperedLeg_2",
+      "Chair_17_TaperedLeg_3",
+      "Chair_17_TaperedLeg_4",
+      "Chair_17_UpholsteredSeat",
+      "Chair_18_BackSupport_L",
+      "Chair_18_BackSupport_R",
+      "Chair_18_TaperedLeg_1",
+      "Chair_18_TaperedLeg_2",
+      "Chair_18_TaperedLeg_3",
+      "Chair_18_TaperedLeg_4",
+      "Chair_18_UpholsteredSeat",
+      "Chair_19_BackSupport_L",
+      "Chair_19_BackSupport_R",
+      "Chair_19_TaperedLeg_1",
+      "Chair_19_TaperedLeg_2",
+      "Chair_19_TaperedLeg_3",
+      "Chair_19_TaperedLeg_4",
+      "Chair_19_UpholsteredSeat",
+      "Chair_20_BackSupport_L",
+      "Chair_20_BackSupport_R",
+      "Chair_20_TaperedLeg_1",
+      "Chair_20_TaperedLeg_2",
+      "Chair_20_TaperedLeg_3",
+      "Chair_20_TaperedLeg_4",
+      "Chair_20_UpholsteredSeat",
+      "Chair_21_BackSupport_L",
+      "Chair_21_BackSupport_R",
+      "Chair_21_TaperedLeg_1",
+      "Chair_21_TaperedLeg_2",
+      "Chair_21_TaperedLeg_3",
+      "Chair_21_TaperedLeg_4",
+      "Chair_21_UpholsteredSeat",
+      "Chair_22_BackSupport_L",
+      "Chair_22_BackSupport_R",
+      "Chair_22_TaperedLeg_1",
+      "Chair_22_TaperedLeg_2",
+      "Chair_22_TaperedLeg_3",
+      "Chair_22_TaperedLeg_4",
+      "Chair_22_UpholsteredSeat",
+      "Chair_23_BackSupport_L",
+      "Chair_23_BackSupport_R",
+      "Chair_23_TaperedLeg_1",
+      "Chair_23_TaperedLeg_2",
+      "Chair_23_TaperedLeg_3",
+      "Chair_23_TaperedLeg_4",
+      "Chair_23_UpholsteredSeat",
+      "Chair_24_BackSupport_L",
+      "Chair_24_BackSupport_R",
+      "Chair_24_TaperedLeg_1",
+      "Chair_24_TaperedLeg_2",
+      "Chair_24_TaperedLeg_3",
+      "Chair_24_TaperedLeg_4",
+      "Chair_24_UpholsteredSeat",
+      "Chair_25_BackSupport_L",
+      "Chair_25_BackSupport_R",
+      "Chair_25_TaperedLeg_1",
+      "Chair_25_TaperedLeg_2",
+      "Chair_25_TaperedLeg_3",
+      "Chair_25_TaperedLeg_4",
+      "Chair_25_UpholsteredSeat",
+      "Chair_26_BackSupport_L",
+      "Chair_26_BackSupport_R",
+      "Chair_26_TaperedLeg_1",
+      "Chair_26_TaperedLeg_2",
+      "Chair_26_TaperedLeg_3",
+      "Chair_26_TaperedLeg_4",
+      "Chair_26_UpholsteredSeat",
+      "Chair_27_BackSupport_L",
+      "Chair_27_BackSupport_R",
+      "Chair_27_TaperedLeg_1",
+      "Chair_27_TaperedLeg_2",
+      "Chair_27_TaperedLeg_3",
+      "Chair_27_TaperedLeg_4",
+      "Chair_27_UpholsteredSeat",
+      "Chair_28_BackSupport_L",
+      "Chair_28_BackSupport_R",
+      "Chair_28_TaperedLeg_1",
+      "Chair_28_TaperedLeg_2",
+      "Chair_28_TaperedLeg_3",
+      "Chair_28_TaperedLeg_4",
+      "Chair_28_UpholsteredSeat",
+      "Counter_East0",
+      "Counter_East5",
+      "Counter_Indirect",
+      "Counter_Indirect.001",
+      "Counter_Indirect.002",
+      "Counter_Indirect.003",
+      "Counter_Indirect.004",
+      "Counter_Indirect.005",
+      "Counter_Indirect.006",
+      "Counter_Indirect.007",
+      "Counter_Leg",
+      "Counter_Leg.001",
+      "Counter_Leg.002",
+      "Counter_Leg.003",
+      "Counter_Leg.004",
+      "Counter_Leg.005",
+      "Counter_Leg.006",
+      "Counter_Leg.007",
+      "Counter_Leg.008",
+      "Counter_Leg.009",
+      "Counter_Leg.010",
+      "Counter_Leg.011",
+      "Counter_Leg.012",
+      "Counter_Leg.013",
+      "Counter_Leg.014",
+      "Counter_Leg.015",
+      "Counter_Leg.016",
+      "Counter_Leg.017",
+      "Counter_Leg.018",
+      "Counter_Leg.019",
+      "Counter_Underslab",
+      "Counter_Underslab.001",
+      "Counter_Underslab.002",
+      "Counter_Underslab.003",
+      "Counter_West0",
+      "Counter_West5",
+      "Dome",
+      "Dome_Bounce",
+      "Dome_Bounce.001",
+      "Dome_Bounce.002",
+      "Dome_Projection",
+      "Dome_Rim",
+      "Entrance_Bronze_Leaf_-1",
+      "Entrance_Bronze_Leaf_1",
+      "Entrance_Leaf_Crossrail",
+      "Entrance_Leaf_Crossrail.001",
+      "Entrance_Leaf_Crossrail.002",
+      "Entrance_Leaf_Crossrail.003",
+      "Entrance_Leaf_Crossrail.004",
+      "Entrance_Leaf_Crossrail.005",
+      "Entrance_Leaf_Crossrail.006",
+      "Entrance_Leaf_Crossrail.007",
+      "Entrance_Leaf_Stile",
+      "Entrance_Leaf_Stile.001",
+      "Entrance_Leaf_Stile.002",
+      "Entrance_Leaf_Stile.003",
+      "Entrance_Lettering",
+      "Entry_Brick_Veneer",
+      "Entry_Bronze_Root_Relief_Left",
+      "Entry_Bronze_Root_Relief_Right",
+      "Facade_Wings",
+      "Facade_Wings.001",
+      "Floor_Arrival",
+      "Floor_Dining",
+      "Floor_Service",
+      "Floor_Transition",
+      "Glassware",
+      "InteractionTargets",
+      "Island_0",
+      "Island_1",
+      "Island_2",
+      "Island_Stone_Slab_0",
+      "Island_Stone_Slab_1",
+      "Island_Stone_Slab_2",
+      "Island_Tray_0",
+      "Island_Tray_1",
+      "Island_Tray_2",
+      "Island_Warm_Pool",
+      "Island_Warm_Pool.001",
+      "Island_Warm_Pool.002",
+      "Lighting",
+      "Lounge_Back",
+      "Lounge_Back.001",
+      "Lounge_Leg",
+      "Lounge_Leg.001",
+      "Lounge_Leg.002",
+      "Lounge_Leg.003",
+      "Lounge_Leg.004",
+      "Lounge_Leg.005",
+      "Lounge_Leg.006",
+      "Lounge_Leg.007",
+      "Lounge_Seat",
+      "Lounge_Seat.001",
+      "Lounge_Table",
+      "Lounge_Table.001",
+      "Lounge_Table_Foot",
+      "Lounge_Table_Foot.001",
+      "Lounge_Table_Stem",
+      "Lounge_Table_Stem.001",
+      "Oak_Board_Joint",
+      "Oak_Board_Joint.001",
+      "Oak_Board_Joint.002",
+      "Oak_Board_Joint.003",
+      "Oak_Board_Joint.004",
+      "Oak_Board_Joint.005",
+      "Oak_Board_Joint.006",
+      "Oak_Board_Joint.007",
+      "Oak_Board_Joint.008",
+      "Oak_Board_Joint.009",
+      "Oak_Board_Joint.010",
+      "Oak_Board_Joint.011",
+      "Oak_Board_Joint.012",
+      "Oak_Board_Joint.013",
+      "Oak_Board_Joint.014",
+      "Oak_Board_Joint.015",
+      "Oak_Board_Joint.016",
+      "Oak_Board_Joint.017",
+      "PATH_Walkthrough",
+      "Portal_Bronze_Head",
+      "Portal_Bronze_Jamb",
+      "Portal_Bronze_Jamb.001",
+      "Portal_Lintel",
+      "Portal_Uplight",
+      "Portal_Uplight.001",
+      "Props",
+      "Restaurant",
+      "Seating",
+      "Service_Back_Wall",
+      "Service_Cabinet",
+      "Service_Cabinet.001",
+      "Service_Cabinet.002",
+      "Service_Cabinet.003",
+      "Service_Cabinet.004",
+      "Service_Glazing_0",
+      "Service_Glazing_1",
+      "Service_Glazing_2",
+      "Service_Glazing_3",
+      "Service_Glazing_4",
+      "Service_Glazing_5",
+      "Service_Lintel",
+      "Service_Mullion_0",
+      "Service_Mullion_1",
+      "Service_Mullion_2",
+      "Service_Mullion_3",
+      "Service_Mullion_4",
+      "Service_Mullion_5",
+      "Service_Oblique_Reflection",
+      "Service_Oblique_Reflection.001",
+      "Service_Shelf",
+      "Service_Side_Wall",
+      "Service_Side_Wall.001",
+      "Service_Sill",
+      "Service_Stainless_Rail",
+      "Service_Stainless_Rail.001",
+      "Service_Warm_Glow",
+      "Service_Warm_Glow.001",
+      "Service_Warm_Glow.002",
+      "Service_Warm_Glow.003",
+      "Service_Worktop",
+      "Street_Connector_Kerb",
+      "Street_Connector_Kerb.001",
+      "Street_Connector_Pavement",
+      "Street_Connector_Road",
+      "Street_Dusk_Wall_Wash",
+      "Street_Industrial_Backdrop",
+      "Street_Lamp_Canopy",
+      "Street_Lamp_Post",
+      "Street_Overcast",
+      "Street_Paving_Joint",
+      "Street_Paving_Joint.001",
+      "Street_Paving_Joint.002",
+      "Street_Paving_Joint.003",
+      "Street_Paving_Joint.004",
+      "Street_Paving_Joint.005",
+      "Street_Paving_Joint.006",
+      "Street_Paving_Joint.007",
+      "Street_Paving_Joint.008",
+      "Street_Paving_Joint.009",
+      "Street_Paving_Joint.010",
+      "Street_Paving_Joint.011",
+      "Street_Paving_Joint.012",
+      "Street_Paving_Joint.013",
+      "Street_Paving_Joint.014",
+      "Street_Paving_Joint.015",
+      "Street_Paving_Joint.016",
+      "Street_Paving_Joint.017",
+      "Street_Paving_Joint.018",
+      "Street_Paving_Joint.019",
+      "Street_Paving_Joint.020",
+      "Street_Paving_Joint.021",
+      "Street_Paving_Joint.022",
+      "Street_Practical",
+      "Street_Threshold",
+      "Street_Window",
+      "Street_Window.001",
+      "Street_Window.002",
+      "Street_Window.003",
+      "Street_Window.004",
+      "Street_Window.005",
+      "Street_Window_Crossbar",
+      "Street_Window_Crossbar.001",
+      "Street_Window_Crossbar.002",
+      "Street_Window_Crossbar.003",
+      "Street_Window_Crossbar.004",
+      "Street_Window_Crossbar.005",
+      "Street_Window_Frame",
+      "Street_Window_Frame.001",
+      "Street_Window_Frame.002",
+      "Street_Window_Frame.003",
+      "Street_Window_Frame.004",
+      "Street_Window_Frame.005",
+      "Street_Window_Mullion",
+      "Street_Window_Mullion.001",
+      "Street_Window_Mullion.002",
+      "Street_Window_Mullion.003",
+      "Street_Window_Mullion.004",
+      "Street_Window_Mullion.005",
+      "TableExperience_01_Fork",
+      "TableExperience_01_HollowWineGlass",
+      "TableExperience_01_Knife",
+      "TableExperience_01_PorcelainPlate",
+      "TableExperience_01_TaskLamp_ArchedBrassNeck",
+      "TableExperience_01_TaskLamp_Base",
+      "TableExperience_01_TaskLamp_Pool",
+      "TableExperience_01_TaskLamp_Shade",
+      "TableExperience_01_TaskLamp_WarmLens",
+      "TableExperience_01_TastingBite",
+      "TableExperience_02_Fork",
+      "TableExperience_02_HollowWineGlass",
+      "TableExperience_02_Knife",
+      "TableExperience_02_PorcelainPlate",
+      "TableExperience_02_TaskLamp_ArchedBrassNeck",
+      "TableExperience_02_TaskLamp_Base",
+      "TableExperience_02_TaskLamp_Pool",
+      "TableExperience_02_TaskLamp_Shade",
+      "TableExperience_02_TaskLamp_WarmLens",
+      "TableExperience_02_TastingBite",
+      "TableExperience_03_Fork",
+      "TableExperience_03_HollowWineGlass",
+      "TableExperience_03_Knife",
+      "TableExperience_03_PorcelainPlate",
+      "TableExperience_03_TaskLamp_ArchedBrassNeck",
+      "TableExperience_03_TaskLamp_Base",
+      "TableExperience_03_TaskLamp_Pool",
+      "TableExperience_03_TaskLamp_Shade",
+      "TableExperience_03_TaskLamp_WarmLens",
+      "TableExperience_03_TastingBite",
+      "TableExperience_04_Fork",
+      "TableExperience_04_HollowWineGlass",
+      "TableExperience_04_Knife",
+      "TableExperience_04_PorcelainPlate",
+      "TableExperience_04_TaskLamp_ArchedBrassNeck",
+      "TableExperience_04_TaskLamp_Base",
+      "TableExperience_04_TaskLamp_Pool",
+      "TableExperience_04_TaskLamp_Shade",
+      "TableExperience_04_TaskLamp_WarmLens",
+      "TableExperience_04_TastingBite",
+      "TableExperience_05_Fork",
+      "TableExperience_05_HollowWineGlass",
+      "TableExperience_05_Knife",
+      "TableExperience_05_PorcelainPlate",
+      "TableExperience_05_TaskLamp_ArchedBrassNeck",
+      "TableExperience_05_TaskLamp_Base",
+      "TableExperience_05_TaskLamp_Pool",
+      "TableExperience_05_TaskLamp_Shade",
+      "TableExperience_05_TaskLamp_WarmLens",
+      "TableExperience_05_TastingBite",
+      "TableExperience_06_Fork",
+      "TableExperience_06_HollowWineGlass",
+      "TableExperience_06_Knife",
+      "TableExperience_06_PorcelainPlate",
+      "TableExperience_06_TaskLamp_ArchedBrassNeck",
+      "TableExperience_06_TaskLamp_Base",
+      "TableExperience_06_TaskLamp_Pool",
+      "TableExperience_06_TaskLamp_Shade",
+      "TableExperience_06_TaskLamp_WarmLens",
+      "TableExperience_06_TastingBite",
+      "TableExperience_07_Fork",
+      "TableExperience_07_HollowWineGlass",
+      "TableExperience_07_Knife",
+      "TableExperience_07_PorcelainPlate",
+      "TableExperience_07_TaskLamp_ArchedBrassNeck",
+      "TableExperience_07_TaskLamp_Base",
+      "TableExperience_07_TaskLamp_Pool",
+      "TableExperience_07_TaskLamp_Shade",
+      "TableExperience_07_TaskLamp_WarmLens",
+      "TableExperience_07_TastingBite",
+      "TableExperience_08_Fork",
+      "TableExperience_08_HollowWineGlass",
+      "TableExperience_08_Knife",
+      "TableExperience_08_PorcelainPlate",
+      "TableExperience_08_TaskLamp_ArchedBrassNeck",
+      "TableExperience_08_TaskLamp_Base",
+      "TableExperience_08_TaskLamp_Pool",
+      "TableExperience_08_TaskLamp_Shade",
+      "TableExperience_08_TaskLamp_WarmLens",
+      "TableExperience_08_TastingBite",
+      "TableExperience_09_Fork",
+      "TableExperience_09_HollowWineGlass",
+      "TableExperience_09_Knife",
+      "TableExperience_09_PorcelainPlate",
+      "TableExperience_09_TaskLamp_ArchedBrassNeck",
+      "TableExperience_09_TaskLamp_Base",
+      "TableExperience_09_TaskLamp_Pool",
+      "TableExperience_09_TaskLamp_Shade",
+      "TableExperience_09_TaskLamp_WarmLens",
+      "TableExperience_09_TastingBite",
+      "TableExperience_10_Fork",
+      "TableExperience_10_HollowWineGlass",
+      "TableExperience_10_Knife",
+      "TableExperience_10_PorcelainPlate",
+      "TableExperience_10_TaskLamp_ArchedBrassNeck",
+      "TableExperience_10_TaskLamp_Base",
+      "TableExperience_10_TaskLamp_Pool",
+      "TableExperience_10_TaskLamp_Shade",
+      "TableExperience_10_TaskLamp_WarmLens",
+      "TableExperience_10_TastingBite",
+      "TableExperience_11_Fork",
+      "TableExperience_11_HollowWineGlass",
+      "TableExperience_11_Knife",
+      "TableExperience_11_PorcelainPlate",
+      "TableExperience_11_TaskLamp_ArchedBrassNeck",
+      "TableExperience_11_TaskLamp_Base",
+      "TableExperience_11_TaskLamp_Pool",
+      "TableExperience_11_TaskLamp_Shade",
+      "TableExperience_11_TaskLamp_WarmLens",
+      "TableExperience_11_TastingBite",
+      "TableExperience_12_Fork",
+      "TableExperience_12_HollowWineGlass",
+      "TableExperience_12_Knife",
+      "TableExperience_12_PorcelainPlate",
+      "TableExperience_12_TaskLamp_ArchedBrassNeck",
+      "TableExperience_12_TaskLamp_Base",
+      "TableExperience_12_TaskLamp_Pool",
+      "TableExperience_12_TaskLamp_Shade",
+      "TableExperience_12_TaskLamp_WarmLens",
+      "TableExperience_12_TastingBite",
+      "TableExperience_13_Fork",
+      "TableExperience_13_HollowWineGlass",
+      "TableExperience_13_Knife",
+      "TableExperience_13_PorcelainPlate",
+      "TableExperience_13_TaskLamp_ArchedBrassNeck",
+      "TableExperience_13_TaskLamp_Base",
+      "TableExperience_13_TaskLamp_Pool",
+      "TableExperience_13_TaskLamp_Shade",
+      "TableExperience_13_TaskLamp_WarmLens",
+      "TableExperience_13_TastingBite",
+      "TableExperience_14_Fork",
+      "TableExperience_14_HollowWineGlass",
+      "TableExperience_14_Knife",
+      "TableExperience_14_PorcelainPlate",
+      "TableExperience_14_TaskLamp_ArchedBrassNeck",
+      "TableExperience_14_TaskLamp_Base",
+      "TableExperience_14_TaskLamp_Pool",
+      "TableExperience_14_TaskLamp_Shade",
+      "TableExperience_14_TaskLamp_WarmLens",
+      "TableExperience_14_TastingBite",
+      "TableExperience_15_Fork",
+      "TableExperience_15_HollowWineGlass",
+      "TableExperience_15_Knife",
+      "TableExperience_15_PorcelainPlate",
+      "TableExperience_15_TaskLamp_ArchedBrassNeck",
+      "TableExperience_15_TaskLamp_Base",
+      "TableExperience_15_TaskLamp_Pool",
+      "TableExperience_15_TaskLamp_Shade",
+      "TableExperience_15_TaskLamp_WarmLens",
+      "TableExperience_15_TastingBite",
+      "TableExperience_16_Fork",
+      "TableExperience_16_HollowWineGlass",
+      "TableExperience_16_Knife",
+      "TableExperience_16_PorcelainPlate",
+      "TableExperience_16_TaskLamp_ArchedBrassNeck",
+      "TableExperience_16_TaskLamp_Base",
+      "TableExperience_16_TaskLamp_Pool",
+      "TableExperience_16_TaskLamp_Shade",
+      "TableExperience_16_TaskLamp_WarmLens",
+      "TableExperience_16_TastingBite",
+      "TableExperience_17_Fork",
+      "TableExperience_17_HollowWineGlass",
+      "TableExperience_17_Knife",
+      "TableExperience_17_PorcelainPlate",
+      "TableExperience_17_TaskLamp_ArchedBrassNeck",
+      "TableExperience_17_TaskLamp_Base",
+      "TableExperience_17_TaskLamp_Pool",
+      "TableExperience_17_TaskLamp_Shade",
+      "TableExperience_17_TaskLamp_WarmLens",
+      "TableExperience_17_TastingBite",
+      "TableExperience_18_Fork",
+      "TableExperience_18_HollowWineGlass",
+      "TableExperience_18_Knife",
+      "TableExperience_18_PorcelainPlate",
+      "TableExperience_18_TaskLamp_ArchedBrassNeck",
+      "TableExperience_18_TaskLamp_Base",
+      "TableExperience_18_TaskLamp_Pool",
+      "TableExperience_18_TaskLamp_Shade",
+      "TableExperience_18_TaskLamp_WarmLens",
+      "TableExperience_18_TastingBite",
+      "TableExperience_19_Fork",
+      "TableExperience_19_HollowWineGlass",
+      "TableExperience_19_Knife",
+      "TableExperience_19_PorcelainPlate",
+      "TableExperience_19_TaskLamp_ArchedBrassNeck",
+      "TableExperience_19_TaskLamp_Base",
+      "TableExperience_19_TaskLamp_Pool",
+      "TableExperience_19_TaskLamp_Shade",
+      "TableExperience_19_TaskLamp_WarmLens",
+      "TableExperience_19_TastingBite",
+      "TableExperience_20_Fork",
+      "TableExperience_20_HollowWineGlass",
+      "TableExperience_20_Knife",
+      "TableExperience_20_PorcelainPlate",
+      "TableExperience_20_TaskLamp_ArchedBrassNeck",
+      "TableExperience_20_TaskLamp_Base",
+      "TableExperience_20_TaskLamp_Pool",
+      "TableExperience_20_TaskLamp_Shade",
+      "TableExperience_20_TaskLamp_WarmLens",
+      "TableExperience_20_TastingBite",
+      "TableExperience_21_Fork",
+      "TableExperience_21_HollowWineGlass",
+      "TableExperience_21_Knife",
+      "TableExperience_21_PorcelainPlate",
+      "TableExperience_21_TaskLamp_ArchedBrassNeck",
+      "TableExperience_21_TaskLamp_Base",
+      "TableExperience_21_TaskLamp_Pool",
+      "TableExperience_21_TaskLamp_Shade",
+      "TableExperience_21_TaskLamp_WarmLens",
+      "TableExperience_21_TastingBite",
+      "TableExperience_22_Fork",
+      "TableExperience_22_HollowWineGlass",
+      "TableExperience_22_Knife",
+      "TableExperience_22_PorcelainPlate",
+      "TableExperience_22_TaskLamp_ArchedBrassNeck",
+      "TableExperience_22_TaskLamp_Base",
+      "TableExperience_22_TaskLamp_Pool",
+      "TableExperience_22_TaskLamp_Shade",
+      "TableExperience_22_TaskLamp_WarmLens",
+      "TableExperience_22_TastingBite",
+      "TableExperience_23_Fork",
+      "TableExperience_23_HollowWineGlass",
+      "TableExperience_23_Knife",
+      "TableExperience_23_PorcelainPlate",
+      "TableExperience_23_TaskLamp_ArchedBrassNeck",
+      "TableExperience_23_TaskLamp_Base",
+      "TableExperience_23_TaskLamp_Pool",
+      "TableExperience_23_TaskLamp_Shade",
+      "TableExperience_23_TaskLamp_WarmLens",
+      "TableExperience_23_TastingBite",
+      "TableExperience_24_Fork",
+      "TableExperience_24_HollowWineGlass",
+      "TableExperience_24_Knife",
+      "TableExperience_24_PorcelainPlate",
+      "TableExperience_24_TaskLamp_ArchedBrassNeck",
+      "TableExperience_24_TaskLamp_Base",
+      "TableExperience_24_TaskLamp_Pool",
+      "TableExperience_24_TaskLamp_Shade",
+      "TableExperience_24_TaskLamp_WarmLens",
+      "TableExperience_24_TastingBite",
+      "TableExperience_25_Fork",
+      "TableExperience_25_HollowWineGlass",
+      "TableExperience_25_Knife",
+      "TableExperience_25_PorcelainPlate",
+      "TableExperience_25_TaskLamp_ArchedBrassNeck",
+      "TableExperience_25_TaskLamp_Base",
+      "TableExperience_25_TaskLamp_Pool",
+      "TableExperience_25_TaskLamp_Shade",
+      "TableExperience_25_TaskLamp_WarmLens",
+      "TableExperience_25_TastingBite",
+      "TableExperience_26_Fork",
+      "TableExperience_26_HollowWineGlass",
+      "TableExperience_26_Knife",
+      "TableExperience_26_PorcelainPlate",
+      "TableExperience_26_TaskLamp_ArchedBrassNeck",
+      "TableExperience_26_TaskLamp_Base",
+      "TableExperience_26_TaskLamp_Pool",
+      "TableExperience_26_TaskLamp_Shade",
+      "TableExperience_26_TaskLamp_WarmLens",
+      "TableExperience_26_TastingBite",
+      "TableExperience_27_Fork",
+      "TableExperience_27_HollowWineGlass",
+      "TableExperience_27_Knife",
+      "TableExperience_27_PorcelainPlate",
+      "TableExperience_27_TaskLamp_ArchedBrassNeck",
+      "TableExperience_27_TaskLamp_Base",
+      "TableExperience_27_TaskLamp_Pool",
+      "TableExperience_27_TaskLamp_Shade",
+      "TableExperience_27_TaskLamp_WarmLens",
+      "TableExperience_27_TastingBite",
+      "TableExperience_28_Fork",
+      "TableExperience_28_HollowWineGlass",
+      "TableExperience_28_Knife",
+      "TableExperience_28_PorcelainPlate",
+      "TableExperience_28_TaskLamp_ArchedBrassNeck",
+      "TableExperience_28_TaskLamp_Base",
+      "TableExperience_28_TaskLamp_Pool",
+      "TableExperience_28_TaskLamp_Shade",
+      "TableExperience_28_TaskLamp_WarmLens",
+      "TableExperience_28_TastingBite",
+      "Tables",
+      "Transition_Lintel",
+      "Transition_Recessed",
+      "Transition_Recessed.001",
+      "Transition_Reveal",
+      "Transition_Reveal.001",
+      "WALKTHROUGH",
+      "Wall_Arrival",
+      "Wall_Arrival.001",
+      "Wall_Arrival_Back",
+      "Wall_Arrival_Back.001",
+      "Wall_Dining_East",
+      "Wall_Dining_West",
+      "Wall_Transition",
+      "Wall_Transition.001",
+      "dome",
+      "entrance",
+      "exit",
+      "hero_table"
+    ],
+    "images": [
+      {
+        "name": "pbr_brass_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_brass_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_brass_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_charcoal_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_charcoal_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_charcoal_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_concrete_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_concrete_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_concrete_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_fabric_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_fabric_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_fabric_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_oak_basecolor.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_oak_normal.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_oak_roughness.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "pbr_stone_basecolor.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "pbr_stone_normal.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "pbr_stone_roughness.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "projection_underwater_refined.png",
+        "packed": true,
+        "size": [
+          1774,
+          887
+        ]
+      }
+    ]
+  }
+}

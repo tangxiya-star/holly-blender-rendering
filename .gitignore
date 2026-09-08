@@ -31,13 +31,15 @@ next-env.d.ts
 restaurant/references/*.html
 city-scene/aerial/data/*.json
 
-# Keep one preview per project visible in the repository.
+# Keep selected project previews visible in the repository.
 !restaurant/renders/alchemist_hero.png
 !food/renders/food_final.png
 !eyeball/renders/eye_07.png
 !city-scene/street/renders/neighborhood_overview.png
 !city-scene/aerial/renders/hero_aerial.png
 !dome/alchemist_dome_preview.png
+!cocktail/renders/cocktail_07.png
+!restaurant/renders/refine06_entry_review_c.png
 
 # Render sequences and finished video also belong in Releases.
 **/frames/

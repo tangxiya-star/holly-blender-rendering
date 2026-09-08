@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "repository": "tangxiya-star/holly-blender-rendering",
-  "release_tag": "v2026.09.08-local-sync",
-  "created_at": "2026-09-08T21:35:52.741431+00:00",
+  "release_tag": "v2026.09.08-projects",
+  "created_at": "2026-09-08T21:01:41.024353+00:00",
   "archives": [
     {
       "name": "city-aerial-assets.zip",
@@ -219,8 +219,7 @@
           "bytes": 4568000,
           "sha256": "5414e1ac0c35e451d28595b2a2cba05e2ca301fdeb755b0a469408443093dafc"
         }
-      ],
-      "release_tag": "v2026.09.08-projects"
+      ]
     },
     {
       "name": "city-street-assets.zip",
@@ -352,8 +351,7 @@
           "bytes": 4568000,
           "sha256": "5414e1ac0c35e451d28595b2a2cba05e2ca301fdeb755b0a469408443093dafc"
         }
-      ],
-      "release_tag": "v2026.09.08-projects"
+      ]
     },
     {
       "name": "dome-assets.zip",
@@ -370,8 +368,7 @@
           "bytes": 1263162,
           "sha256": "d989dd010e96abc5852d945c08498ff3c16ba26967505a36e2a206a384bf462c"
         }
-      ],
-      "release_tag": "v2026.09.08-projects"
+      ]
     },
     {
       "name": "eyeball-assets.zip",
@@ -508,8 +505,7 @@
           "bytes": 2074510,
           "sha256": "8eb35edf96b5e3e8f3c71171585ddcd28c44f92ec5b7b5439bb8ea0b30546463"
         }
-      ],
-      "release_tag": "v2026.09.08-projects"
+      ]
     },
     {
       "name": "food-assets.zip",
@@ -626,8 +622,7 @@
           "bytes": 6774111,
           "sha256": "af1d69b5d7075896393db8611919e9afadfdf5c251ac60e33ad9355806efbd45"
         }
-      ],
-      "release_tag": "v2026.09.08-projects"
+      ]
     },
     {
       "name": "restaurant-assets.zip",
@@ -984,202 +979,7 @@
           "bytes": 1753514,
           "sha256": "f18bf3346b0c2b5b7f451bbc41c831385f89f95a87af3dc3504f834ce2a8e8c5"
         }
-      ],
-      "release_tag": "v2026.09.08-projects"
-    },
-    {
-      "name": "cocktail-assets.zip",
-      "bytes": 47813197,
-      "sha256": "88fea350cf2f1ce95ac95a3312c8404d4086c682545ef04d7e6853c24d624f8b",
-      "files": [
-        {
-          "path": "cocktail/cocktail_01.blend",
-          "bytes": 3109653,
-          "sha256": "a4badc9bff2f353c326bb6daff8014989549e2dfeecefb0ea00046584d94d609"
-        },
-        {
-          "path": "cocktail/cocktail_02.blend",
-          "bytes": 3079399,
-          "sha256": "f5d1a52477ef4c6fdf6ff6c2c41232c2f79d1ea571ae8fec46eabbc8b47ed421"
-        },
-        {
-          "path": "cocktail/cocktail_03.blend",
-          "bytes": 3085616,
-          "sha256": "25f61d65e2ac0221c27923e7d4041a629b31832e3e04b7218ce2a807456e4b25"
-        },
-        {
-          "path": "cocktail/cocktail_04.blend",
-          "bytes": 3085633,
-          "sha256": "8cef5ffd3f281a55a8edf1c8e9ab62d801867219a41dcc22950bd3ec8e80ac93"
-        },
-        {
-          "path": "cocktail/cocktail_05.blend",
-          "bytes": 3086550,
-          "sha256": "f06718be75116eca157b1b8715d203fccee967867ec3727e7ac05250c32c38dd"
-        },
-        {
-          "path": "cocktail/cocktail_06.blend",
-          "bytes": 3090050,
-          "sha256": "067f158bbe0bca675217ae72219f78ef1160c4be4a9ad30fbf1fd45d4a7f8058"
-        },
-        {
-          "path": "cocktail/cocktail_07.blend",
-          "bytes": 3089902,
-          "sha256": "fac66f23c1908cf12019ae009297f51f970ae8e038ec7ad39d6f99e1c18d1c2c"
-        },
-        {
-          "path": "cocktail/renders/cocktail_01.png",
-          "bytes": 4484077,
-          "sha256": "162e60a1bd19c5bd21cfa857278829b392e1b1ba1494fbd040c450c2c24e9e4d"
-        },
-        {
-          "path": "cocktail/renders/cocktail_02.png",
-          "bytes": 2827141,
-          "sha256": "3e7f759c2b7b8d2870204b9ea0cc51194f6b68a314d3cff04f4feb50970e651e"
-        },
-        {
-          "path": "cocktail/renders/cocktail_03.png",
-          "bytes": 4078777,
-          "sha256": "c5d7a7950dcbcc28a13a7242a055dd2eb36b63b06386aa892845c9c9cd5add86"
-        },
-        {
-          "path": "cocktail/renders/cocktail_04.png",
-          "bytes": 3992284,
-          "sha256": "dd2eae60d8c1569d9759a0842a4b84ba50077632e182f1ffb7462b302878642e"
-        },
-        {
-          "path": "cocktail/renders/cocktail_05.png",
-          "bytes": 4035777,
-          "sha256": "e13f760298bb4c4ec1fd081c44ed5dafb2a70e65bb42fda2c5b3667ac3d0df03"
-        },
-        {
-          "path": "cocktail/renders/cocktail_06.png",
-          "bytes": 4357714,
-          "sha256": "23c46bcbb2a1069c34c90cd801e7a3b227e23b2d7b0b0a5965e5cce5d2e2ae29"
-        },
-        {
-          "path": "cocktail/renders/cocktail_07.png",
-          "bytes": 4290729,
-          "sha256": "77ce6438b24e4c96f856189713876d2f02c576ec13fa2a2bd61770c26eb8a0d0"
-        }
       ]
-    },
-    {
-      "name": "eyeball-updates.zip",
-      "bytes": 202821460,
-      "sha256": "ffc54bd5d4bab975a91ea3c4ed11b65efb0c2ad55770f0805e87be9e9d6aadcf",
-      "files": [
-        {
-          "path": "eyeball/backups/pre_cocktail_session_20260908_140658.blend",
-          "bytes": 150245468,
-          "sha256": "26bc7aa8123913894b0c02b531e22bdde14354fb489cb4586a5a8a9ba51f2004"
-        },
-        {
-          "path": "eyeball/eye_07.blend",
-          "bytes": 62422726,
-          "sha256": "2824b1447056d82a820782784c6a293a444eec7566b8e9fda15ac3bc57c7d918",
-          "replaces_sha256": "b04b8777cb0f633ade81ab6d8c61d97debd2ffcdc8800178ae9441b68cb3b745"
-        }
-      ],
-      "extends_archive": "eyeball-assets.zip"
-    },
-    {
-      "name": "restaurant-refinements.zip",
-      "bytes": 280611452,
-      "sha256": "5a62e4607c9462c611cd5234d8589bde37ac348daa0b287fff998343e57fd524",
-      "files": [
-        {
-          "path": "restaurant/alchemist_06a_refine.blend",
-          "bytes": 32639038,
-          "sha256": "93026832e97a3b4c9713145ea3475b24d4307fdae758bd52436a10644eeac799"
-        },
-        {
-          "path": "restaurant/alchemist_06b_refine.blend",
-          "bytes": 46808312,
-          "sha256": "73a50608d0817794af3789fd43cabf3dc5c044ae4a98f3b8a56e78c64ea4522a"
-        },
-        {
-          "path": "restaurant/alchemist_06c_refine.blend",
-          "bytes": 129396449,
-          "sha256": "f1b95253c304e1f5660c8f62d8960045c7523e96349d0fdec499b953bd9d319c"
-        },
-        {
-          "path": "restaurant/references/door_refine06/chart_entrance.jpg",
-          "bytes": 894159,
-          "sha256": "80082a7d8966dc3cbd0818138efd9f72ec5b8415bb0baa7deeb4f9bad26ee0d5"
-        },
-        {
-          "path": "restaurant/references/door_refine06/dinesen_entrance.jpg",
-          "bytes": 285265,
-          "sha256": "a5390ebbdef0ce61c7c8e3ede630b1da62a7ec4bf4db8e37abd4f37a5cc8476f"
-        },
-        {
-          "path": "restaurant/references/door_refine06/user_entrance_eatweek.jpg",
-          "bytes": 245159,
-          "sha256": "ec78d66f421d177bf4bcb1ddffd882c6caf07bb65464d76a321cd824d4bc07e6"
-        },
-        {
-          "path": "restaurant/references/door_refine06/user_entrance_eatweek_original.jpg",
-          "bytes": 245159,
-          "sha256": "ec78d66f421d177bf4bcb1ddffd882c6caf07bb65464d76a321cd824d4bc07e6"
-        },
-        {
-          "path": "restaurant/renders/refine06_detail_review.png",
-          "bytes": 8099241,
-          "sha256": "73897f7fa74e8195926026175299fcee4773626e836e59245abfd400c520b9c1"
-        },
-        {
-          "path": "restaurant/renders/refine06_detail_review_b.png",
-          "bytes": 8288396,
-          "sha256": "4230a2ae63ccd8d1b158b596eb91989fb5c29ea85c41c67ab618bbc10b7bfc1d"
-        },
-        {
-          "path": "restaurant/renders/refine06_detail_review_c.png",
-          "bytes": 8237800,
-          "sha256": "3004783e762132924cdd5c1ff4cbebd65e943946e15dd4e68be7014b81cdc6c5"
-        },
-        {
-          "path": "restaurant/renders/refine06_entry_review.png",
-          "bytes": 8323266,
-          "sha256": "0f0c73ea2a2144b7c2dfeef5da63c7a07837d2f440515c8068acfd35528753d9"
-        },
-        {
-          "path": "restaurant/renders/refine06_entry_review_b.png",
-          "bytes": 8200531,
-          "sha256": "318e6bd43288929cad1519c4fc1cebb9903ffb0fd4012a37b4d47f1c3f53cee1"
-        },
-        {
-          "path": "restaurant/renders/refine06_entry_review_c.png",
-          "bytes": 8163635,
-          "sha256": "1377c40d11c9de058a797142d6d68fc84f441772891bb75ab6a94656be526252"
-        },
-        {
-          "path": "restaurant/renders/refine06_hero_review.png",
-          "bytes": 4739999,
-          "sha256": "f00ceffe9f8f035d6ab7fbf7e3f4c0c8ced2b2c2166689b94edf4369c01a0291"
-        },
-        {
-          "path": "restaurant/renders/refine06_oblique_review_b.png",
-          "bytes": 8383820,
-          "sha256": "049f6eb7d40a5c38bbacf4406f83843afd0980fa6c0460bf41ffd9bc9077ffc1"
-        },
-        {
-          "path": "restaurant/renders/refine06_oblique_review_c.png",
-          "bytes": 8319207,
-          "sha256": "a23ce102a59a7ca5a3757d61e22a53d15d001b6b2bf5ef7a26280351064430df"
-        },
-        {
-          "path": "restaurant/renders/refine06_table_review.png",
-          "bytes": 4296666,
-          "sha256": "ba0e06f773359e1e1377e458df0ced4c6bfcea32cf964ca46c7dea9dc8a993de"
-        },
-        {
-          "path": "restaurant/textures/bronze_bark_microheight_06.png",
-          "bytes": 3909739,
-          "sha256": "023e165ad73c2b40e230ccc7711591cba6448710a9b50c6747f0d0ae50c83a05"
-        }
-      ],
-      "extends_archive": "restaurant-assets.zip"
     }
   ],
   "duplicates": [
@@ -1288,14 +1088,10 @@
     "city-scene/aerial/": "Copenhagen city aerial",
     "restaurant/": "Alchemist restaurant",
     "food/": "Original dish and web preview",
-    "dome/": "Original dome study",
-    "cocktail/": "Antini cocktail study, latest cocktail_07.blend"
+    "dome/": "Original dome study"
   },
   "notes": [
     "The Chinese-named eye file is a symlink to eye_07.blend, which is included under eyeball/.",
-    "Historical build reports retain original paths and source hashes.",
-    "Original six archives remain on v2026.09.08-projects; only additions and changed assets are attached to this release.",
-    "Later file entries explicitly identify the superseded SHA-256. The restore script installs the latest version and preserves unrecognized local edits.",
-    "Restaurant 06c and cocktail 07 are the latest saved scenes at the paused snapshot. Cocktail scenes and complete PNG renders exist through round 07; this does not imply a new photorealism validation. Historical 06a validation and 05 web export retain their original scope."
+    "Historical build reports retain original paths and source hashes."
   ]
 }

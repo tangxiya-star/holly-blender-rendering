@@ -1,0 +1,26 @@
+{
+  "Glass | Antini hand-drawn coupe": {
+    "vertices": 83200,
+    "faces": 82946,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 2.6558472627516753e-05,
+    "dimensions_m": [
+      0.09100045263767242,
+      0.09100032597780228,
+      0.16592499613761902
+    ]
+  },
+  "Liquid | Antini with curved meniscus": {
+    "vertices": 24064,
+    "faces": 23810,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 0.0001427081505822937,
+    "dimensions_m": [
+      0.088919997215271,
+      0.088919997215271,
+      0.04010000079870224
+    ]
+  }
+}

@@ -1,10 +1,10 @@
 # Holly — Blender Rendering
 
-A collection of Blender projects, organized by the work: an eye dish, Copenhagen street and aerial scenes, the Alchemist restaurant, a plated dish with a web viewer, and the original dome study.
+A collection of Blender projects, organized by the work: an eye dish, Copenhagen street and aerial scenes, the Alchemist restaurant, a plated dish with a web viewer, an Antini cocktail study, and the original dome study.
 
-**[Download the latest complete assets](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-projects)** · **[Browse the asset manifest](docs/assets-manifest.json)**
+**[Latest asset updates](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-local-sync)** · **[Browse the asset manifest](docs/assets-manifest.json)**
 
-This repository is public. Code, project guides, reports, and one preview per project are in Git. Full Blender scenes, renders, textures, model exports, and large geographic datasets are in the release. **Cloning or downloading the repository alone does not include these large assets.**
+This repository is public. Code, project guides, reports, and selected previews are in Git. Full Blender scenes, renders, textures, model exports, and large geographic datasets are in the release. **Cloning or downloading the repository alone does not include these large assets.**
 
 ## Projects
 
@@ -13,8 +13,9 @@ This repository is public. Code, project guides, reports, and one preview per pr
 | [eyeball/](eyeball/README.md) | Editable eye dish and seven material/geometry iterations | `eyeball/eye_07.blend` |
 | [city-scene/street/](city-scene/street/README.md) | Copenhagen street and expanded neighborhood | `city-scene/street/copenhagen_neighborhood.blend` |
 | [city-scene/aerial/](city-scene/aerial/README.md) | Geographic Copenhagen city aerial and cinematic descent | `city-scene/aerial/copenhagen_aerial_final.blend` |
-| [restaurant/](restaurant/README.md) | Alchemist-inspired restaurant, walkthrough, and web model | `restaurant/alchemist_05_final.blend` |
+| [restaurant/](restaurant/README.md) | Alchemist-inspired restaurant, walkthrough, and web model | `restaurant/alchemist_06c_refine.blend` |
 | [food/](food/README.md) | Plated dish study and interactive web preview | `food/food_final.blend`; `food/web-preview/` |
+| [cocktail/](cocktail/README.md) | Antini cocktail and numbered render studies | `cocktail/cocktail_07.blend` |
 | [dome/](dome/README.md) | Original dome study | `dome/alchemist_dome.blend` |
 
 Each project keeps its own scripts, reports, references, and asset paths. Earlier scene and render iterations are preserved in its asset package. Historical source snapshots and validation reports remain records of their original builds; their old local paths and hashes are not rewritten to imply a new validation run.
@@ -37,6 +38,14 @@ Each project keeps its own scripts, reports, references, and asset paths. Earlie
 
 ![Alchemist restaurant hero view](restaurant/renders/alchemist_hero.png)
 
+### Restaurant entry — refinement 06c
+
+![Restaurant entry, refinement 06c](restaurant/renders/refine06_entry_review_c.png)
+
+### Antini cocktail — iteration 07
+
+<img src="cocktail/renders/cocktail_07.png" width="360" alt="Antini cocktail, iteration 07 Cycles render" />
+
 ### Plated dish
 
 <img src="food/renders/food_final.png" width="360" alt="Final Cycles render of the plated dish" />
@@ -45,7 +54,7 @@ The [dome project](dome/README.md) has its own preview. These are the existing r
 
 ## Download by project
 
-The six ZIP packages total **1,623.50 MiB (about 1.59 GiB)** and contain **32 Blender scenes**, original renders, textures, references, web models, and geographic data. Each archive preserves the new paths relative to the repository root.
+The six original project packages below remain available on `v2026.09.08-projects`. Additions and changed assets are published separately on `v2026.09.08-local-sync`, so unchanged multi-gigabyte assets do not need to be uploaded again. The restore tool combines the exact versions listed in the manifest. Every archive preserves paths relative to the repository root.
 
 | Release asset | Size | Contents |
 | --- | ---: | --- |
@@ -55,6 +64,16 @@ The six ZIP packages total **1,623.50 MiB (about 1.59 GiB)** and contain **32 Bl
 | [restaurant-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08-projects/restaurant-assets.zip) | 108.04 MiB | Restaurant checkpoints, separately recovered restaurant edits, all restaurant renders, textures, references, and web Blender/GLB |
 | [food-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08-projects/food-assets.zip) | 471.34 MiB | Five dish scenes, renders, reference, web Blender/GLB, and split glTF/BIN for the viewer |
 | [dome-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08-projects/dome-assets.zip) | 1.73 MiB | Original dome Blender scene and render |
+
+### Incremental additions
+
+| Update archive | Size | Contents |
+| --- | ---: | --- |
+| [cocktail-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08-local-sync/cocktail-assets.zip) | 45.60 MiB | Seven cocktail scenes and seven PNG renders |
+| [restaurant-refinements.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08-local-sync/restaurant-refinements.zip) | 267.61 MiB | Restaurant 06a/06b/06c scenes, review images, door references, and the microheight texture integrated in 06c |
+| [eyeball-updates.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08-local-sync/eyeball-updates.zip) | 193.43 MiB | Updated `eye_07.blend` and the pre-cocktail eye-session checkpoint |
+
+Selecting `restaurant-assets.zip` or `eyeball-assets.zip` automatically includes the corresponding update archive. Unchanged files still come from the original project release. The archive manifest records the old eye-file hash explicitly; only that known previous version may be upgraded in place.
 
 The release includes `assets-manifest.json` with every asset path, size, and SHA-256, and `SHA256SUMS.txt` with archive checksums. The food viewer's identical model copies are uploaded once and recreated by the restore script. The aerial package includes its own HDR so it can be restored independently of the street package.
 
@@ -71,7 +90,7 @@ cd holly-blender-rendering
 python3 tools/restore_assets.py
 ```
 
-This downloads the pinned release `v2026.09.08-projects`, verifies each archive and file, and restores the complete folder structure. Identical files are skipped; different existing files cause an error instead of being overwritten. Use `--destination /path/to/empty-folder` to restore into a fresh location.
+This downloads the pinned base and update releases specified by `docs/assets-manifest.json`, verifies every archive and file, and installs the latest version of each path. Identical files are skipped. A known superseded release file can be upgraded; unrecognized local edits cause an error and are preserved. Use `--destination /path/to/empty-folder` to restore into a fresh location.
 
 For just the eye dish or the city scenes:
 
@@ -86,7 +105,7 @@ You can also download ZIPs directly from the public release page without signing
 python3 tools/restore_assets.py --from-dir /path/to/downloads
 ```
 
-For an offline subset, add `--archives` with the names you downloaded. With a manual food restore, also copy `food/web_exports/food_web.gltf` and `food_web_*.bin` into `food/web-preview/public/model/`; the script does this automatically.
+For offline restoration, place the required base and update ZIPs together in the download directory. For a subset, add `--archives`; choosing an eye or restaurant base archive also requires its update ZIP. With a manual food restore, also copy `food/web_exports/food_web.gltf` and `food_web_*.bin` into `food/web-preview/public/model/`; the script does this automatically.
 
 ## Run the food viewer
 
@@ -112,6 +131,7 @@ The original [v2026.09.08 release](https://github.com/tangxiya-star/holly-blende
 
 | Previous workspace path | Current repository folder |
 | --- | --- |
+| `alchemist/cocktail_test/` | `cocktail/` |
 | `alchemist/eye_food_stress_test/` | `eyeball/` |
 | `copenhagen/` | `city-scene/street/` |
 | `copenhagen_aerial/` | `city-scene/aerial/` |

@@ -4,7 +4,7 @@ Open **`eye_07.blend`** for the latest editable 3D asset. Round 07 combines a mo
 
 ## Download the complete asset
 
-The Blender scenes, full-resolution renders, textures, and reference images are in **`eyeball-assets.zip`** on [Release v2026.09.08-projects](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-projects). Source scripts and reports are in this folder in Git.
+The Blender scenes, full-resolution renders, textures, and reference images are in **`eyeball-assets.zip`** on [Release v2026.09.08-projects](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-projects). The updated saved `eye_07.blend` and a pre-cocktail eye-session checkpoint are in **`eyeball-updates.zip`** on [Release v2026.09.08-local-sync](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-local-sync). Source scripts and reports are in this folder in Git.
 
 After cloning the repository, run this command **from the repository root**:
 
@@ -12,13 +12,14 @@ After cloning the repository, run this command **from the repository root**:
 python3 tools/restore_assets.py --archives eyeball-assets.zip
 ```
 
-The restore tool downloads and verifies the archive, then restores the files under `eyeball/`. Alternatively, download `eyeball-assets.zip` from the Release and extract it into the repository root, preserving its `eyeball/` folder. Downloading the repository ZIP alone does not include these large assets.
+Selecting the base archive automatically includes the update archive. The restore tool verifies both and installs the latest files under `eyeball/`. For offline use, download both ZIPs and run the same command with `--from-dir /path/to/downloads`. Downloading the repository ZIP alone does not include these large assets.
 
 ## Main files
 
 | Path | Contents |
 | --- | --- |
-| `eye_07.blend` | Latest full 3D material trial, with packed textures. |
+| `eye_07.blend` | Latest saved round 07 scene, with packed textures; its current checksum is in the repository asset manifest. |
+| `backups/pre_cocktail_session_20260908_140658.blend` | Preserved eye-session checkpoint saved before the cocktail study, containing eye-study scenes. |
 | `renders/eye_07.png` | 1600 × 2000 Cycles hero render. |
 | `renders/eye_07_linear.exr` | Linear, floating-point hero render. |
 | `renders/eye_07_orbit_135.png` | 960 × 1200 view at 135° azimuth and 45° elevation. |
@@ -34,7 +35,7 @@ The restore tool downloads and verifies the archive, then restores the files und
 | `reports/round_07_manifest.json` | Original round 07 asset checksums. |
 | `reports/round_01_sources/` through `reports/round_07_sources/` | Historical source snapshots retained for comparison. |
 
-Some historical reports remain in their original language. `reports/deliverable_manifest.json` records **round 06**, not the latest release. Historical manifests describe the files at the time of the experiment; the repository's asset restore manifest covers the published archives.
+Some historical reports remain in their original language. `reports/deliverable_manifest.json` records **round 06**, not the latest release. Historical manifests describe the files at the time of the experiment; the repository's asset restore manifest covers the published archives. The local-sync update preserves a later saved `eye_07.blend`; the earlier round 07 reports, render images, and recorded hashes have not been rewritten or rerun for that save.
 
 The restaurant session backup that was previously stored beside the eye study is now grouped with the restaurant project at `restaurant/backups/restaurant_unsaved_backup_20260908_125825.blend`, in the restaurant asset archive. It is separate from the eyeball asset.
 

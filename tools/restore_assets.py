@@ -43,7 +43,7 @@ def read_manifest(path):
     if not isinstance(manifest["repository"], str) or not isinstance(
             manifest["release_tag"], str):
         raise ValueError("Invalid repository or release tag")
-    archive_names, file_paths = set(), set()
+    archive_names, file_versions = set(), {}
     for archive in manifest["archives"]:
         validate_record(archive, "name")
         if "/" in archive["name"] or not archive["name"].endswith(".zip"):
@@ -51,11 +51,42 @@ def read_manifest(path):
         if archive["name"] in archive_names:
             raise ValueError("Duplicate archive: " + archive["name"])
         archive_names.add(archive["name"])
+        if "release_tag" in archive and (
+                not isinstance(archive["release_tag"], str) or not archive["release_tag"]):
+            raise ValueError("Invalid release tag for " + archive["name"])
+        archive_paths = set()
         for entry in archive["files"]:
             validate_record(entry)
-            if entry["path"] in file_paths:
-                raise ValueError("Duplicate file path: " + entry["path"])
-            file_paths.add(entry["path"])
+            relative = entry["path"]
+            if relative in archive_paths:
+                raise ValueError("Duplicate file path in archive: " + relative)
+            archive_paths.add(relative)
+            previous = file_versions.get(relative)
+            if previous is None:
+                if "replaces_sha256" in entry:
+                    raise ValueError("Replacement has no earlier version: " + relative)
+            elif entry.get("replaces_sha256") != previous["sha256"]:
+                raise ValueError("Replacement must match the previous SHA256: " + relative)
+            file_versions[relative] = entry
+    extensions = {}
+    for archive in manifest["archives"]:
+        if "extends_archive" not in archive:
+            continue
+        parent = archive["extends_archive"]
+        if not isinstance(parent, str) or parent not in archive_names:
+            raise ValueError("Unknown extended archive for " + archive["name"])
+        extensions[archive["name"]] = parent
+    # Validate the whole graph, even if this invocation selects only one archive.
+    checked = set()
+    for name in archive_names:
+        chain = set()
+        while name in extensions and name not in checked:
+            if name in chain:
+                raise ValueError("Archive extension cycle: " + name)
+            chain.add(name)
+            name = extensions[name]
+        checked.update(chain)
+    file_paths = set(file_versions)
     for duplicate in manifest.get("duplicates", []):
         validate_record(duplicate, "source")
         relative_path(duplicate["target"])
@@ -63,6 +94,32 @@ def read_manifest(path):
             raise ValueError("Duplicate target path: " + duplicate["target"])
         file_paths.add(duplicate["target"])
     return manifest
+
+
+def restore_plan(manifest, requested=None):
+    """Select descendants and derive owners and validated same-path predecessors."""
+    archive_names = {archive["name"] for archive in manifest["archives"]}
+    selected = set(requested) if requested is not None else set(archive_names)
+    unknown = selected - archive_names
+    if unknown:
+        raise ValueError("Unknown archive(s): " + ", ".join(sorted(unknown)))
+    while True:
+        additions = {archive["name"] for archive in manifest["archives"]
+                     if archive.get("extends_archive") in selected}
+        if additions <= selected:
+            break
+        selected.update(additions)
+    owners, predecessors, history = {}, {}, {}
+    for archive in manifest["archives"]:
+        for entry in archive["files"]:
+            relative = entry["path"]
+            previous = history.setdefault(relative, [])
+            if archive["name"] in selected:
+                owners[relative] = archive["name"]
+                # read_manifest has checked every link, including unselected ones.
+                predecessors[relative] = tuple(previous)
+            previous.append((entry["bytes"], entry["sha256"]))
+    return selected, owners, predecessors
 
 
 def digest_stream(handle):
@@ -97,21 +154,24 @@ def safe_target(destination, relative):
     return target
 
 
-def already_restored(target, record):
+def already_restored(target, record, predecessors=()):
     if not target.exists():
         return False
     if not target.is_file():
         raise ValueError("Destination is not a regular file: " + str(target))
     with target.open("rb") as handle:
-        if digest_stream(handle) != (record["bytes"], record["sha256"]):
-            raise ValueError("Existing file has different contents; refusing overwrite: "
-                             + str(target))
-    return True
+        current = digest_stream(handle)
+    if current == (record["bytes"], record["sha256"]):
+        return True
+    if current in predecessors:
+        return False
+    raise ValueError("Existing file has different contents; refusing overwrite: "
+                     + str(target))
 
 
-def install_stream(handle, destination, relative, record):
+def install_stream(handle, destination, relative, record, predecessors=()):
     target = safe_target(destination, relative)
-    if already_restored(target, record):
+    if already_restored(target, record, predecessors):
         print("Already present: " + relative)
         return
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -130,15 +190,28 @@ def install_stream(handle, destination, relative, record):
             # Creating a hard link is atomic and cannot overwrite an existing file.
             os.link(temporary, target)
         except FileExistsError:
-            if not already_restored(safe_target(destination, relative), record):
-                raise
+            target = safe_target(destination, relative)
+            before = target.lstat()
+            if already_restored(target, record, predecessors):
+                print("Already present: " + relative)
+                return
+            after = safe_target(destination, relative).lstat()
+            signature = lambda value: (value.st_dev, value.st_ino, value.st_size,
+                                       value.st_mtime_ns, value.st_ctime_ns)
+            if signature(before) != signature(after):
+                raise ValueError("Destination changed during verification: " + str(target))
+            # Only a same-path predecessor from the validated manifest can reach
+            # this branch. The verified replacement becomes visible atomically.
+            os.replace(temporary, target)
+            print("Updated: " + relative)
+            return
         print("Restored: " + relative)
     finally:
         if temporary is not None:
             temporary.unlink(missing_ok=True)
 
 
-def restore_archive(path, archive, destination):
+def restore_archive(path, archive, destination, owners=None, predecessors=None):
     with path.open("rb") as handle:
         verify_stream(handle, archive, archive["name"])
     expected = {entry["path"]: entry for entry in archive["files"]}
@@ -166,16 +239,25 @@ def restore_archive(path, archive, destination):
         if actual_files != set(expected):
             raise ValueError("ZIP is missing manifest files: "
                              + ", ".join(sorted(set(expected) - actual_files)))
-        # Verify destination conflicts before writing any file from this archive.
-        for relative, record in expected.items():
-            already_restored(safe_target(destination, relative), record)
-        for relative, record in expected.items():
+        effective = {relative: record for relative, record in expected.items()
+                     if owners is None or owners.get(relative) == archive["name"]}
+        predecessors = predecessors or {}
+        # Validate the entire ZIP above, including superseded members. Only the
+        # selected final owner participates in destination checks or installation.
+        for relative, record in effective.items():
+            already_restored(safe_target(destination, relative), record,
+                             predecessors.get(relative, ()))
+        for relative, record in effective.items():
             with bundle.open(relative) as handle:
-                install_stream(handle, destination, relative, record)
+                install_stream(handle, destination, relative, record,
+                               predecessors.get(relative, ()))
 
 
-def restore_duplicates(manifest, destination):
+def restore_duplicates(manifest, destination, selected_paths=None):
+    eligible = set(selected_paths) if selected_paths is not None else None
     for duplicate in manifest.get("duplicates", []):
+        if eligible is not None and duplicate["source"] not in eligible:
+            continue
         source = safe_target(destination, duplicate["source"])
         if not source.exists():
             print("Skipped duplicate (source not restored): " + duplicate["target"])
@@ -186,24 +268,25 @@ def restore_duplicates(manifest, destination):
             verify_stream(handle, duplicate, duplicate["source"])
             handle.seek(0)
             install_stream(handle, destination, duplicate["target"], duplicate)
+        if eligible is not None:
+            eligible.add(duplicate["target"])
 
 
 def main():
     root = Path(__file__).resolve().parent.parent
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--archives", nargs="+", metavar="NAME.zip",
-                        help="Restore only these archive names (default: all)")
+                        help="Restore these archives and their extensions (default: all)")
     parser.add_argument("--from-dir", type=Path, metavar="PATH",
                         help="Use downloaded ZIP files from this directory instead of gh")
     parser.add_argument("--destination", type=Path, default=root, metavar="PATH",
                         help="Restore into this directory (default: repository root)")
     args = parser.parse_args()
     manifest = read_manifest(root / "docs" / "assets-manifest.json")
-    archive_names = {archive["name"] for archive in manifest["archives"]}
-    selected = set(args.archives) if args.archives else archive_names
-    unknown = selected - archive_names
-    if unknown:
-        parser.error("Unknown archive(s): " + ", ".join(sorted(unknown)))
+    try:
+        selected, owners, predecessors = restore_plan(manifest, args.archives)
+    except ValueError as error:
+        parser.error(str(error))
     destination = Path(os.path.abspath(args.destination))
     with tempfile.TemporaryDirectory(prefix="holly-assets-") as temporary:
         archive_dir = args.from_dir if args.from_dir is not None else Path(temporary)
@@ -213,12 +296,13 @@ def main():
             print("Checking archive: " + archive["name"], flush=True)
             if args.from_dir is None:
                 subprocess.run([
-                    "gh", "release", "download", manifest["release_tag"],
+                    "gh", "release", "download", archive.get("release_tag", manifest["release_tag"]),
                     "--repo", manifest["repository"], "--pattern", archive["name"],
                     "--dir", str(archive_dir),
                 ], check=True)
-            restore_archive(archive_dir / archive["name"], archive, destination)
-        restore_duplicates(manifest, destination)
+            restore_archive(archive_dir / archive["name"], archive, destination,
+                            owners, predecessors)
+        restore_duplicates(manifest, destination, owners)
     print("Asset restoration complete.")
 
 
