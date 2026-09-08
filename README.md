@@ -1,35 +1,35 @@
 # Holly — Blender Rendering
 
-Alchemist 餐厅场景、菜品建模与渲染，以及菜品交互网页预览。此仓库保存脚本、网页源码、验证报告和两张最终预览；完整 Blender、高清 PNG/EXR、纹理和模型导出保存在 GitHub Release。
+Alchemist restaurant scenes, dish modeling and rendering, and an interactive web preview of the dish. This repository contains scripts, web source code, validation reports, and two final previews. Complete Blender scenes, full-resolution PNG/EXR renders, textures, and model exports are available in GitHub Releases.
 
-**[下载全部成果 · v2026.09.08](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08)**
+**[Download all assets · v2026.09.08](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08)**
 
-仓库已公开，任何人都可以浏览源码并从 Release 页面下载完整资产，无需邀请或访问授权。
+This repository is public. Anyone can browse the source code and download the complete assets from the release page without an invitation or access approval.
 
-## 最终预览
+## Final previews
 
-![Alchemist 餐厅主视角](alchemist/renders/alchemist_hero.png)
+![Alchemist restaurant hero view](alchemist/renders/alchemist_hero.png)
 
-<img src="alchemist/food_stress_test/renders/food_final.png" width="400" alt="菜品最终 Cycles 渲染" />
+<img src="alchemist/food_stress_test/renders/food_final.png" width="400" alt="Final Cycles render of the dish" />
 
-菜品是已完成的建模压力测试；原有评审认为它仍有可见 CG 痕迹，未通过严格照片真实度测试。完整评价见 [critique.md](alchemist/food_stress_test/reports/critique.md)。
+The dish is a completed modeling stress test. The original review found that it still shows visible CG cues and did not pass the strict photographic realism test. See [critique.md](alchemist/food_stress_test/reports/critique.md) for the full assessment.
 
-## 下载哪一包
+## Choose an asset package
 
-压缩包内保留从仓库根目录开始的路径。4 包总计 **573.30 MiB**，包含 **17 个 Blender 场景、41 个渲染文件**、纹理、参考图片及网页模型。`.blend1` 自动备份、依赖目录、构建缓存和本机运行日志不包含在交付包中。
+All archives preserve paths relative to the repository root. The four packages total **573.30 MiB** and contain **17 Blender scenes, 41 render files**, textures, reference images, and web models. Automatic `.blend1` backups, dependency directories, build caches, and local runtime logs are excluded.
 
-| Release 附件 | 体积 | 内容 |
+| Release asset | Size | Contents |
 | --- | ---: | --- |
-| [renders.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/renders.zip) | 85.31 MiB | 全部餐厅、菜品和原始 dome 渲染，含各轮 PNG 与菜品线性 EXR |
-| [restaurant-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/restaurant-assets.zip) | 51.22 MiB | 餐厅最终及各里程碑 Blender 场景、原始 dome、纹理和参考图 |
-| [food-scenes.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/food-scenes.zip) | 276.47 MiB | 菜品 5 轮可编辑 Blender 场景及参考图 |
-| [web-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/web-assets.zip) | 160.30 MiB | 餐厅与菜品 GLB、对应 web Blender 场景、菜品 split glTF/BIN、餐厅环境 EXR |
+| [renders.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/renders.zip) | 85.31 MiB | All restaurant, dish, and original dome renders, including PNG iterations and linear EXR files for the dish |
+| [restaurant-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/restaurant-assets.zip) | 51.22 MiB | Final and milestone restaurant Blender scenes, the original dome scene, textures, and reference images |
+| [food-scenes.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/food-scenes.zip) | 276.47 MiB | Five editable Blender iterations of the dish and its reference image |
+| [web-assets.zip](https://github.com/tangxiya-star/holly-blender-rendering/releases/download/v2026.09.08/web-assets.zip) | 160.30 MiB | Restaurant and dish GLBs, their corresponding web Blender scenes, split glTF/BIN files for the dish, and the restaurant environment EXR |
 
-另附 `assets-manifest.json`（逐文件大小和 SHA-256、原路径、重复文件映射）与 `SHA256SUMS.txt`（附件校验值）。网页预览的 glTF/BIN 与导出目录内容一致，因此只上传一份，由恢复脚本重建网页使用的副本，减少约 26.76 MiB 重复数据。
+The release also includes `assets-manifest.json` with per-file sizes, SHA-256 hashes, original paths, and duplicate-file mappings, plus `SHA256SUMS.txt` with checksums for the release assets. The web preview uses the same glTF/BIN files as the export directory, so only one copy is uploaded. The restore script recreates the copies needed by the viewer, saving approximately 26.76 MiB of duplicate data.
 
-## 恢复全部成果
+## Restore all assets
 
-安装 GitHub CLI 和 Python 3，然后运行以下命令。命令行流程使用 GitHub CLI 登录；直接从 Release 网页下载附件无需登录。
+Install GitHub CLI and Python 3.8 or later, then run the commands below. This command-line workflow uses GitHub CLI authentication; downloading assets directly from the release page does not require signing in.
 
 ```sh
 gh auth login
@@ -38,32 +38,32 @@ cd holly-blender-rendering
 python3 tools/restore_assets.py
 ```
 
-脚本下载固定版本 `v2026.09.08`，验证压缩包和每个文件的 SHA-256，再恢复原目录。已有相同文件会跳过；已有不同内容文件会报错，避免覆盖正在修改的作品。也可以用 `--destination /path/to/empty-folder` 恢复到另一个目录。
+The script downloads the pinned release `v2026.09.08`, verifies each archive and file against its SHA-256 hash, and restores the original folder structure. Identical existing files are skipped. If an existing file has different contents, the script reports an error to protect your edits. Use `--destination /path/to/empty-folder` to restore into a different directory.
 
-只下载渲染，或只恢复网页模型：
+To restore only the renders or only the web models:
 
 ```sh
 python3 tools/restore_assets.py --archives renders.zip
 python3 tools/restore_assets.py --archives web-assets.zip
 ```
 
-已从 Release 下载附件时，可离线恢复：
+If you have already downloaded the archives from the release, you can restore them offline:
 
 ```sh
 python3 tools/restore_assets.py --from-dir /path/to/downloads
 ```
 
-手动恢复时，在仓库根目录解压所需 ZIP；要运行菜品网页，再把 `alchemist/food_stress_test/web_exports/food_web.gltf` 与 `food_web_*.bin` 复制到 `alchemist/food_web_preview/public/model/`。自动恢复脚本会完成这一步。
+For a manual restore, extract the required ZIP files at the repository root. To run the dish viewer, also copy `alchemist/food_stress_test/web_exports/food_web.gltf` and the `food_web_*.bin` files from the same directory into `alchemist/food_web_preview/public/model/`. The restore script handles this step automatically.
 
-## 打开与运行
+## Open the scenes and run the viewer
 
-- 餐厅最终可编辑场景：`alchemist/alchemist_05_final.blend`。
-- 菜品最终可编辑场景：`alchemist/food_stress_test/food_final.blend`。
-- 餐厅使用、相机与重建说明：[alchemist/README.md](alchemist/README.md)。
-- 菜品各轮渲染与重建说明：[food_stress_test/README.md](alchemist/food_stress_test/README.md)。
-- 菜品交互网页说明：[food_web_preview/README.md](alchemist/food_web_preview/README.md)。
+- Final editable restaurant scene: `alchemist/alchemist_05_final.blend`.
+- Final editable dish scene: `alchemist/food_stress_test/food_final.blend`.
+- Restaurant usage, cameras, and rebuild instructions: [alchemist/README.md](alchemist/README.md).
+- Dish render iterations and rebuild instructions: [food_stress_test/README.md](alchemist/food_stress_test/README.md).
+- Interactive dish viewer instructions: [food_web_preview/README.md](alchemist/food_web_preview/README.md).
 
-网页模型恢复后，使用 Node.js 22.13.0 或更新版本运行：
+After restoring the web models, use Node.js 22.13.0 or later to run the viewer:
 
 ```sh
 cd alchemist/food_web_preview
@@ -71,12 +71,12 @@ npm ci
 npm run dev
 ```
 
-网页保留已有 Sites 工程配置。此 Release 归档现有网页源码和模型，不代表重新部署；浏览器材质近似原 Cycles 材质。餐厅 GLB 使用时还需加载 `alchemist/textures/restaurant_environment.exr`。
+The viewer retains its existing Sites project configuration. This release archives the existing web source and models; the viewer was not redeployed as part of the release. Browser materials approximate the original Cycles materials. When using the restaurant GLB, also load `alchemist/textures/restaurant_environment.exr`.
 
-历史报告和构建快照保留当时的本机路径、结果与来源哈希；它们是原始记录。当前活动脚本的少量绝对工作区路径已改为根据脚本位置定位。此发布未重新渲染场景。
+Historical reports and build snapshots preserve the original local paths, results, and source hashes as a record of the work. A few absolute workspace paths in the active scripts have been replaced with paths derived from each script's location. The scenes were not rendered again for this release.
 
-## 后续保存建议
+## Future asset updates
 
-Git 继续保存脚本、说明、报告与少量最终预览；Blender、模型、高清图和视频按里程碑添加新的 Release，保持已发布附件和校验清单不变。GitHub Release 每个附件需小于 2 GiB（[官方文档](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)）。
+Keep scripts, documentation, reports, and a small selection of final previews in Git. Publish Blender scenes, models, full-resolution images, and videos in a new release for each milestone, preserving previously published assets and checksum manifests. Each GitHub Release asset must be smaller than 2 GiB ([official documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)).
 
-频繁多人编辑的源场景可考虑 Git LFS；它按完整文件版本累计存储，并计量下载带宽，需考虑配额（[Git LFS 计量说明](https://docs.github.com/en/billing/concepts/product-billing/git-lfs)）。当前这种阶段成果归档适合使用 Release。
+Consider Git LFS for source scenes that multiple collaborators edit frequently. It counts each complete file version toward storage and meters download bandwidth, so account for the applicable quotas ([Git LFS billing](https://docs.github.com/en/billing/concepts/product-billing/git-lfs)). Releases suit this project's milestone-based asset archives.
