@@ -1,0 +1,13 @@
+# Underwater dome projection
+
+`projection_underwater.png` is an original AI-generated 2:1 projection texture, 1774 × 887 pixels, created with the built-in image generation tool. The local restaurant reference was inspected for mood only; this is new ocean imagery, not a restaurant photograph or a reproduction of its projection artwork.
+
+Final generation prompt: Immersive underwater panorama projection texture for the interior of a 3D architectural dome. Only deep underwater ocean and moon jellyfish; no architecture, furniture, writing or borders. Deep navy and cobalt blue open ocean with organically detailed translucent moon jellyfish at varied scale and depth, subtle internal radial anatomy and natural filament tentacles. Restrained white-blue membrane edges, atmospheric particulate, subtle upper-ocean light rays, broad dark negative spaces. Balanced panoramic composition, dark left and right edges with similar tone, no horizon, lower quarter slightly darker. Avoid plastic bags, debris, stars, coral, divers, fish, logos and watermarks.
+
+The requested ideal resolution was 3840 × 1920; actual tool output is 1774 × 887. The image has not been upscaled, composited or otherwise edited. Edges have similar dark colors but are not asserted to be mathematically seamless; place the azimuth seam behind the main camera or soften it in the dome material if needed.
+
+## Refined sparse projection
+
+`projection_underwater_refined.png` is a non-destructive built-in image generation edit of the original texture, also 1774 × 887 (2:1). The original remains preserved. Visual inspection confirms exactly five detailed moon jellyfish, significantly reduced particulate, dark side edges, and an empty soft blue upper region with no water-surface ripples or large organisms. This calmer variant is intended for the final dome material. It is not asserted to be mathematically seamless.
+
+Final edit prompt: Create a calmer, much sparser alternate of the supplied underwater panorama. Preserve its dark navy/cobalt photographic underwater lighting, 2:1 wide format, organic translucency, delicate anatomical detail and restrained white-blue edges. Keep only five large and medium moon jellyfish, scattered asymmetrically across the middle and lower middle at varied depths. Remove every other jellyfish and half the fine particulate. The topmost 15 percent must be quiet smooth dark blue open water without organisms, surface ripples or bright hotspots, with only a soft gradual light falloff. Keep both side edges dark, with no organisms crossing them. No fish, trash, plastic bags, architecture, furniture, stars, text, logos, watermarks, borders or cartoon styling.

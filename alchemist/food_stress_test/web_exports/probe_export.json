@@ -1,0 +1,420 @@
+{
+  "version": "5.2.1 LTS",
+  "bake_targets": [
+    "IMAGE_TEXTURES",
+    "VERTEX_COLORS"
+  ],
+  "objects": [
+    {
+      "name": "Hero front bite | irregular baked body",
+      "type": "MESH",
+      "vertices": 68642,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | shallow baked crust flakes",
+      "type": "MESH",
+      "vertices": 71722,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | green shoulder dust",
+      "type": "MESH",
+      "vertices": 83348,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | irregular amber filling",
+      "type": "MESH",
+      "vertices": 4322,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | porous ivory slice",
+      "type": "MESH",
+      "vertices": 12386,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | dark leaf wrapper",
+      "type": "MESH",
+      "vertices": 5120,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | individually deformed packed roe",
+      "type": "MESH",
+      "vertices": 148840,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | sparse moisture at roe contacts",
+      "type": "MESH",
+      "vertices": 1764,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | foreground blossom | four imperfect ivory petals",
+      "type": "MESH",
+      "vertices": 1140,
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Hero front bite | foreground blossom | yellow-green heart",
+      "type": "MESH",
+      "vertices": 146,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | foreground blossom | anther 00",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | foreground blossom | anther 01",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | foreground blossom | anther 02",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | foreground blossom | anther 03",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | rear blossom | four imperfect ivory petals",
+      "type": "MESH",
+      "vertices": 1140,
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Hero front bite | rear blossom | yellow-green heart",
+      "type": "MESH",
+      "vertices": 146,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | rear blossom | anther 00",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | rear blossom | anther 01",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | rear blossom | anther 02",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | rear blossom | anther 03",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | magenta bud stem 0",
+      "type": "MESH",
+      "vertices": 24,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | small magenta bud 0",
+      "type": "MESH",
+      "vertices": 211,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | pointed burgundy leaf 0",
+      "type": "MESH",
+      "vertices": 189,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | magenta bud stem 1",
+      "type": "MESH",
+      "vertices": 24,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | small magenta bud 1",
+      "type": "MESH",
+      "vertices": 211,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | pointed burgundy leaf 1",
+      "type": "MESH",
+      "vertices": 189,
+      "modifiers": []
+    },
+    {
+      "name": "Hero front bite | pointed burgundy leaf 2",
+      "type": "MESH",
+      "vertices": 189,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | irregular baked body",
+      "type": "MESH",
+      "vertices": 68642,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | shallow baked crust flakes",
+      "type": "MESH",
+      "vertices": 73674,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | green shoulder dust",
+      "type": "MESH",
+      "vertices": 82596,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | irregular amber filling",
+      "type": "MESH",
+      "vertices": 4322,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | porous ivory slice",
+      "type": "MESH",
+      "vertices": 12386,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | dark leaf wrapper",
+      "type": "MESH",
+      "vertices": 5120,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | individually deformed packed roe",
+      "type": "MESH",
+      "vertices": 129930,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | sparse moisture at roe contacts",
+      "type": "MESH",
+      "vertices": 1848,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | foreground blossom | four imperfect ivory petals",
+      "type": "MESH",
+      "vertices": 1140,
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Rear bite | foreground blossom | yellow-green heart",
+      "type": "MESH",
+      "vertices": 146,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | foreground blossom | anther 00",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | foreground blossom | anther 01",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | foreground blossom | anther 02",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | foreground blossom | anther 03",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | rear blossom | four imperfect ivory petals",
+      "type": "MESH",
+      "vertices": 1140,
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Rear bite | rear blossom | yellow-green heart",
+      "type": "MESH",
+      "vertices": 146,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | rear blossom | anther 00",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | rear blossom | anther 01",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | rear blossom | anther 02",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | rear blossom | anther 03",
+      "type": "MESH",
+      "vertices": 18,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | magenta bud stem 0",
+      "type": "MESH",
+      "vertices": 24,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | small magenta bud 0",
+      "type": "MESH",
+      "vertices": 211,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | pointed burgundy leaf 0",
+      "type": "MESH",
+      "vertices": 189,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | magenta bud stem 1",
+      "type": "MESH",
+      "vertices": 24,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | small magenta bud 1",
+      "type": "MESH",
+      "vertices": 211,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | pointed burgundy leaf 1",
+      "type": "MESH",
+      "vertices": 189,
+      "modifiers": []
+    },
+    {
+      "name": "Rear bite | pointed burgundy leaf 2",
+      "type": "MESH",
+      "vertices": 189,
+      "modifiers": []
+    },
+    {
+      "name": "Support | graphite slate photographic tabletop",
+      "type": "MESH",
+      "vertices": 338125,
+      "modifiers": []
+    },
+    {
+      "name": "Support | handmade porcelain bowl",
+      "type": "MESH",
+      "vertices": 38720,
+      "modifiers": []
+    },
+    {
+      "name": "Support | moss bed shadow substrate",
+      "type": "MESH",
+      "vertices": 13441,
+      "modifiers": []
+    },
+    {
+      "name": "Support | individual curled moss shoots and leaflets",
+      "type": "MESH",
+      "vertices": 1283662,
+      "modifiers": []
+    },
+    {
+      "name": "Support | irregular fallen branch bark",
+      "type": "MESH",
+      "vertices": 25376,
+      "modifiers": []
+    },
+    {
+      "name": "Support | exposed warm cut end and fine growth rings",
+      "type": "MESH",
+      "vertices": 5825,
+      "modifiers": []
+    },
+    {
+      "name": "Support | overlapping mustard yellow lichen flakes",
+      "type": "MESH",
+      "vertices": 66720,
+      "modifiers": []
+    },
+    {
+      "name": "KEY | upper left softbox",
+      "type": "LIGHT",
+      "vertices": 0,
+      "modifiers": []
+    },
+    {
+      "name": "FILL | restrained neutral card",
+      "type": "LIGHT",
+      "vertices": 0,
+      "modifiers": []
+    },
+    {
+      "name": "CAM_Food_Hero",
+      "type": "CAMERA",
+      "vertices": 0,
+      "modifiers": []
+    },
+    {
+      "name": "FOCUS | front caviar and cream",
+      "type": "EMPTY",
+      "vertices": 0,
+      "modifiers": []
+    }
+  ],
+  "gltf": {
+    "export_vertex_color": [
+      "MATERIAL",
+      "ACTIVE",
+      "NAME",
+      "NONE"
+    ],
+    "export_all_vertex_colors": true,
+    "export_draco_mesh_compression_enable": false,
+    "export_draco_position_quantization": 14,
+    "export_draco_normal_quantization": 10,
+    "export_draco_color_quantization": 10
+  }
+}

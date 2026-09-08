@@ -1,0 +1,82 @@
+{
+  "type": "Alchemist-inspired restaurant asset",
+  "layout": "photograph-guided single-level adaptation; not a measured survey",
+  "units": "meters",
+  "source_axis": "Z up",
+  "gltf_axis": "Y up",
+  "walkthrough_seconds": 60,
+  "web_triangles": 341200,
+  "web_meshes": 55,
+  "runtime_lights": 16,
+  "source_navigation_events": {
+    "clearance_contacts": [],
+    "sweep_contacts": [],
+    "missing_ground_probes": [],
+    "ground_height_discontinuity": [],
+    "eye_height_outside_review_band": [],
+    "invalid_camera_position": []
+  },
+  "files": [
+    {
+      "path": "alchemist_05_final.blend",
+      "bytes": 8235610,
+      "sha256": "317aafc6bdcaa9fa9f6b8fbb8c23414ab1cd6ce24f8b363c03c04c14ab622e86"
+    },
+    {
+      "path": "alchemist_web.blend",
+      "bytes": 10335382,
+      "sha256": "4422cbae68903d542c1e6c12218a968deb1c2241e55b24431471346562cc4234"
+    },
+    {
+      "path": "alchemist_web.glb",
+      "bytes": 19861116,
+      "sha256": "bf6d8b05dc64d20ac11be5f82fd8213b6616e51ecd72cf770adfa36d8826acb1"
+    },
+    {
+      "path": "textures/restaurant_environment.exr",
+      "bytes": 1753514,
+      "sha256": "f18bf3346b0c2b5b7f451bbc41c831385f89f95a87af3dc3504f834ce2a8e8c5"
+    },
+    {
+      "path": "renders/alchemist_hero.png",
+      "bytes": 2472833,
+      "sha256": "621db6183bb1de72e777f787760f49492b14a3177775a298370bc193d1a7a89d"
+    },
+    {
+      "path": "renders/alchemist_arrival.png",
+      "bytes": 1369661,
+      "sha256": "0e951d55ddf486703a6d9142f24880bf96f64a03ed6cc047775b5a887ee74622"
+    },
+    {
+      "path": "renders/alchemist_dome.png",
+      "bytes": 1529354,
+      "sha256": "1469522367cd26dc94918455df404b09472ec14080df2f6f19f3cd86f6b23cf1"
+    },
+    {
+      "path": "renders/alchemist_table.png",
+      "bytes": 1164669,
+      "sha256": "ce4b3d456dfa03a874f41cb01d0ce4c6538ec6a63546c157e67ff6a88d41fe6f"
+    },
+    {
+      "path": "renders/alchemist_exit.png",
+      "bytes": 973568,
+      "sha256": "fb0a3d0fc0721d66a8fbfd71826b696596bccc3a3d3970e780b62e165ea39cd3"
+    },
+    {
+      "path": "renders/alchemist_lounge.png",
+      "bytes": 819713,
+      "sha256": "7de302f301284507f33e99a3566d53dbad3a8c97eb3384a1690cc19f6967db9a"
+    },
+    {
+      "path": "reports/walkthrough.json",
+      "bytes": 1907,
+      "sha256": "3f8294a93f729b741bde84e9bf65e2791dd1f626fa28d686cf0d604ad6095eee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3961,
+      "sha256": "fa3750c18b4feb70c05f70d9d7383765cf2ad6941ba22f7518ff2bd09215dc85"
+    }
+  ],
+  "source_unchanged_since_export": true
+}

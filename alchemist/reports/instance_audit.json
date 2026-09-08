@@ -1,0 +1,34 @@
+{
+  "source": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/alchemist_05_final.blend",
+  "frame": 1,
+  "additional_instances": [
+    {
+      "evaluated_object": "Entrance_Lettering",
+      "evaluated_type": "MESH",
+      "scene_object_type": "FONT",
+      "scene_parent": "Architecture",
+      "scene_collections": [
+        "Architecture"
+      ],
+      "instance_parent": "Entrance_Lettering",
+      "vertices": 1152,
+      "triangles": 1120,
+      "world_bounds_min": [
+        -0.6299350261688232,
+        -19.30099868774414,
+        4.648469924926758
+      ],
+      "world_bounds_max": [
+        0.6270449757575989,
+        -19.298999786376953,
+        4.767469882965088
+      ],
+      "position": [
+        0.0,
+        -19.299999237060547,
+        4.650000095367432
+      ]
+    }
+  ],
+  "audit": "Read-only background Blender dependency-graph inspection; no scene changes or saves."
+}

@@ -1,0 +1,42 @@
+# Local dependencies and generated files
+node_modules/
+__pycache__/
+*.pyc
+.next/
+.vinext/
+.wrangler/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store
+.env
+.env.*
+
+# Blender, textures, references and full renders live in Releases.
+*.blend
+*.blend[0-9]*
+*.glb
+*.gltf
+*.bin
+*.exr
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+alchemist/references/*.html
+
+# Keep two final previews visible in the repository.
+!alchemist/renders/alchemist_hero.png
+!alchemist/food_stress_test/renders/food_final.png
+
+# Render sequences and finished video also belong in Releases.
+**/frames/
+**/animation/
+*.mp4
+*.mov
+*.avi
+*.mkv

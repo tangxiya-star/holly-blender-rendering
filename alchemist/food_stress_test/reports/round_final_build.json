@@ -1,0 +1,39 @@
+{
+  "round": "final",
+  "version": "5.2.1 LTS",
+  "device": "GPU",
+  "resolution": [
+    1600,
+    2399
+  ],
+  "samples": 512,
+  "adaptive_threshold": 0.006000000052154064,
+  "objects": 65,
+  "mesh_vertices": 2554037,
+  "base_mesh_faces": 2210876,
+  "materials": 37,
+  "build_seconds": 6.150881052017212,
+  "source_sha256": {
+    "build_test.py": "fd97d56cc5f1ba524ae908cdeda6da5d88f806bbd0664f1eb79217f2671d8e03",
+    "support.py": "b5eee0f85bdcb617fa3f4fec0c42cec7e73dab205c0293143ef2dea4bdbf829d",
+    "food.py": "c3c8f8fd7781556eaff40a324eb06733ce29b926de1d36bc9a436adf4def25a4"
+  },
+  "camera": {
+    "lens_mm": 90.0,
+    "sensor_fit": "VERTICAL",
+    "sensor_height_mm": 36.0,
+    "fstop": 7.099999904632568,
+    "position": [
+      0.0020000000949949026,
+      -0.653107762336731,
+      0.3707750141620636
+    ],
+    "focus": [
+      0.003000000026077032,
+      -0.03099999949336052,
+      0.07500000298023224
+    ]
+  },
+  "food_info": "{'objects': [bpy.data.objects['Hero front bite | irregular baked body'], bpy.data.objects['Hero front bite | shallow baked crust flakes'], bpy.data.objects['Hero front bite | green shoulder dust'], bpy.data.objects['Hero front bite | irregular amber filling'], bpy.data.objects['Hero front bite | porous ivory slice'], bpy.data.objects['Hero front bite | dark leaf wrapper'], bpy.data.objects['Hero front bite | individually deformed packed roe'], bpy.data.objects['Hero front bite | foreground blossom | four imperfect ivory petals'], bpy.data.objects['Hero front bite | rear blossom | four imperfect ivory petals'], bpy.data.objects['Hero front bite | magenta bud stem 0'], bpy.data.objects['Hero front bite | small magenta bud 0'], bpy.data.objects['Hero front bite | pointed burgundy leaf 0'], bpy.data.objects['Hero front bite | magenta bud stem 1'], bpy.data.objects['Hero front bite | small magenta bud 1'], bpy.data.objects['Hero front bite | pointed burgundy leaf 1'], bpy.data.objects['Hero front bite | pointed burgundy leaf 2'], bpy.data.objects['Rear bite | irregular baked body'], bpy.data.objects['Rear bite | shallow baked crust flakes'], bpy.data.objects['Rear bite | green shoulder dust'], bpy.data.objects['Rear bite | irregular amber filling'], bpy.data.objects['Rear bite | porous ivory slice'], bpy.data.objects['Rear bite | dark leaf wrapper'], bpy.data.objects['Rear bite | individually deformed packed roe'], bpy.data.objects['Rear bite | foreground blossom | four imperfect ivory petals'], bpy.data.objects['Rear bite | rear blossom | four imperfect ivory petals'], bpy.data.objects['Rear bite | magenta bud stem 0'], bpy.data.objects['Rear bite | small magenta bud 0'], bpy.data.objects['Rear bite | pointed burgundy leaf 0'], bpy.data.objects['Rear bite | magenta bud stem 1'], bpy.data.objects['Rear bite | small magenta bud 1'], bpy.data.objects['Rear bite | pointed burgundy leaf 1'], bpy.data.objects['Rear bite | pointed burgundy leaf 2']], 'pastries': [bpy.data.objects['Hero front bite | irregular baked body'], bpy.data.objects['Rear bite | irregular baked body']], 'roe_clusters': [bpy.data.objects['Hero front bite | individually deformed packed roe'], bpy.data.objects['Rear bite | individually deformed packed roe']], 'materials': {'crust': bpy.data.materials['Food | baked choux crust \u00b7 dry porous amber'], 'fissure': bpy.data.materials['Food | fissure \u00b7 toasted bread interior'], 'powder': [bpy.data.materials['Food | moss-green dust grain 00'], bpy.data.materials['Food | moss-green dust grain 01'], bpy.data.materials['Food | moss-green dust grain 02'], bpy.data.materials['Food | moss-green dust grain 03']], 'cream': bpy.data.materials['Food | ivory cut layer \u00b7 porous emulsion'], 'amber': bpy.data.materials['Food | thin amber filling \u00b7 moist edge'], 'leaf': bpy.data.materials['Food | dark leaf wrapper \u00b7 broken wet surface'], 'roe': [bpy.data.materials['Food | roe membrane 00 \u00b7 dark brown olive'], bpy.data.materials['Food | roe membrane 01 \u00b7 dark brown olive'], bpy.data.materials['Food | roe membrane 02 \u00b7 dark brown olive'], bpy.data.materials['Food | roe membrane 03 \u00b7 dark brown olive'], bpy.data.materials['Food | roe membrane 04 \u00b7 dark brown olive'], bpy.data.materials['Food | roe membrane 05 \u00b7 dark brown olive']], 'roe_film': bpy.data.materials['Food | localized roe moisture meniscus'], 'petal': bpy.data.materials['Food | ivory edible blossom \u00b7 thin petals'], 'pollen': bpy.data.materials['Food | flower heart \u00b7 pale yellow green'], 'stamen': bpy.data.materials['Food | flower heart \u00b7 narrow dark anthers'], 'magenta': bpy.data.materials['Food | tiny magenta flower buds'], 'burgundy': bpy.data.materials['Food | burgundy microleaf \u00b7 thin curled'], 'stem': bpy.data.materials['Food | garnish stems']}, 'roe_count': 457, 'mesh_vertices': 777684, 'mesh_polygons': 745220, 'hero_focus': (0.003, -0.031, 0.075), 'notes': 'Original explicit organic geometry; scale in meters; no stock primitives or external food textures.'}",
+  "support_info": "{'objects': 7, 'vertices': 1771869, 'triangles': 2384461, 'plate_outer_diameter_m': 0.17, 'moss_shoots': 9346, 'plate_name': 'Support | handmade porcelain bowl', 'notes': 'Handmade ceramic, original procedural leafy moss, patchy lichen branch and slate; no reference pixels in shading.'}"
+}

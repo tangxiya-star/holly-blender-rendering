@@ -1,0 +1,86 @@
+{
+  "stone": {
+    "size": 1024,
+    "tile_m": 1.5,
+    "roughness_min_max": [
+      0.222017081721592,
+      0.3336222675787654
+    ],
+    "normal_max_deviation_degrees": 0.6515882802763384,
+    "basecolor_mean_srgb": [
+      0.3614472755829072,
+      0.38104721965609156,
+      0.410107840689536
+    ]
+  },
+  "charcoal": {
+    "size": 512,
+    "tile_m": 1.0,
+    "roughness_min_max": [
+      0.55,
+      0.7
+    ],
+    "normal_max_deviation_degrees": 2.5797906310146397,
+    "basecolor_mean_srgb": [
+      0.09019607843137172,
+      0.09803921568627569,
+      0.1058823529411755
+    ]
+  },
+  "brass": {
+    "size": 512,
+    "tile_m": 1.0,
+    "roughness_min_max": [
+      0.3039713249758031,
+      0.4288548726948529
+    ],
+    "normal_max_deviation_degrees": 0.2613802605594663,
+    "basecolor_mean_srgb": [
+      0.5764705882352751,
+      0.4725490196078403,
+      0.32549019607842133
+    ]
+  },
+  "oak": {
+    "size": 512,
+    "tile_m": 1.0,
+    "roughness_min_max": [
+      0.3545840319634227,
+      0.4700612050422571
+    ],
+    "normal_max_deviation_degrees": 0.7934788467059811,
+    "basecolor_mean_srgb": [
+      0.20281414671925863,
+      0.16384455420212374,
+      0.1366396675673465
+    ]
+  },
+  "fabric": {
+    "size": 512,
+    "tile_m": 1.0,
+    "roughness_min_max": [
+      0.843398721759565,
+      0.922439338935261
+    ],
+    "normal_max_deviation_degrees": 0.782528708287846,
+    "basecolor_mean_srgb": [
+      0.10588235294117465,
+      0.10980392156862838,
+      0.14117647058824084
+    ]
+  },
+  "concrete": {
+    "size": 512,
+    "tile_m": 1.0,
+    "roughness_min_max": [
+      0.6106478552418144,
+      0.78
+    ],
+    "normal_max_deviation_degrees": 5.881779426556701,
+    "basecolor_mean_srgb": [
+      0.5095436928368058,
+      0.4899358496995607,
+      0.43895545754269044
+    ]
+  }
+}

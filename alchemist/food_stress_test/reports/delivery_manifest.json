@@ -1,0 +1,77 @@
+{
+  "result": "stress test completed; photographic criterion not passed",
+  "render_versions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "final"
+  ],
+  "correction_passes": 4,
+  "resolution": [
+    1600,
+    2399
+  ],
+  "cycles_max_samples": 512,
+  "web_optimized": false,
+  "files": [
+    {
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/food_final.blend",
+      "exists": true,
+      "bytes": 73663157,
+      "sha256": "80f9962cf5935671a9f7bac30d8fa1721fc1091e41a4a1c257d8b989bf2c548e"
+    },
+    {
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/renders/food_final.png",
+      "exists": true,
+      "bytes": 11503187,
+      "sha256": "730df69bee4e514b6b57fbcb8bf5a83afd8ed2f90f5dfc5080856fce77e8c96a"
+    },
+    {
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/renders/food_final_linear.exr",
+      "exists": true,
+      "bytes": 8176373,
+      "sha256": "7f4f5c279bb25e7b72717630a38bb8097db86690f9e12734dd820bfa5d05fbd9"
+    },
+    {
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/README.md",
+      "exists": true,
+      "bytes": 3244,
+      "sha256": "afbcd2bd3ebf084d492002aac444fa20fa82340c28f418c2eb602c9bff207aab"
+    },
+    {
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/reports/reference_analysis.md",
+      "exists": true,
+      "bytes": 5708,
+      "sha256": "bccc57d1adb4342d612853f489cc5123e16759e728ebf8d2e425866233de2341"
+    },
+    {
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/reports/critique.md",
+      "exists": true,
+      "bytes": 10732,
+      "sha256": "8357b757e2ff861b13f84d455970419d28f2608b96fc95f49dbc8d3aed9b5fe7"
+    }
+  ],
+  "final_build": {
+    "objects": 65,
+    "mesh_vertices": 2554037,
+    "base_mesh_faces": 2210876,
+    "materials": 37,
+    "camera": {
+      "lens_mm": 90.0,
+      "sensor_fit": "VERTICAL",
+      "sensor_height_mm": 36.0,
+      "fstop": 7.099999904632568,
+      "position": [
+        0.0020000000949949026,
+        -0.653107762336731,
+        0.3707750141620636
+      ],
+      "focus": [
+        0.003000000026077032,
+        -0.03099999949336052,
+        0.07500000298023224
+      ]
+    }
+  }
+}

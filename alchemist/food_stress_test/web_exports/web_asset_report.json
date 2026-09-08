@@ -1,0 +1,2733 @@
+{
+  "source": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/food_final.blend",
+  "source_sha256_before": "80f9962cf5935671a9f7bac30d8fa1721fc1091e41a4a1c257d8b989bf2c548e",
+  "source_sha256_after": "80f9962cf5935671a9f7bac30d8fa1721fc1091e41a4a1c257d8b989bf2c548e",
+  "source_unchanged": true,
+  "asset": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/food_stress_test/web_exports/food_web.glb",
+  "asset_sha256": "7bba52db3a9acbc95cdbee3cea5bff327feb0c8521b9b11f468d1beb0d0f2ded",
+  "bytes": 28059276,
+  "MiB": 26.759410858154297,
+  "geometry": {
+    "source_mesh_objects": 61,
+    "source_vertices": 2554037,
+    "source_base_faces": 2210876,
+    "source_evaluated_triangles": 3688277,
+    "exported_triangles": 3688277,
+    "glb_meshes": 61,
+    "glb_material_primitives": 87,
+    "all_primitives_have_COLOR_0": true,
+    "bounds_blender_Z_up_m": {
+      "min": [
+        -0.699999988079071,
+        -0.699999988079071,
+        -0.0013360780430957675
+      ],
+      "max": [
+        0.699999988079071,
+        0.7950000166893005,
+        0.0915340930223465
+      ]
+    },
+    "modifiers_applied_as_evaluated_geometry": [
+      "Hero front bite | foreground blossom | four imperfect ivory petals",
+      "Hero front bite | rear blossom | four imperfect ivory petals",
+      "Rear bite | foreground blossom | four imperfect ivory petals",
+      "Rear bite | rear blossom | four imperfect ivory petals"
+    ],
+    "decimation": false,
+    "slate_tabletop": "Entire original mesh retained, no cropping"
+  },
+  "materials": [
+    {
+      "name": "Branch | aged warm cut wood with uneven growth rings",
+      "Roughness": 0.5699999928474426,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Branch | weathered fissured bark",
+      "Roughness": 0.8199999928474426,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Dish | warm porcelain and a thin clear glaze",
+      "Roughness": 0.235,
+      "Metallic": 0.0,
+      "IOR": 1.4900000095367432,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.12999999523162842,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | baked choux crust \u00b7 dry porous amber",
+      "Roughness": 0.6,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.017999999225139618,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | burgundy microleaf \u00b7 thin curled",
+      "Roughness": 0.44999998807907104,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.03999999910593033,
+      "Subsurface Weight": 0.12999999523162842,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | dark leaf wrapper \u00b7 broken wet surface",
+      "Roughness": 0.31,
+      "Metallic": 0.0,
+      "IOR": 1.399999976158142,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.029999999329447746,
+      "Subsurface Weight": 0.029999999329447746,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | fissure \u00b7 toasted bread interior",
+      "Roughness": 0.7599999904632568,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.014999999664723873,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | flower heart \u00b7 narrow dark anthers",
+      "Roughness": 0.550000011920929,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | flower heart \u00b7 pale yellow green",
+      "Roughness": 0.699999988079071,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | garnish stems",
+      "Roughness": 0.5199999809265137,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.05000000074505806,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | ivory cut layer \u00b7 porous emulsion",
+      "Roughness": 0.42,
+      "Metallic": 0.0,
+      "IOR": 1.399999976158142,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.10000000149011612,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | ivory edible blossom \u00b7 thin petals",
+      "Roughness": 0.4399999976158142,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.07000000029802322,
+      "Subsurface Weight": 0.18000000715255737,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | localized roe moisture meniscus",
+      "Roughness": 0.10499999672174454,
+      "Metallic": 0.0,
+      "IOR": 1.340000033378601,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.03999999910593033,
+      "Subsurface Weight": 0.014999999664723873,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | moss-green dust grain 00",
+      "Roughness": 0.7900000214576721,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.009999999776482582,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | moss-green dust grain 01",
+      "Roughness": 0.7900000214576721,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.009999999776482582,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | moss-green dust grain 02",
+      "Roughness": 0.7900000214576721,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.009999999776482582,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | moss-green dust grain 03",
+      "Roughness": 0.7900000214576721,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.009999999776482582,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | roe membrane 00 \u00b7 dark brown olive",
+      "Roughness": 0.195,
+      "Metallic": 0.0,
+      "IOR": 1.3650000095367432,
+      "Coat Weight": 0.03500000014901161,
+      "Coat Roughness": 0.1599999964237213,
+      "Transmission Weight": 0.14000000059604645,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | roe membrane 01 \u00b7 dark brown olive",
+      "Roughness": 0.275,
+      "Metallic": 0.0,
+      "IOR": 1.3650000095367432,
+      "Coat Weight": 0.03500000014901161,
+      "Coat Roughness": 0.1599999964237213,
+      "Transmission Weight": 0.14000000059604645,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | roe membrane 02 \u00b7 dark brown olive",
+      "Roughness": 0.17,
+      "Metallic": 0.0,
+      "IOR": 1.3650000095367432,
+      "Coat Weight": 0.03500000014901161,
+      "Coat Roughness": 0.1599999964237213,
+      "Transmission Weight": 0.14000000059604645,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | roe membrane 03 \u00b7 dark brown olive",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3650000095367432,
+      "Coat Weight": 0.03500000014901161,
+      "Coat Roughness": 0.1599999964237213,
+      "Transmission Weight": 0.14000000059604645,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | roe membrane 04 \u00b7 dark brown olive",
+      "Roughness": 0.22,
+      "Metallic": 0.0,
+      "IOR": 1.3650000095367432,
+      "Coat Weight": 0.03500000014901161,
+      "Coat Roughness": 0.1599999964237213,
+      "Transmission Weight": 0.14000000059604645,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | roe membrane 05 \u00b7 dark brown olive",
+      "Roughness": 0.265,
+      "Metallic": 0.0,
+      "IOR": 1.3650000095367432,
+      "Coat Weight": 0.03500000014901161,
+      "Coat Roughness": 0.1599999964237213,
+      "Transmission Weight": 0.14000000059604645,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Food | thin amber filling \u00b7 moist edge",
+      "Roughness": 0.3,
+      "Metallic": 0.0,
+      "IOR": 1.399999976158142,
+      "Coat Weight": 0.10000000149011612,
+      "Coat Roughness": 0.25,
+      "Transmission Weight": 0.03500000014901161,
+      "Subsurface Weight": 0.09000000357627869,
+      "base_color_procedural": true,
+      "normal_procedural": false
+    },
+    {
+      "name": "Food | tiny magenta flower buds",
+      "Roughness": 0.3799999952316284,
+      "Metallic": 0.0,
+      "IOR": 1.4500000476837158,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.1599999964237213,
+      "base_color_procedural": false,
+      "normal_procedural": false
+    },
+    {
+      "name": "Lichen | ochre foliose crust 00",
+      "Roughness": 0.8799999952316284,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.03500000014901161,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Lichen | ochre foliose crust 01",
+      "Roughness": 0.8799999952316284,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.03500000014901161,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Lichen | ochre foliose crust 02",
+      "Roughness": 0.8799999952316284,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.03500000014901161,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Lichen | ochre foliose crust 03",
+      "Roughness": 0.8799999952316284,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.03500000014901161,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | chlorophyll leaf variation 00",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.15000000596046448,
+      "Transmission Weight": 0.10000000149011612,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | chlorophyll leaf variation 01",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.15000000596046448,
+      "Transmission Weight": 0.10000000149011612,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | chlorophyll leaf variation 02",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.15000000596046448,
+      "Transmission Weight": 0.10000000149011612,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | chlorophyll leaf variation 03",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.15000000596046448,
+      "Transmission Weight": 0.10000000149011612,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | chlorophyll leaf variation 04",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.15000000596046448,
+      "Transmission Weight": 0.10000000149011612,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | chlorophyll leaf variation 05",
+      "Roughness": 0.305,
+      "Metallic": 0.0,
+      "IOR": 1.3799999952316284,
+      "Coat Weight": 0.23999999463558197,
+      "Coat Roughness": 0.15000000596046448,
+      "Transmission Weight": 0.10000000149011612,
+      "Subsurface Weight": 0.06499999761581421,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    },
+    {
+      "name": "Moss | dark interstitial substrate",
+      "Roughness": 0.699999988079071,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": false,
+      "normal_procedural": true
+    },
+    {
+      "name": "Slate | graphite stone, shallow pores and mineral clefts",
+      "Roughness": 0.58,
+      "Metallic": 0.0,
+      "IOR": 1.5,
+      "Coat Weight": 0.0,
+      "Coat Roughness": 0.029999999329447746,
+      "Transmission Weight": 0.0,
+      "Subsurface Weight": 0.0,
+      "base_color_procedural": true,
+      "normal_procedural": true
+    }
+  ],
+  "color_audit": [
+    {
+      "object": "Hero front bite | irregular baked body",
+      "color_domain": "POINT",
+      "colors": 68642,
+      "linear_rgb_min": [
+        0.11999999731779099,
+        0.03200000151991844,
+        0.003054429078474641
+      ],
+      "linear_rgb_max": [
+        0.7526902556419373,
+        0.3711361289024353,
+        0.07353280484676361
+      ],
+      "linear_rgb_mean": [
+        0.405487596988678,
+        0.1790183186531067,
+        0.01750246435403824
+      ]
+    },
+    {
+      "object": "Hero front bite | shallow baked crust flakes",
+      "color_domain": "POINT",
+      "colors": 71722,
+      "linear_rgb_min": [
+        0.1333519071340561,
+        0.0552932471036911,
+        0.0030680284835398197
+      ],
+      "linear_rgb_max": [
+        0.7444426417350769,
+        0.3652762472629547,
+        0.07353204488754272
+      ],
+      "linear_rgb_mean": [
+        0.41524288058280945,
+        0.18077820539474487,
+        0.017900971695780754
+      ]
+    },
+    {
+      "object": "Hero front bite | green shoulder dust",
+      "color_domain": "POINT",
+      "colors": 83348,
+      "linear_rgb_min": [
+        0.05999999865889549,
+        0.125,
+        0.004999999888241291
+      ],
+      "linear_rgb_max": [
+        0.2900000214576721,
+        0.35499998927116394,
+        0.03799999877810478
+      ],
+      "linear_rgb_mean": [
+        0.14288897812366486,
+        0.2326420247554779,
+        0.018582364544272423
+      ]
+    },
+    {
+      "object": "Hero front bite | irregular amber filling",
+      "color_domain": "POINT",
+      "colors": 4322,
+      "linear_rgb_min": [
+        0.22643837332725525,
+        0.0525813065469265,
+        0.007985111325979233
+      ],
+      "linear_rgb_max": [
+        0.5332446098327637,
+        0.19841037690639496,
+        0.030966851860284805
+      ],
+      "linear_rgb_mean": [
+        0.3941968083381653,
+        0.12114923447370529,
+        0.019483990967273712
+      ]
+    },
+    {
+      "object": "Hero front bite | porous ivory slice",
+      "color_domain": "POINT",
+      "colors": 12386,
+      "linear_rgb_min": [
+        0.4606281816959381,
+        0.37668779492378235,
+        0.22698602080345154
+      ],
+      "linear_rgb_max": [
+        0.7073624730110168,
+        0.6106523275375366,
+        0.43065235018730164
+      ],
+      "linear_rgb_mean": [
+        0.6010728478431702,
+        0.5107069611549377,
+        0.3341412842273712
+      ]
+    },
+    {
+      "object": "Hero front bite | dark leaf wrapper",
+      "color_domain": "POINT",
+      "colors": 5120,
+      "linear_rgb_min": [
+        0.002408541040495038,
+        0.004082324914634228,
+        0.0003878054558299482
+      ],
+      "linear_rgb_max": [
+        0.013716116547584534,
+        0.02076449990272522,
+        0.0017335470765829086
+      ],
+      "linear_rgb_mean": [
+        0.005569601897150278,
+        0.0091685326769948,
+        0.000780917820520699
+      ]
+    },
+    {
+      "object": "Hero front bite | individually deformed packed roe",
+      "color_domain": "POINT",
+      "colors": 148840,
+      "linear_rgb_min": [
+        0.005999998655170202,
+        0.0044999998062849045,
+        0.002999999327585101
+      ],
+      "linear_rgb_max": [
+        0.022000009194016457,
+        0.014000000432133675,
+        0.007000000216066837
+      ],
+      "linear_rgb_mean": [
+        0.012050076387822628,
+        0.008422155864536762,
+        0.004690691828727722
+      ]
+    },
+    {
+      "object": "Hero front bite | sparse moisture at roe contacts",
+      "color_domain": "POINT",
+      "colors": 1764,
+      "linear_rgb_min": [
+        0.006000000052154064,
+        0.004000000189989805,
+        0.0020000000949949026
+      ],
+      "linear_rgb_max": [
+        0.006000000052154064,
+        0.004000000189989805,
+        0.0020000000949949026
+      ],
+      "linear_rgb_mean": [
+        0.005999920889735222,
+        0.004000059794634581,
+        0.0020000298973172903
+      ]
+    },
+    {
+      "object": "Hero front bite | foreground blossom | four imperfect ivory petals",
+      "color_domain": "POINT",
+      "colors": 2280,
+      "linear_rgb_min": [
+        0.8999999761581421,
+        0.8700000047683716,
+        0.7699999809265137
+      ],
+      "linear_rgb_max": [
+        0.8999999761581421,
+        0.8700000643730164,
+        0.7699999809265137
+      ],
+      "linear_rgb_mean": [
+        0.9000170230865479,
+        0.8699955344200134,
+        0.7700124382972717
+      ]
+    },
+    {
+      "object": "Hero front bite | foreground blossom | yellow-green heart",
+      "color_domain": "POINT",
+      "colors": 146,
+      "linear_rgb_min": [
+        0.2800000011920929,
+        0.2549999952316284,
+        0.038999997079372406
+      ],
+      "linear_rgb_max": [
+        0.2800000011920929,
+        0.2550000548362732,
+        0.039000000804662704
+      ],
+      "linear_rgb_mean": [
+        0.2799999713897705,
+        0.2549998462200165,
+        0.039000023156404495
+      ]
+    },
+    {
+      "object": "Hero front bite | foreground blossom | anther 00",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | foreground blossom | anther 01",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | foreground blossom | anther 02",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | foreground blossom | anther 03",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | rear blossom | four imperfect ivory petals",
+      "color_domain": "POINT",
+      "colors": 2280,
+      "linear_rgb_min": [
+        0.8999999761581421,
+        0.8700000047683716,
+        0.7699999809265137
+      ],
+      "linear_rgb_max": [
+        0.8999999761581421,
+        0.8700000643730164,
+        0.7699999809265137
+      ],
+      "linear_rgb_mean": [
+        0.9000170230865479,
+        0.8699955344200134,
+        0.7700124382972717
+      ]
+    },
+    {
+      "object": "Hero front bite | rear blossom | yellow-green heart",
+      "color_domain": "POINT",
+      "colors": 146,
+      "linear_rgb_min": [
+        0.2800000011920929,
+        0.2549999952316284,
+        0.038999997079372406
+      ],
+      "linear_rgb_max": [
+        0.2800000011920929,
+        0.2550000548362732,
+        0.039000000804662704
+      ],
+      "linear_rgb_mean": [
+        0.2799999713897705,
+        0.2549998462200165,
+        0.039000023156404495
+      ]
+    },
+    {
+      "object": "Hero front bite | rear blossom | anther 00",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | rear blossom | anther 01",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | rear blossom | anther 02",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | rear blossom | anther 03",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Hero front bite | magenta bud stem 0",
+      "color_domain": "POINT",
+      "colors": 24,
+      "linear_rgb_min": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_max": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_mean": [
+        0.14000003039836884,
+        0.0139999995008111,
+        0.011000003665685654
+      ]
+    },
+    {
+      "object": "Hero front bite | small magenta bud 0",
+      "color_domain": "POINT",
+      "colors": 211,
+      "linear_rgb_min": [
+        0.4499998986721039,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_max": [
+        0.44999998807907104,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_mean": [
+        0.4499993622303009,
+        0.008000009693205357,
+        0.125
+      ]
+    },
+    {
+      "object": "Hero front bite | pointed burgundy leaf 0",
+      "color_domain": "POINT",
+      "colors": 189,
+      "linear_rgb_min": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_max": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_mean": [
+        0.10499973595142365,
+        0.004000004380941391,
+        0.008999978192150593
+      ]
+    },
+    {
+      "object": "Hero front bite | magenta bud stem 1",
+      "color_domain": "POINT",
+      "colors": 24,
+      "linear_rgb_min": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_max": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_mean": [
+        0.14000003039836884,
+        0.0139999995008111,
+        0.011000003665685654
+      ]
+    },
+    {
+      "object": "Hero front bite | small magenta bud 1",
+      "color_domain": "POINT",
+      "colors": 211,
+      "linear_rgb_min": [
+        0.4499998986721039,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_max": [
+        0.44999998807907104,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_mean": [
+        0.4499993622303009,
+        0.008000009693205357,
+        0.125
+      ]
+    },
+    {
+      "object": "Hero front bite | pointed burgundy leaf 1",
+      "color_domain": "POINT",
+      "colors": 189,
+      "linear_rgb_min": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_max": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_mean": [
+        0.10499973595142365,
+        0.004000004380941391,
+        0.008999978192150593
+      ]
+    },
+    {
+      "object": "Hero front bite | pointed burgundy leaf 2",
+      "color_domain": "POINT",
+      "colors": 189,
+      "linear_rgb_min": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_max": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_mean": [
+        0.10499973595142365,
+        0.004000004380941391,
+        0.008999978192150593
+      ]
+    },
+    {
+      "object": "Rear bite | irregular baked body",
+      "color_domain": "POINT",
+      "colors": 68642,
+      "linear_rgb_min": [
+        0.11999999731779099,
+        0.03200000151991844,
+        0.0019813706167042255
+      ],
+      "linear_rgb_max": [
+        0.7466537356376648,
+        0.3663920760154724,
+        0.07239079475402832
+      ],
+      "linear_rgb_mean": [
+        0.4072968065738678,
+        0.17547352612018585,
+        0.01713263988494873
+      ]
+    },
+    {
+      "object": "Rear bite | shallow baked crust flakes",
+      "color_domain": "POINT",
+      "colors": 73674,
+      "linear_rgb_min": [
+        0.1417967677116394,
+        0.044544290751218796,
+        0.0024098544381558895
+      ],
+      "linear_rgb_max": [
+        0.7464425563812256,
+        0.3671134412288666,
+        0.07311684638261795
+      ],
+      "linear_rgb_mean": [
+        0.410279780626297,
+        0.17682723701000214,
+        0.017228320240974426
+      ]
+    },
+    {
+      "object": "Rear bite | green shoulder dust",
+      "color_domain": "POINT",
+      "colors": 82596,
+      "linear_rgb_min": [
+        0.05999999865889549,
+        0.125,
+        0.004999999888241291
+      ],
+      "linear_rgb_max": [
+        0.2900000214576721,
+        0.35499998927116394,
+        0.03799999877810478
+      ],
+      "linear_rgb_mean": [
+        0.14335089921951294,
+        0.23293235898017883,
+        0.01863778382539749
+      ]
+    },
+    {
+      "object": "Rear bite | irregular amber filling",
+      "color_domain": "POINT",
+      "colors": 4322,
+      "linear_rgb_min": [
+        0.1924859583377838,
+        0.039886053651571274,
+        0.005770822986960411
+      ],
+      "linear_rgb_max": [
+        0.5612071752548218,
+        0.21454261243343353,
+        0.03333291783928871
+      ],
+      "linear_rgb_mean": [
+        0.3983205556869507,
+        0.12337454408407211,
+        0.019818222150206566
+      ]
+    },
+    {
+      "object": "Rear bite | porous ivory slice",
+      "color_domain": "POINT",
+      "colors": 12386,
+      "linear_rgb_min": [
+        0.4670488238334656,
+        0.3828292787075043,
+        0.23173172771930695
+      ],
+      "linear_rgb_max": [
+        0.7065384387969971,
+        0.609879732131958,
+        0.4298797845840454
+      ],
+      "linear_rgb_mean": [
+        0.6027700901031494,
+        0.512326717376709,
+        0.33540400862693787
+      ]
+    },
+    {
+      "object": "Rear bite | dark leaf wrapper",
+      "color_domain": "POINT",
+      "colors": 5120,
+      "linear_rgb_min": [
+        0.002706610132008791,
+        0.004628784488886595,
+        0.0004275479877833277
+      ],
+      "linear_rgb_max": [
+        0.01334194466471672,
+        0.020234420895576477,
+        0.0016898936592042446
+      ],
+      "linear_rgb_mean": [
+        0.0058568608947098255,
+        0.009581118822097778,
+        0.0008146562613546848
+      ]
+    },
+    {
+      "object": "Rear bite | individually deformed packed roe",
+      "color_domain": "POINT",
+      "colors": 129930,
+      "linear_rgb_min": [
+        0.005999998655170202,
+        0.0044999998062849045,
+        0.002999999327585101
+      ],
+      "linear_rgb_max": [
+        0.022000009194016457,
+        0.014000000432133675,
+        0.007000000216066837
+      ],
+      "linear_rgb_mean": [
+        0.011187172494828701,
+        0.008022808469831944,
+        0.00452576344832778
+      ]
+    },
+    {
+      "object": "Rear bite | sparse moisture at roe contacts",
+      "color_domain": "POINT",
+      "colors": 1848,
+      "linear_rgb_min": [
+        0.006000000052154064,
+        0.004000000189989805,
+        0.0020000000949949026
+      ],
+      "linear_rgb_max": [
+        0.006000000052154064,
+        0.004000000189989805,
+        0.0020000000949949026
+      ],
+      "linear_rgb_mean": [
+        0.005999904591590166,
+        0.004000065848231316,
+        0.002000032924115658
+      ]
+    },
+    {
+      "object": "Rear bite | foreground blossom | four imperfect ivory petals",
+      "color_domain": "POINT",
+      "colors": 2280,
+      "linear_rgb_min": [
+        0.8999999761581421,
+        0.8700000047683716,
+        0.7699999809265137
+      ],
+      "linear_rgb_max": [
+        0.8999999761581421,
+        0.8700000643730164,
+        0.7699999809265137
+      ],
+      "linear_rgb_mean": [
+        0.9000170230865479,
+        0.8699955344200134,
+        0.7700124382972717
+      ]
+    },
+    {
+      "object": "Rear bite | foreground blossom | yellow-green heart",
+      "color_domain": "POINT",
+      "colors": 146,
+      "linear_rgb_min": [
+        0.2800000011920929,
+        0.2549999952316284,
+        0.038999997079372406
+      ],
+      "linear_rgb_max": [
+        0.2800000011920929,
+        0.2550000548362732,
+        0.039000000804662704
+      ],
+      "linear_rgb_mean": [
+        0.2799999713897705,
+        0.2549998462200165,
+        0.039000023156404495
+      ]
+    },
+    {
+      "object": "Rear bite | foreground blossom | anther 00",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | foreground blossom | anther 01",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | foreground blossom | anther 02",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | foreground blossom | anther 03",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | rear blossom | four imperfect ivory petals",
+      "color_domain": "POINT",
+      "colors": 2280,
+      "linear_rgb_min": [
+        0.8999999761581421,
+        0.8700000047683716,
+        0.7699999809265137
+      ],
+      "linear_rgb_max": [
+        0.8999999761581421,
+        0.8700000643730164,
+        0.7699999809265137
+      ],
+      "linear_rgb_mean": [
+        0.9000170230865479,
+        0.8699955344200134,
+        0.7700124382972717
+      ]
+    },
+    {
+      "object": "Rear bite | rear blossom | yellow-green heart",
+      "color_domain": "POINT",
+      "colors": 146,
+      "linear_rgb_min": [
+        0.2800000011920929,
+        0.2549999952316284,
+        0.038999997079372406
+      ],
+      "linear_rgb_max": [
+        0.2800000011920929,
+        0.2550000548362732,
+        0.039000000804662704
+      ],
+      "linear_rgb_mean": [
+        0.2799999713897705,
+        0.2549998462200165,
+        0.039000023156404495
+      ]
+    },
+    {
+      "object": "Rear bite | rear blossom | anther 00",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | rear blossom | anther 01",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | rear blossom | anther 02",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | rear blossom | anther 03",
+      "color_domain": "POINT",
+      "colors": 18,
+      "linear_rgb_min": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_max": [
+        0.06499999761581421,
+        0.04899999871850014,
+        0.00800000037997961
+      ],
+      "linear_rgb_mean": [
+        0.0650000050663948,
+        0.04900000989437103,
+        0.00800000037997961
+      ]
+    },
+    {
+      "object": "Rear bite | magenta bud stem 0",
+      "color_domain": "POINT",
+      "colors": 24,
+      "linear_rgb_min": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_max": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_mean": [
+        0.14000003039836884,
+        0.0139999995008111,
+        0.011000003665685654
+      ]
+    },
+    {
+      "object": "Rear bite | small magenta bud 0",
+      "color_domain": "POINT",
+      "colors": 211,
+      "linear_rgb_min": [
+        0.4499998986721039,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_max": [
+        0.44999998807907104,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_mean": [
+        0.4499993622303009,
+        0.008000009693205357,
+        0.125
+      ]
+    },
+    {
+      "object": "Rear bite | pointed burgundy leaf 0",
+      "color_domain": "POINT",
+      "colors": 189,
+      "linear_rgb_min": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_max": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_mean": [
+        0.10499973595142365,
+        0.004000004380941391,
+        0.008999978192150593
+      ]
+    },
+    {
+      "object": "Rear bite | magenta bud stem 1",
+      "color_domain": "POINT",
+      "colors": 24,
+      "linear_rgb_min": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_max": [
+        0.14000000059604645,
+        0.014000000432133675,
+        0.010999999940395355
+      ],
+      "linear_rgb_mean": [
+        0.14000003039836884,
+        0.0139999995008111,
+        0.011000003665685654
+      ]
+    },
+    {
+      "object": "Rear bite | small magenta bud 1",
+      "color_domain": "POINT",
+      "colors": 211,
+      "linear_rgb_min": [
+        0.4499998986721039,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_max": [
+        0.44999998807907104,
+        0.00800000037997961,
+        0.125
+      ],
+      "linear_rgb_mean": [
+        0.4499993622303009,
+        0.008000009693205357,
+        0.125
+      ]
+    },
+    {
+      "object": "Rear bite | pointed burgundy leaf 1",
+      "color_domain": "POINT",
+      "colors": 189,
+      "linear_rgb_min": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_max": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_mean": [
+        0.10499973595142365,
+        0.004000004380941391,
+        0.008999978192150593
+      ]
+    },
+    {
+      "object": "Rear bite | pointed burgundy leaf 2",
+      "color_domain": "POINT",
+      "colors": 189,
+      "linear_rgb_min": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_max": [
+        0.10499999672174454,
+        0.004000000189989805,
+        0.008999999612569809
+      ],
+      "linear_rgb_mean": [
+        0.10499973595142365,
+        0.004000004380941391,
+        0.008999978192150593
+      ]
+    },
+    {
+      "object": "Support | graphite slate photographic tabletop",
+      "color_domain": "POINT",
+      "colors": 338125,
+      "linear_rgb_min": [
+        0.02710595726966858,
+        0.029105957597494125,
+        0.0327804759144783
+      ],
+      "linear_rgb_max": [
+        0.06430787593126297,
+        0.0676870048046112,
+        0.07268700748682022
+      ],
+      "linear_rgb_mean": [
+        0.04457173869013786,
+        0.04669547080993652,
+        0.051535386592149734
+      ]
+    },
+    {
+      "object": "Support | handmade porcelain bowl",
+      "color_domain": "POINT",
+      "colors": 38720,
+      "linear_rgb_min": [
+        0.7099999785423279,
+        0.6899999976158142,
+        0.6499999761581421
+      ],
+      "linear_rgb_max": [
+        0.7099999785423279,
+        0.6899999976158142,
+        0.6499999761581421
+      ],
+      "linear_rgb_mean": [
+        0.7103572487831116,
+        0.6899044513702393,
+        0.6502410173416138
+      ]
+    },
+    {
+      "object": "Support | moss bed shadow substrate",
+      "color_domain": "POINT",
+      "colors": 13441,
+      "linear_rgb_min": [
+        0.006000000052154064,
+        0.021999981254339218,
+        0.0010000000474974513
+      ],
+      "linear_rgb_max": [
+        0.006000008899718523,
+        0.02199999988079071,
+        0.0010000013280659914
+      ],
+      "linear_rgb_mean": [
+        0.0059995888732373714,
+        0.022002387791872025,
+        0.001000134041532874
+      ]
+    },
+    {
+      "object": "Support | individual curled moss shoots and leaflets",
+      "color_domain": "POINT",
+      "colors": 1283662,
+      "linear_rgb_min": [
+        0.0029316297732293606,
+        0.012310275807976723,
+        0.00011421374802011997
+      ],
+      "linear_rgb_max": [
+        0.09038562327623367,
+        0.21089980006217957,
+        0.005171317607164383
+      ],
+      "linear_rgb_mean": [
+        0.022333266213536263,
+        0.06720714271068573,
+        0.0011359280906617641
+      ]
+    },
+    {
+      "object": "Support | irregular fallen branch bark",
+      "color_domain": "POINT",
+      "colors": 25376,
+      "linear_rgb_min": [
+        0.01097070425748825,
+        0.004603707697242498,
+        0.0014202093007043004
+      ],
+      "linear_rgb_max": [
+        0.059864141047000885,
+        0.028503865003585815,
+        0.00850128848105669
+      ],
+      "linear_rgb_mean": [
+        0.032988544553518295,
+        0.01394982822239399,
+        0.0037346051540225744
+      ]
+    },
+    {
+      "object": "Support | exposed warm cut end and fine growth rings",
+      "color_domain": "POINT",
+      "colors": 5825,
+      "linear_rgb_min": [
+        0.07500000298023224,
+        0.02800000086426735,
+        0.012000000104308128
+      ],
+      "linear_rgb_max": [
+        0.09200000017881393,
+        0.03700000047683716,
+        0.01600000075995922
+      ],
+      "linear_rgb_mean": [
+        0.08099667727947235,
+        0.03117469698190689,
+        0.013411000370979309
+      ]
+    },
+    {
+      "object": "Support | overlapping mustard yellow lichen flakes",
+      "color_domain": "POINT",
+      "colors": 66720,
+      "linear_rgb_min": [
+        0.14686405658721924,
+        0.13913437724113464,
+        0.003091874998062849
+      ],
+      "linear_rgb_max": [
+        0.4571494162082672,
+        0.33070385456085205,
+        0.016535192728042603
+      ],
+      "linear_rgb_mean": [
+        0.32128775119781494,
+        0.2419237196445465,
+        0.008702952414751053
+      ]
+    }
+  ],
+  "images": 0,
+  "materials_count": 37,
+  "extensions_used": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_clearcoat",
+    "KHR_materials_transmission",
+    "KHR_materials_ior"
+  ],
+  "extensions_required": [
+    "KHR_draco_mesh_compression"
+  ],
+  "draco": {
+    "compression_level": 6,
+    "position_bits": 20,
+    "normal_bits": 14,
+    "color_bits": 12
+  },
+  "omitted_non_mesh_photography_helpers": [
+    {
+      "name": "KEY | upper left softbox",
+      "type": "LIGHT"
+    },
+    {
+      "name": "FILL | restrained neutral card",
+      "type": "LIGHT"
+    },
+    {
+      "name": "CAM_Food_Hero",
+      "type": "CAMERA"
+    },
+    {
+      "name": "FOCUS | front caviar and cream",
+      "type": "EMPTY"
+    }
+  ],
+  "viewer": {
+    "requires": "Three.js GLTFLoader with DRACOLoader",
+    "units": "meters",
+    "up": "Y",
+    "focus_gltf_xyz": [
+      0,
+      0.043,
+      0
+    ],
+    "plate_diameter_m": 0.17,
+    "slate_node": "Support | graphite slate photographic tabletop",
+    "source_to_gltf": "(x,y,z) -> (x,z,-y)"
+  },
+  "material_limitations": [
+    "Base color variation is evaluated by Cycles and baked per source vertex; no photograph is used as a texture.",
+    "Representative per-material roughness preserves distinct dry crust, wet roe, moss, bark and ceramic finishes; high-frequency procedural roughness is not transferred.",
+    "All actual blister, grain, pore, moss leaf, bark and plate geometry is retained. Shader-only microscopic bump is omitted.",
+    "glTF IOR, transmission and clearcoat extensions are retained where used. Cycles subsurface scattering is omitted in this web approximation.",
+    "Web appearance depends on viewer lighting and environment; the photographic source lighting is intentionally excluded."
+  ],
+  "seconds": 167.5861940383911,
+  "reimport_validation": {
+    "status": "passed",
+    "imported_entry": "food_web.gltf",
+    "objects": 61,
+    "triangles": 3688277,
+    "materials": 37,
+    "baked_color_objects": 61,
+    "bounds_blender_Z_up_m": {
+      "min": [
+        -0.699999988079071,
+        -0.699999988079071,
+        -0.0013360780430957675
+      ],
+      "max": [
+        0.6999998688697815,
+        0.7950000166893005,
+        0.0915340930223465
+      ]
+    },
+    "maximum_bounds_difference_m": 1.1920928955078125e-07,
+    "source_unchanged": true,
+    "seconds": 6.8388049602508545,
+    "objects_color_audit": [
+      {
+        "name": "Hero front bite | dark leaf wrapper",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.002428215928375721,
+          0.004024717025458813,
+          0.0003035269910469651
+        ],
+        "rgb_max": [
+          0.013702080585062504,
+          0.021219009533524513,
+          0.0018211620626971126
+        ]
+      },
+      {
+        "name": "Hero front bite | foreground blossom | anther 00",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | foreground blossom | anther 01",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | foreground blossom | anther 02",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | foreground blossom | anther 03",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | foreground blossom | four imperfect ivory petals",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ],
+        "rgb_max": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ]
+      },
+      {
+        "name": "Hero front bite | foreground blossom | yellow-green heart",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ],
+        "rgb_max": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ]
+      },
+      {
+        "name": "Hero front bite | green shoulder dust",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.05951124057173729,
+          0.1247718408703804,
+          0.00518151605501771
+        ],
+        "rgb_max": [
+          0.29177069664001465,
+          0.35640016198158264,
+          0.038204375654459
+        ]
+      },
+      {
+        "name": "Hero front bite | individually deformed packed roe",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.006048832554370165,
+          0.0043914420530200005,
+          0.0030352699104696512
+        ],
+        "rgb_max": [
+          0.022173883393406868,
+          0.013702080585062504,
+          0.006995410192757845
+        ]
+      },
+      {
+        "name": "Hero front bite | irregular amber filling",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.22696588933467865,
+          0.05286065489053726,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.5332764983177185,
+          0.19806934893131256,
+          0.03071345016360283
+        ]
+      },
+      {
+        "name": "Hero front bite | irregular baked body",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.11953844875097275,
+          0.031896039843559265,
+          0.0030352699104696512
+        ],
+        "rgb_max": [
+          0.7529424428939819,
+          0.37123778462409973,
+          0.07421357929706573
+        ]
+      },
+      {
+        "name": "Hero front bite | magenta bud stem 0",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ],
+        "rgb_max": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ]
+      },
+      {
+        "name": "Hero front bite | magenta bud stem 1",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ],
+        "rgb_max": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ]
+      },
+      {
+        "name": "Hero front bite | pointed burgundy leaf 0",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ],
+        "rgb_max": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ]
+      },
+      {
+        "name": "Hero front bite | pointed burgundy leaf 1",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ],
+        "rgb_max": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ]
+      },
+      {
+        "name": "Hero front bite | pointed burgundy leaf 2",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ],
+        "rgb_max": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ]
+      },
+      {
+        "name": "Hero front bite | porous ivory slice",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.4620770514011383,
+          0.37626221776008606,
+          0.22696588933467865
+        ],
+        "rgb_max": [
+          0.7083759307861328,
+          0.6104957461357117,
+          0.4286905527114868
+        ]
+      },
+      {
+        "name": "Hero front bite | rear blossom | anther 00",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | rear blossom | anther 01",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | rear blossom | anther 02",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | rear blossom | anther 03",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Hero front bite | rear blossom | four imperfect ivory petals",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ],
+        "rgb_max": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ]
+      },
+      {
+        "name": "Hero front bite | rear blossom | yellow-green heart",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ],
+        "rgb_max": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ]
+      },
+      {
+        "name": "Hero front bite | shallow baked crust flakes",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.13286836445331573,
+          0.054480280727148056,
+          0.0030352699104696512
+        ],
+        "rgb_max": [
+          0.7454044818878174,
+          0.366252601146698,
+          0.07421357929706573
+        ]
+      },
+      {
+        "name": "Hero front bite | small magenta bud 0",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ],
+        "rgb_max": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ]
+      },
+      {
+        "name": "Hero front bite | small magenta bud 1",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ],
+        "rgb_max": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ]
+      },
+      {
+        "name": "Hero front bite | sparse moisture at roe contacts",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.006048832554370165,
+          0.004024717025458813,
+          0.0021246890537440777
+        ],
+        "rgb_max": [
+          0.006048832554370165,
+          0.004024717025458813,
+          0.0021246890537440777
+        ]
+      },
+      {
+        "name": "Rear bite | dark leaf wrapper",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.002731743035838008,
+          0.004776953253895044,
+          0.0003035269910469651
+        ],
+        "rgb_max": [
+          0.012983030639588833,
+          0.020288558676838875,
+          0.0018211620626971126
+        ]
+      },
+      {
+        "name": "Rear bite | foreground blossom | anther 00",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | foreground blossom | anther 01",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | foreground blossom | anther 02",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | foreground blossom | anther 03",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | foreground blossom | four imperfect ivory petals",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ],
+        "rgb_max": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ]
+      },
+      {
+        "name": "Rear bite | foreground blossom | yellow-green heart",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ],
+        "rgb_max": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ]
+      },
+      {
+        "name": "Rear bite | green shoulder dust",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.05951124057173729,
+          0.1247718408703804,
+          0.00518151605501771
+        ],
+        "rgb_max": [
+          0.29177069664001465,
+          0.35640016198158264,
+          0.038204375654459
+        ]
+      },
+      {
+        "name": "Rear bite | individually deformed packed roe",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.006048832554370165,
+          0.0043914420530200005,
+          0.0030352699104696512
+        ],
+        "rgb_max": [
+          0.022173883393406868,
+          0.013702080585062504,
+          0.006995410192757845
+        ]
+      },
+      {
+        "name": "Rear bite | irregular amber filling",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.19120171666145325,
+          0.039546236395835876,
+          0.005605391692370176
+        ],
+        "rgb_max": [
+          0.5583406090736389,
+          0.2158605307340622,
+          0.03310477361083031
+        ]
+      },
+      {
+        "name": "Rear bite | irregular baked body",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.11953844875097275,
+          0.031896039843559265,
+          0.0021246890537440777
+        ],
+        "rgb_max": [
+          0.7454044818878174,
+          0.366252601146698,
+          0.07227186113595963
+        ]
+      },
+      {
+        "name": "Rear bite | magenta bud stem 0",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ],
+        "rgb_max": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ]
+      },
+      {
+        "name": "Rear bite | magenta bud stem 1",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ],
+        "rgb_max": [
+          0.14126332104206085,
+          0.013702080585062504,
+          0.010960093699395657
+        ]
+      },
+      {
+        "name": "Rear bite | pointed burgundy leaf 0",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ],
+        "rgb_max": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ]
+      },
+      {
+        "name": "Rear bite | pointed burgundy leaf 1",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ],
+        "rgb_max": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ]
+      },
+      {
+        "name": "Rear bite | pointed burgundy leaf 2",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ],
+        "rgb_max": [
+          0.10461649298667908,
+          0.004024717025458813,
+          0.009134056977927685
+        ]
+      },
+      {
+        "name": "Rear bite | porous ivory slice",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.4677838385105133,
+          0.3813261091709137,
+          0.23074007034301758
+        ],
+        "rgb_max": [
+          0.7083759307861328,
+          0.6104957461357117,
+          0.4286905527114868
+        ]
+      },
+      {
+        "name": "Rear bite | rear blossom | anther 00",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | rear blossom | anther 01",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | rear blossom | anther 02",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | rear blossom | anther 03",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.04970657452940941,
+          0.008023192174732685
+        ]
+      },
+      {
+        "name": "Rear bite | rear blossom | four imperfect ivory petals",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ],
+        "rgb_max": [
+          0.8962695598602295,
+          0.871367335319519,
+          0.7681514024734497
+        ]
+      },
+      {
+        "name": "Rear bite | rear blossom | yellow-green heart",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ],
+        "rgb_max": [
+          0.2788943350315094,
+          0.25415217876434326,
+          0.039546236395835876
+        ]
+      },
+      {
+        "name": "Rear bite | shallow baked crust flakes",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.14126332104206085,
+          0.04518621414899826,
+          0.002428215928375721
+        ],
+        "rgb_max": [
+          0.7454044818878174,
+          0.366252601146698,
+          0.07227186113595963
+        ]
+      },
+      {
+        "name": "Rear bite | small magenta bud 0",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ],
+        "rgb_max": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ]
+      },
+      {
+        "name": "Rear bite | small magenta bud 1",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ],
+        "rgb_max": [
+          0.4507858455181122,
+          0.008023192174732685,
+          0.1247718408703804
+        ]
+      },
+      {
+        "name": "Rear bite | sparse moisture at roe contacts",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.006048832554370165,
+          0.004024717025458813,
+          0.0021246890537440777
+        ],
+        "rgb_max": [
+          0.006048832554370165,
+          0.004024717025458813,
+          0.0021246890537440777
+        ]
+      },
+      {
+        "name": "Support | exposed warm cut end and fine growth rings",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.07421357929706573,
+          0.0284260381013155,
+          0.01228648703545332
+        ],
+        "rgb_max": [
+          0.0930589810013771,
+          0.0368894524872303,
+          0.015996292233467102
+        ]
+      },
+      {
+        "name": "Support | graphite slate photographic tabletop",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.02732088789343834,
+          0.029556842520833015,
+          0.03310477361083031
+        ],
+        "rgb_max": [
+          0.06480327993631363,
+          0.06847818195819855,
+          0.07227186113595963
+        ]
+      },
+      {
+        "name": "Support | handmade porcelain bowl",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.7083759307861328,
+          0.6866854429244995,
+          0.6514058113098145
+        ],
+        "rgb_max": [
+          0.7083759307861328,
+          0.6866854429244995,
+          0.6514058113098145
+        ]
+      },
+      {
+        "name": "Support | individual curled moss shoots and leaflets",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.0030352699104696512,
+          0.01228648703545332,
+          0.0
+        ],
+        "rgb_max": [
+          0.09084171056747437,
+          0.21223078668117523,
+          0.00518151605501771
+        ]
+      },
+      {
+        "name": "Support | irregular fallen branch bark",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.010960093699395657,
+          0.004776953253895044,
+          0.0015176349552348256
+        ],
+        "rgb_max": [
+          0.05951124057173729,
+          0.0284260381013155,
+          0.00856812484562397
+        ]
+      },
+      {
+        "name": "Support | moss bed shadow substrate",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.006048832554370165,
+          0.022173883393406868,
+          0.0009105810313485563
+        ],
+        "rgb_max": [
+          0.006048832554370165,
+          0.022173883393406868,
+          0.0009105810313485563
+        ]
+      },
+      {
+        "name": "Support | overlapping mustard yellow lichen flakes",
+        "color_attribute": "Color",
+        "domain": "CORNER",
+        "rgb_min": [
+          0.14702729880809784,
+          0.13843165338039398,
+          0.0030352699104696512
+        ],
+        "rgb_max": [
+          0.45641109347343445,
+          0.33245158195495605,
+          0.016807375475764275
+        ]
+      }
+    ]
+  },
+  "split_package": {
+    "entry": "food_web.gltf",
+    "reason": "Original GLB is larger than the 25 MiB static-hosting per-file limit; these files contain identical compressed geometry and attributes.",
+    "geometry_changed": false,
+    "files": [
+      {
+        "name": "food_web.gltf",
+        "bytes": 82423,
+        "sha256": "a2eac7b50706e4d7fb3b6fbed5c64940e865af91585d0efd94dca05440e8976f"
+      },
+      {
+        "name": "food_web_01.bin",
+        "bytes": 10840199,
+        "sha256": "a47cb27234009d63dfcd08fcfc0033c1ae7ac6d8af7ea5fcc03921773a742ee1"
+      },
+      {
+        "name": "food_web_02.bin",
+        "bytes": 10362608,
+        "sha256": "62c2fb03b8bbc4300cecca5a88e77a951853ab605a84a31b04d62f323c8314ea"
+      },
+      {
+        "name": "food_web_03.bin",
+        "bytes": 6774111,
+        "sha256": "af1d69b5d7075896393db8611919e9afadfdf5c251ac60e33ad9355806efbd45"
+      }
+    ],
+    "total_bytes": 28059341,
+    "maximum_file_bytes": 10840199
+  }
+}
