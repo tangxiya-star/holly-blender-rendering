@@ -10,5 +10,18 @@
     850,
     660
   ],
-  "exact_image_download_status": "Blocked HTML returned by source instead of image; not visually verified. Google metadata and published caption verify entrance subject."
+  "exact_image_download_status": "Blocked HTML returned by source instead of image; not visually verified. Google metadata and published caption verify entrance subject.",
+  "accessible_same_photographer_reference": {
+    "file": "new_user_reference_soren_lex_wide.jpg",
+    "url": "https://media.lex.dk/media/186530/standard_alchemist_door_wide_2_photo_by_Soeren_Gammelmark_gammelmarkphoto-small.jpg",
+    "page": "https://lex.dk/Restaurant_Alchemist",
+    "photographer": "S\u00f8ren Gammelmark",
+    "size": [
+      800,
+      534
+    ],
+    "license_metadata_on_page": "https://creativecommons.org/licenses/by/2.0/deed.da",
+    "identity_note": "Same photographer, entrance subject, wide_2 file. Exact equality with blocked ResearchGate Figure 3 cannot be verified.",
+    "visual_inspection": "Wide dark environmental photograph. Door occupies approximately quarter width within industrial brick bay, concrete lintel and right vertical structural member. Grazing light produces relief shadows while most door stays dark charcoal; no shiny gold effect. Two curved black planters flank raised speckled landing and floating slab step. Uneven light and shadow reveal authentic brick."
+  }
 }

@@ -51,3 +51,6 @@ city-scene/aerial/data/*.json
 
 # Failed reference-download response pages are local diagnostics.
 *.blocked.html
+
+# Keep the small entrance reference with its source provenance.
+!restaurant/references/door_refine06/new_user_reference_soren_lex_wide.jpg
