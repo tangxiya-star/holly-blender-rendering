@@ -4,7 +4,7 @@ Alchemist 餐厅场景、菜品建模与渲染，以及菜品交互网页预览�
 
 **[下载全部成果 · v2026.09.08](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08)**
 
-仓库为私有；浏览与下载 Release 均需要具有仓库访问权限的 GitHub 账号。
+仓库已公开，任何人都可以浏览源码并从 Release 页面下载完整资产，无需邀请或访问授权。
 
 ## 最终预览
 
@@ -29,7 +29,7 @@ Alchemist 餐厅场景、菜品建模与渲染，以及菜品交互网页预览�
 
 ## 恢复全部成果
 
-安装 GitHub CLI 和 Python 3，使用有仓库访问权限的账号登录，然后运行：
+安装 GitHub CLI 和 Python 3，然后运行以下命令。命令行流程使用 GitHub CLI 登录；直接从 Release 网页下载附件无需登录。
 
 ```sh
 gh auth login
