@@ -1,0 +1,16 @@
+{
+  "label": "08",
+  "resolution": [
+    1000,
+    1250
+  ],
+  "samples": 512,
+  "device": "GPU",
+  "seconds": 60.27528786659241,
+  "objects": 60,
+  "world_source": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/textures/restaurant_environment.exr",
+  "world_luminance_mean": 0.03625798945020178,
+  "world_strength": 0.11999999731779099,
+  "camera_lens_mm": 95.0,
+  "aperture_fstop": 20.0
+}

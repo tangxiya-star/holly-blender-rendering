@@ -54,3 +54,5 @@ city-scene/aerial/data/*.json
 
 # Keep the small entrance reference with its source provenance.
 !restaurant/references/door_refine06/new_user_reference_soren_lex_wide.jpg
+
+!cocktail/renders/cocktail_08.png

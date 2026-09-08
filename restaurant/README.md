@@ -12,7 +12,7 @@ From the repository root, run:
 python3 tools/restore_assets.py --archives restaurant-assets.zip
 ```
 
-The restore tool automatically includes **`restaurant-refinements.zip`**, which extends the original restaurant archive on [Release v2026.09.08-local-sync](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-local-sync). Together, the archives restore the original checkpoints, latest 06a/06b/06c scenes, completed renders, textures, references, and baseline web model into `restaurant/`. The manifest pins each archive to its own release and verifies its files. See the [root README](../README.md) for installation and manual download instructions.
+The restore tool automatically includes **`restaurant-refinements.zip`** and its extension **`restaurant-reference-updates.zip`**. The latest extension is on [Release v2026.09.08-workspace-snapshot](https://github.com/tangxiya-star/holly-blender-rendering/releases/tag/v2026.09.08-workspace-snapshot); the manifest retains the earlier releases for the original and 06-series archives. Together, they restore the original checkpoints, latest saved 06a/06b/06c scenes, completed renders, textures, references, and baseline web model into `restaurant/`, plus the unbuilt 07 relief experiment described below. The restore tool verifies each archive and its files. See the [root README](../README.md) for installation and manual download instructions.
 
 | File | Recorded stage |
 | --- | --- |
@@ -42,9 +42,17 @@ Pass 06c uses actual sculpted geometry for the large roots, bark plates, cavitie
 
 The entrance references and credits are preserved in [door provenance](references/door_refine06/provenance.json) and [modeling observations](references/door_refine06/modeling_observations.md), including the supplied Eatweek Guide image and Dinesen/CHART references. These photographs guide reconstruction; they are not foreground cards or projected door materials. The original project credits remain in [reference_sources.md](references/reference_sources.md).
 
+## Unbuilt 07 relief experiment
+
+The final workspace snapshot also contains `scripts/refine07_relief.py`, `textures/door_relief07_height.png`, and `textures/door_relief07_height_prompt.txt`. **There is no saved 07 restaurant scene, render, or validation result in this delivery.** The latest completed scene remains 06c; the 07 height map has not been integrated into that file.
+
+The module exposes `build_relief(height_path, materials, scene, ...)` for a future two-leaf bronze bas-relief and does no work when imported. Its 994 × 1582 scalar height image is a generated interpretation of the supplied entrance photograph, not measured depth or a scan. The proposed geometry can create parallax and shadows, but a single-valued height map cannot recover hidden surfaces or undercuts. No 07 rebuild or validation is represented as completed.
+
+[New reference provenance](references/door_refine06/new_user_reference_provenance.json) records the later reference request. The exact ResearchGate image download returned blocked HTML; the separately retained Lex photograph by Søren Gammelmark is identified as an accessible reference, without claiming that it is the same image. Source links and credits remain in that provenance record.
+
 ## Rebuild the latest refinement
 
-Restore both restaurant archives first. The recorded build used Blender 5.2.1 LTS, and the refinement driver explicitly selects Cycles with a Metal GPU. Use a separate working copy if you want to keep the delivered scenes, renders, build reports, and source snapshots unchanged.
+Restore the restaurant archives first. The recorded build used Blender 5.2.1 LTS, and the refinement driver explicitly selects Cycles with a Metal GPU. Use a separate working copy if you want to keep the delivered scenes, renders, build reports, and source snapshots unchanged.
 
 From the repository root, with `blender` available on the command line:
 
