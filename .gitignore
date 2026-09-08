@@ -48,3 +48,6 @@ city-scene/aerial/data/*.json
 *.mov
 *.avi
 *.mkv
+
+# Failed reference-download response pages are local diagnostics.
+*.blocked.html
