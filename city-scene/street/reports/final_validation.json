@@ -1,0 +1,128 @@
+{
+  "scene": "Copenhagen | Lille N\u00f8rregade",
+  "file": "/Users/touyuumiyabi/Desktop/open ai hackathon/copenhagen/copenhagen_final.blend",
+  "engine": "CYCLES",
+  "metric_scale": 1.0,
+  "buildings": 86,
+  "scene_objects": 2778,
+  "mesh_objects": 2355,
+  "mesh_faces": 999661,
+  "materials": 174,
+  "bicycle_instances": 26,
+  "cameras": [
+    {
+      "name": "01 | Human eye street",
+      "lens_mm": 32.0,
+      "position": [
+        -6.699999809265137,
+        -19.0,
+        1.8799999952316284
+      ]
+    },
+    {
+      "name": "02 | Walking perspective",
+      "lens_mm": 32.0,
+      "position": [
+        -6.599999904632568,
+        18.0,
+        1.8799999952316284
+      ]
+    },
+    {
+      "name": "03 | Establishing",
+      "lens_mm": 32.0,
+      "position": [
+        3.0,
+        -12.0,
+        19.0
+      ]
+    },
+    {
+      "name": "04 | Bakery approach",
+      "lens_mm": 32.0,
+      "position": [
+        -4.199999809265137,
+        13.0,
+        1.7699999809265137
+      ]
+    },
+    {
+      "name": "05 | Cross street",
+      "lens_mm": 32.0,
+      "position": [
+        -35.0,
+        50.29999923706055,
+        1.8799999952316284
+      ]
+    },
+    {
+      "name": "06 | Walkthrough",
+      "lens_mm": 32.0,
+      "position": [
+        -6.599999904632568,
+        -25.0,
+        1.8799999952316284
+      ]
+    },
+    {
+      "name": "07 | Driving perspective",
+      "lens_mm": 35.0,
+      "position": [
+        1.350000023841858,
+        -57.0,
+        1.25
+      ]
+    }
+  ],
+  "walk_route_building_collisions": [],
+  "missing_external_images": [],
+  "packed_images": [
+    "asphalt_02_diff_2k.jpg",
+    "asphalt_02_nor_gl_2k.jpg",
+    "asphalt_02_rough_2k.jpg",
+    "overcast_soil_puresky_2k.hdr"
+  ],
+  "poi_targets": [
+    {
+      "name": "POI_Bakery",
+      "position": [
+        -8.90000057220459,
+        21.5194091796875,
+        0.33000001311302185
+      ],
+      "destination": "future_bakery_interior"
+    },
+    {
+      "name": "POI_Courtyard",
+      "position": [
+        8.90000057220459,
+        33.710784912109375,
+        0.33000001311302185
+      ],
+      "destination": "future_courtyard"
+    },
+    {
+      "name": "POI_Gallery",
+      "position": [
+        -32.719970703125,
+        57.400001525878906,
+        0.33000001311302185
+      ],
+      "destination": "future_gallery_interior"
+    }
+  ],
+  "renders": {
+    "copenhagen_bakery.png": 1933183,
+    "copenhagen_establishing.png": 2129775,
+    "copenhagen_walking.png": 2046648,
+    "copenhagen_street.png": 2688261,
+    "copenhagen_cross_street.png": 1980129
+  },
+  "limitations": [
+    "Blender native walk/fly navigation and camera previews; no game controller or full collision physics.",
+    "Destination interiors are deferred.",
+    "Representative street plan, not a geographic digital twin.",
+    "Photographic realism remains a visual approval decision; see ranked critique."
+  ],
+  "status": "PASS"
+}

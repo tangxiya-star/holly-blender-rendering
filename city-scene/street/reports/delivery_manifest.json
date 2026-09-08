@@ -1,0 +1,39 @@
+{
+  "main_file": "copenhagen_final.blend",
+  "validation": "PASS",
+  "buildings": 86,
+  "cameras": 7,
+  "bicycles": 26,
+  "files": [
+    {
+      "path": "copenhagen_final.blend",
+      "bytes": 36939650,
+      "sha256": "5a33a08255609e8aef9091fa401bfb021f83b57f5488d86bdad91596430f77ad"
+    },
+    {
+      "path": "renders/copenhagen_street.png",
+      "bytes": 2688261,
+      "sha256": "2346120580f79cb0ca0c9d28f65ec5aec747907587366fcc12136222a2a15f9d"
+    },
+    {
+      "path": "renders/copenhagen_bakery.png",
+      "bytes": 1933183,
+      "sha256": "6e9de5988200a3232f3311e73eca266495111d27f5a581a02220ce637b75198c"
+    },
+    {
+      "path": "renders/copenhagen_walking.png",
+      "bytes": 2046648,
+      "sha256": "854da28ee23cbe97b9a8160019810f8cf8093f01de4bb8af0ddcf3ef55a901f6"
+    },
+    {
+      "path": "renders/copenhagen_establishing.png",
+      "bytes": 2129775,
+      "sha256": "4b3d8ed721fa59809ada327fbeec0898df14ce12090fb07418155f00ab511c60"
+    },
+    {
+      "path": "renders/copenhagen_cross_street.png",
+      "bytes": 1980129,
+      "sha256": "1ddbc3cbd2acb9b6a5796dcd59f63e017f264bf972f6fb92213bc2f148f95d53"
+    }
+  ]
+}

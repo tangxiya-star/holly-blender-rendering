@@ -1,0 +1,22 @@
+{
+  "units": "meters",
+  "camera_eye_height_above_sidewalk": 1.7,
+  "main_corridor_width": 18,
+  "carriageway_width": 5.6,
+  "one_way_cycle_track_width": 2.5,
+  "sidewalk_width": 3.4,
+  "sidewalk_height": 0.18,
+  "cycle_track_height": 0.07,
+  "building_count": 82,
+  "building_width_range": [
+    8.377042008429743,
+    14.719642907574164
+  ],
+  "eave_range": [
+    9.75,
+    15.85
+  ],
+  "streets": 3,
+  "status": "PASS: eye-level blockout inspected before detailing",
+  "visual_notes": "Enclosing continuous street wall; 3-5 storeys; curbs legible at human eye level; distant return facades conceal route ends. Lighting will be revised toward predominantly diffuse cloud light before detailing."
+}

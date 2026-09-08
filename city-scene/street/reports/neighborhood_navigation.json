@@ -1,0 +1,123 @@
+{
+  "street_count": 4,
+  "intersection_centres": [
+    [
+      0,
+      -40
+    ],
+    [
+      0,
+      52
+    ],
+    [
+      64,
+      52
+    ],
+    [
+      64,
+      -40
+    ]
+  ],
+  "streets": [
+    {
+      "name": "Main street",
+      "axis": "Y",
+      "centre_x": 0
+    },
+    {
+      "name": "North cross street",
+      "axis": "X",
+      "centre_y": 52
+    },
+    {
+      "name": "East neighborhood street",
+      "axis": "Y",
+      "centre_x": 64
+    },
+    {
+      "name": "South cross street",
+      "axis": "X",
+      "centre_y": -40
+    }
+  ],
+  "closed_loop": true,
+  "route_points": [
+    [
+      6.7,
+      -36.1
+    ],
+    [
+      6.7,
+      42
+    ],
+    [
+      6.8,
+      46
+    ],
+    [
+      7.4,
+      47.5
+    ],
+    [
+      9,
+      48.1
+    ],
+    [
+      54,
+      48.1
+    ],
+    [
+      57.2,
+      48.1
+    ],
+    [
+      59,
+      46.5
+    ],
+    [
+      59,
+      43
+    ],
+    [
+      59,
+      -30
+    ],
+    [
+      59,
+      -33
+    ],
+    [
+      58,
+      -35
+    ],
+    [
+      55,
+      -36.1
+    ],
+    [
+      11,
+      -36.1
+    ],
+    [
+      8,
+      -36.1
+    ],
+    [
+      6.7,
+      -36.1
+    ]
+  ],
+  "eye_z": 1.88,
+  "surface_z": 0.18,
+  "length_m": 269.26529302961575,
+  "fps": 24,
+  "frames": 4617,
+  "camera": "13 | FULL LOOP - all four streets",
+  "overview_camera": "08 | FOUR STREETS - overview",
+  "per_street_cameras": [
+    "01 | Human eye street",
+    "09 | North street - eastbound",
+    "10 | East street - southbound",
+    "11 | South street - westbound"
+  ]
+}

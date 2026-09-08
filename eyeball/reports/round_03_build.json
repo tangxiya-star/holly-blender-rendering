@@ -1,0 +1,86 @@
+{
+  "round": "03",
+  "version": "5.2.1 LTS",
+  "device": "GPU",
+  "resolution": [
+    1200,
+    1200
+  ],
+  "samples": 384,
+  "adaptive_threshold": 0.006000000052154064,
+  "objects": 16,
+  "mesh_vertices": 638583,
+  "base_mesh_faces": 624332,
+  "materials": 13,
+  "build_seconds": 4.889500856399536,
+  "source_sha256": {
+    "build_eye_test.py": "904ae80fc8a6b6b311591dc63092c06f0ad1511ee4de62341ea20886b36764c1",
+    "stage.py": "6d8509b8e2747ec008c08ccb8f685cd52bf96ee08c2ee6b1faf5fbf385d074d6",
+    "eye.py": "ec7a1adc3473861f84a73da9edd560026e242e62009a1fb861c8db76a90277e0",
+    "food_insert.py": "3e37dc6360e33c974d965f8d5a9917ef94895b680470924d7a3558532d3cecc9"
+  },
+  "camera": {
+    "lens_mm": 85.0,
+    "sensor_fit": "VERTICAL",
+    "sensor_height_mm": 36.0,
+    "fstop": 9.0,
+    "position": [
+      0.0,
+      -0.33096450567245483,
+      0.31557783484458923
+    ],
+    "focus": [
+      0.0,
+      -0.00800000037997961,
+      0.10100000351667404
+    ]
+  },
+  "food_info": {
+    "objects": 4,
+    "roe_grains": 198,
+    "vertices": 119442,
+    "triangles": 217496,
+    "insert_outer_radius_m": 0.0153,
+    "insert_top_z_m": 0.10527,
+    "food_surface_z_m": 0.10546,
+    "interpretation": "Only exposed dark roe and moist interfaces reconstructed. Buried asparagus cream/fish layers are not visibly resolved by the photograph."
+  },
+  "support_info": {
+    "surface": "Stage | worn stone tabletop",
+    "scars": 130,
+    "vertices": 130321
+  },
+  "eye_info": {
+    "objects": [
+      "Eye vessel | continuous pale body and flattened contact base",
+      "Eye vessel | radial fibrous iris and scalloped collarette",
+      "Eye vessel | thin clear finish over iris",
+      "Eye vessel | recessed central food opening"
+    ],
+    "body_width_m": 0.14,
+    "base_z_m": 0.002,
+    "iris_outer_radius_m": 0.042,
+    "iris_outer_edge_z_m": 0.0918,
+    "opening_radius_m": 0.0158,
+    "opening_edge_z_m": 0.102,
+    "food_interface": "Insert top supplied separately at .1055 m; clear roe surface .106 m",
+    "packed_original_images": [
+      "Eye | original gray-green gold radial pigment",
+      "Eye | original iris fiber relief",
+      "Eye | original tapered branching sub-surface veins"
+    ],
+    "materials": {
+      "body": "Eye | warm pale body, capillaries beneath thin finish",
+      "iris": "Eye | gray-green gold radial stroma and crypts",
+      "clear": "Eye | 65 micron transparent surface film",
+      "well": "Eye | deeply shadowed inner opening wall",
+      "images": [
+        "Eye | original gray-green gold radial pigment",
+        "Eye | original iris fiber relief",
+        "Eye | original tapered branching sub-surface veins"
+      ]
+    },
+    "mesh_vertices": 388820,
+    "notes": "Original custom loft, polar fiber pigment, tapered vein graph, actual thin finish; no source-photo mapping."
+  }
+}

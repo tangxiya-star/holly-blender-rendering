@@ -1,0 +1,252 @@
+{
+  "origin_lonlat": [
+    12.5683,
+    55.6761
+  ],
+  "ground_z": 2.0,
+  "landmarks": [
+    {
+      "key": "marble_church",
+      "name": "Frederiks Kirke / Marmorkirken",
+      "osm_id": "way/25524833",
+      "lon": 12.589550829325136,
+      "lat": 55.68497182288464,
+      "xy_m": [
+        1333.9161388559532,
+        987.6113235184772
+      ],
+      "tower_position_source": "OSM way/382667658",
+      "height_m": 79.0,
+      "height_quality": "documented total",
+      "eave_override_m": 22.0,
+      "mesh_objects": 3,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": true
+    },
+    {
+      "key": "our_saviour",
+      "name": "Vor Frelsers Kirke",
+      "osm_id": "way/25607908",
+      "lon": 12.594057315350653,
+      "lat": 55.6727863012396,
+      "xy_m": [
+        1616.7886021840986,
+        -368.8809460078389
+      ],
+      "tower_position_source": "OSM way/1012313938",
+      "height_m": 90.0,
+      "height_quality": "documented total",
+      "eave_override_m": 22.0,
+      "mesh_objects": 4,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    },
+    {
+      "key": "christiansborg",
+      "name": "Christiansborg Slot",
+      "osm_id": "way/25992657",
+      "lon": 12.580406625101318,
+      "lat": 55.676227100633234,
+      "xy_m": [
+        759.9337589439455,
+        14.148842491826485
+      ],
+      "tower_position_source": "OSM way/381955936",
+      "height_m": 106.0,
+      "height_quality": "documented total",
+      "eave_override_m": 27.0,
+      "mesh_objects": 3,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    },
+    {
+      "key": "city_hall",
+      "name": "Københavns Rådhus",
+      "osm_id": "relation/52142",
+      "lon": 12.5705099,
+      "lat": 55.67558235,
+      "xy_m": [
+        138.71558752624117,
+        -57.62479799989279
+      ],
+      "tower_position_source": "OSM way/1011067074",
+      "height_m": 105.6,
+      "height_quality": "documented total",
+      "eave_override_m": 24.0,
+      "mesh_objects": 4,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    },
+    {
+      "key": "rosenborg",
+      "name": "Rosenborg Slot",
+      "osm_id": "way/25524592",
+      "lon": 12.577436418533862,
+      "lat": 55.6856908315797,
+      "xy_m": [
+        573.4936715738371,
+        1067.6513714522507
+      ],
+      "tower_position_source": "OSM footprint centroid",
+      "height_m": 50.6,
+      "height_quality": "aerial silhouette estimate",
+      "eave_override_m": 13.8,
+      "mesh_objects": 3,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": true
+    },
+    {
+      "key": "opera",
+      "name": "Operaen på Holmen",
+      "osm_id": "way/1088494374",
+      "lon": 12.60074038329441,
+      "lat": 55.68198772252817,
+      "xy_m": [
+        2036.285274565876,
+        655.4212718360998
+      ],
+      "tower_position_source": "OSM footprint centroid",
+      "height_m": 38.0,
+      "height_quality": "aerial silhouette estimate",
+      "eave_override_m": 29.0,
+      "mesh_objects": 3,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": true
+    },
+    {
+      "key": "amalienborg_nw",
+      "name": "Christian den VIII's Palæ",
+      "osm_id": "way/25524645",
+      "lon": 12.592845384193366,
+      "lat": 55.68458583019987,
+      "xy_m": [
+        1540.7155932132691,
+        944.642617849928
+      ],
+      "tower_position_source": "OSM footprint centroid",
+      "height_m": 24.0,
+      "height_quality": "aerial silhouette estimate",
+      "eave_override_m": 16.0,
+      "mesh_objects": 0,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    },
+    {
+      "key": "amalienborg_sw",
+      "name": "Christian den VII's Palæ",
+      "osm_id": "way/106105298",
+      "lon": 12.592182089292193,
+      "lat": 55.683784441593346,
+      "xy_m": [
+        1499.080522884546,
+        855.4320381714897
+      ],
+      "tower_position_source": "OSM footprint centroid",
+      "height_m": 24.0,
+      "height_quality": "aerial silhouette estimate",
+      "eave_override_m": 16.0,
+      "mesh_objects": 0,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    },
+    {
+      "key": "amalienborg_se",
+      "name": "Christian den IX's Palæ",
+      "osm_id": "way/106105466",
+      "lon": 12.593575475724037,
+      "lat": 55.68341067537902,
+      "xy_m": [
+        1586.5434929486132,
+        813.8243831929728
+      ],
+      "tower_position_source": "OSM footprint centroid",
+      "height_m": 24.0,
+      "height_quality": "aerial silhouette estimate",
+      "eave_override_m": 16.0,
+      "mesh_objects": 0,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    },
+    {
+      "key": "amalienborg_ne",
+      "name": "Frederik den VIII's Palæ",
+      "osm_id": "way/106228713",
+      "lon": 12.594240704218315,
+      "lat": 55.68421023761507,
+      "xy_m": [
+        1628.2999350604484,
+        902.8316513097053
+      ],
+      "tower_position_source": "OSM footprint centroid",
+      "height_m": 24.0,
+      "height_quality": "aerial silhouette estimate",
+      "eave_override_m": 16.0,
+      "mesh_objects": 0,
+      "exclude_full_footprint": false,
+      "suppress_generic_roof": false
+    }
+  ],
+  "mesh_objects": 20,
+  "building_overrides": {
+    "25524833": {
+      "eave_height": 22.0,
+      "suppress_roof": true,
+      "landmark_name": "Frederiks Kirke / Marmorkirken",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "25607908": {
+      "eave_height": 22.0,
+      "suppress_roof": false,
+      "landmark_name": "Vor Frelsers Kirke",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "25992657": {
+      "eave_height": 27.0,
+      "suppress_roof": false,
+      "landmark_name": "Christiansborg Slot",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "52142": {
+      "eave_height": 24.0,
+      "suppress_roof": false,
+      "landmark_name": "Københavns Rådhus",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "25524592": {
+      "eave_height": 13.8,
+      "suppress_roof": true,
+      "landmark_name": "Rosenborg Slot",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "1088494374": {
+      "eave_height": 29.0,
+      "suppress_roof": true,
+      "landmark_name": "Operaen på Holmen",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "25524645": {
+      "eave_height": 16.0,
+      "suppress_roof": false,
+      "landmark_name": "Christian den VIII's Palæ",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "106105298": {
+      "eave_height": 16.0,
+      "suppress_roof": false,
+      "landmark_name": "Christian den VII's Palæ",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "106105466": {
+      "eave_height": 16.0,
+      "suppress_roof": false,
+      "landmark_name": "Christian den IX's Palæ",
+      "height_source": "source-guided aerial eave estimate"
+    },
+    "106228713": {
+      "eave_height": 16.0,
+      "suppress_roof": false,
+      "landmark_name": "Frederik den VIII's Palæ",
+      "height_source": "source-guided aerial eave estimate"
+    }
+  }
+}

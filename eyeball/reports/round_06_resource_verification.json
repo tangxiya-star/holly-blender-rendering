@@ -1,0 +1,30 @@
+{
+  "scope": "Only appended round 06 scene resources",
+  "objects": 25,
+  "materials": 24,
+  "images": [
+    {
+      "name": "Eye | original tapered branching sub-surface veins.001",
+      "packed": true,
+      "resolution": [
+        3072,
+        1536
+      ]
+    },
+    {
+      "name": "Blue iris | original short radial pigment density.001",
+      "packed": true,
+      "resolution": [
+        3072,
+        1024
+      ]
+    }
+  ],
+  "linked_assets": [],
+  "source_library_datablock_has_users": [
+    [
+      "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/eye_food_stress_test/eye_06.blend",
+      1
+    ]
+  ]
+}

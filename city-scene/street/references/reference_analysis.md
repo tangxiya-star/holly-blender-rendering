@@ -1,0 +1,38 @@
+# Copenhagen street reference analysis
+
+Prepared 2026-09-08. The supplied attachment contains the brief, but no reference photographs. Public Copenhagen references below were researched; the two photographs marked **visually inspected** were downloaded temporarily and actually inspected. This scene is a representative inner-city composition, not a survey or geographic reconstruction.
+
+## Reference-backed visual grammar
+
+- **Contiguous street walls and restrained classicism.** The official heritage-register account of Studiestræde 5–9 describes three- and four-storey buildings over basements, four/five window bays, plaster facades, crosspost windows, ground-floor/storey bands and projecting cornices. Roofs include red tile pitched roofs and a black mansard roof; zinc dormer cheeks, gutters and downpipes recur. Arched carriage portals lead to courtyards. Lower facades can differ in color from upper walls. The documented colors include pale yellow, grey-blue, grey, red and white trim. These are specific examples, not a claim that every Copenhagen building follows one template. [Heritage register text reproduced by Trap Danmark](https://trap.lex.dk/Studiestr%C3%A6de_5-9,_K%C3%B8benhavn).
+- **Brick is a useful counterpoint to plaster.** The restoration architect documents Studiestræde 13 as a 1798 building with three storeys and basement, red-brick street facade, sandstone window and belt-course details, repaired masonry joints and restored painted timber windows. The **visually inspected** close-up shows small-scale irregular masonry, deep doorway shadow, shallow window reveals, grey-green painted portal, a warm basement shop and a zinc downpipe. [Elgaard Architecture](https://elgaardarchitecture.com/project/studiestraede-13-3/), [inspected photo](https://elgaardarchitecture.com/wp-content/uploads/2023/02/074-s13-09-udf-sch-2504-1500x2000px-750x1000.jpg).
+- **A street photo supports architectural variation within one language.** The **visually inspected** Sankt Peders Stræde photograph shows terracotta, cream and grey facades joined without gaps; regular vertical window columns; occasional outward-open casements; dark ground-floor shops, pale bands, dormers, wall-hung shop signs, a narrow slab-and-sett sidewalk and sparse bicycles. Broad glass panes still reflect neighboring buildings instead of becoming uniformly blue. Most windows have a high crossbar, leaving a smaller upper pane. Photo scale is qualitative. [Wikimedia photo page](https://commons.wikimedia.org/wiki/File:Sankt_Peders_Str%C3%A6de_%40_CPH.jpg), [inspected full image](https://upload.wikimedia.org/wikipedia/commons/1/15/Sankt_Peders_Str%C3%A6de_%40_CPH.jpg).
+- **Pavement is a strong local signature.** Copenhagen municipality specifies the Københavnerfortov: two rows of concrete footway slabs with one row of granite setts between; more slab/setts rows are added where space allows. The municipality normally reuses existing granite curbs. Model concrete slab routes framed by smaller granite stones instead of a generic all-brick sidewalk. [Municipal road restoration guidance](https://www.kk.dk/borger/parkering-trafik-og-veje/trafik-og-veje/vejgenopretning-i-koebenhavn).
+- **Cycle provision depends on the street.** Current municipal planning guidance normally starts one-way cycle tracks at 2.5 m where peak flow is up to 500 cyclists/hour, increasing with demand. This is contemporary design guidance, not a measurement of the reference streets. [Cycle infrastructure standard](https://kp24.kk.dk/retningslinjer/trafik/cykelinfrastruktur). Copenhagen also uses shared cycle streets in constrained locations; this leaves more space for walking, shops and cycle parking. [Municipal explanation](https://www.kk.dk/borger/parkering-trafik-og-veje/trafik-og-veje/cykelgader-i-koebenhavn).
+- **Suspended lamps identify the place efficiently.** The city confirms street lamps mounted on wires anchored to building facades. A 2005 municipal strategy describes the characteristic historic Copenhagen fixture as a brown hemispherical wire-suspended lamp. Use the form as a heritage visual cue; the 2005 account is not an inventory of present fittings. [Current city lamp guidance](https://www.kk.dk/borger/parkering-trafik-og-veje/trafik-og-veje/gadelygterne-i-koebenhavn), [historic city lighting strategy](https://www.kk.dk/dagsordener-og-referater/Bygge-%20og%20Teknikudvalget/m%C3%B8de-01062005/dagsorden/punkt-9).
+- **Street life should be concentrated.** Copenhagen's tourism organization describes Larsbjørnstræde as a local street of small boutiques and cafes. That supports a few shop-front clusters and a cafe destination. It does not support indiscriminate clutter or dense vegetation along every frontage. [Visit Copenhagen street guide](https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/street-guide-local-larsbjornstraede).
+
+## Modeling assumptions: use these values, do not present them as measurements
+
+| Element | Fast coherent target |
+|---|---|
+| Route | Three connected streets: wider cycle corridor, narrower shopping street, short cross street; cap distant sightlines with turning streets and secondary massing |
+| Wider street | 6.0 m carriageway + 2 × 2.5 m raised asphalt cycle tracks + 2 × 2.7 m sidewalks = 16.4 m wall-to-wall |
+| Narrow street | 5.0–5.8 m shared carriageway + 2 × 1.8–2.2 m sidewalks; avoid forcing separate tracks into this section |
+| Surface heights | Road 0; cycle track +0.07 m; footway +0.14 m; clear granite edge separates surfaces |
+| Narrow parcel | Width 8–13 m, 3–5 window bays, mostly 4–5 storeys including ground floor; occasional 3-storey facade |
+| Height | Ground-floor height 3.5–4.0 m; upper floor pitch 2.8–3.2 m; eaves roughly 13–18 m; roof rise 2.5–4.5 m |
+| Window module | About 1.05–1.35 m wide × 1.65–1.95 m high; bay pitch 2.2–2.6 m; reveal 0.10–0.18 m; sill projection 0.06–0.12 m |
+| Window rhythm | Center mullion; crossbar near upper third; subdivide lower panes on selected facades; consistent modules within a facade |
+| Timber proportions | Outer frame 0.055–0.085 m, muntins 0.025–0.045 m; avoid thick toy-like frames |
+| Shops | 2–3 broad display panes with solid piers, a recessed entrance, restrained fascia; occasional 2.7–3.4 m-wide carriage portal |
+| Sidewalk texture | Concrete slabs approx. 0.6 × 0.8 m; granite setts approx. 0.09–0.11 m; visible joints, low height variation |
+| Roofs | Mostly street-parallel ridges, dormers every other bay, occasional mansard; chimneys and zinc gutters |
+| Lamps | Thin cross-street cables at approximately 6–7 m; shallow dark hemispherical shades every 25–30 m |
+| Bikes and furniture | Groups of 2–5 near shops/corners; parked bikes approximately 1.75 m long with 0.68 m wheels; occasional cargo bike, sparse car |
+
+Use variations at the building level: width, floor count, trim layout, portal/storefront choice, roof profile, material. Keep window columns orderly; do not jitter each window independently. Introduce slight changes in sill wear, curtain position and glass tone instead. Keep balconies rare on this historic street frontage.
+
+For the first render, prioritize recessed windows with interior darkness and reflected neighboring facades; correct human-scale sidewalk joints; non-flat plaster/brick roughness; mixed building widths; and contact shadows at ground level. These matter more than another layer of street clutter. Use soft neutral daylight and a 1.7 m eye-level, 28–35 mm camera as requested.
+
+Temporary inspected local photos: `/tmp/copenhagen-sankt-peders-street-ref.jpg` and `/tmp/copenhagen-studiestraede13-reference.jpg`. Reference images are for visual analysis; no claim of redistribution permission is made and they have not been embedded as scene textures.

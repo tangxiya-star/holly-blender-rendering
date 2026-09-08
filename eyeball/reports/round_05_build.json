@@ -1,0 +1,122 @@
+{
+  "round": "05",
+  "version": "5.2.1 LTS",
+  "device": "GPU",
+  "resolution": [
+    1600,
+    2000
+  ],
+  "samples": 512,
+  "adaptive_threshold": 0.006000000052154064,
+  "objects": 25,
+  "mesh_vertices": 1746910,
+  "base_mesh_faces": 1646618,
+  "materials": 24,
+  "build_seconds": 5.162689685821533,
+  "source_sha256": {
+    "build_eye_test.py": "b557dfe80786cad0c19ad522bdf09a728c32af0dd24b5fd0c4c4f21b94377c7d",
+    "stage.py": "d6e5349289c0721f68cfeb44c0c248c42641bbd17f0a2790c8c3c9b210605d68",
+    "eye.py": "5523b48384e946063ada466cc860c8adf1efec30c395e1c1880cfc1a39f490d3",
+    "food_insert.py": "e8a3a75b8cca9e387ee9f8d36e1d560c010ada723e83fcf64de7a62002120f5a",
+    "iris_detail.py": "b17244ab70b29bd56942728fb66d295d31876c9b2f1f32a245a57c42dfd860a0"
+  },
+  "camera": {
+    "lens_mm": 85.0,
+    "sensor_fit": "VERTICAL",
+    "sensor_height_mm": 36.0,
+    "fstop": 9.0,
+    "position": [
+      0.0,
+      -0.6847347021102905,
+      0.7904921174049377
+    ],
+    "focus": [
+      0.0,
+      -0.011428572237491608,
+      0.14428572356700897
+    ]
+  },
+  "food_info": {
+    "objects": 4,
+    "roe_grains": 198,
+    "vertices": 119442,
+    "triangles": 217496,
+    "insert_outer_radius_m": 0.0153,
+    "insert_top_z_m": 0.10527,
+    "food_surface_z_m": 0.10546,
+    "interpretation": "Only exposed dark roe and moist interfaces reconstructed. Buried asparagus cream/fish layers are not visibly resolved by the photograph."
+  },
+  "support_info": {
+    "surface": "Stage | worn stone tabletop",
+    "scars": 6632,
+    "vertices": 923521,
+    "grid": 961,
+    "triangles": 1843200,
+    "maximum_unscaled_recess_m": 0.0018291439904013747,
+    "contact_height_m": -0.0001
+  },
+  "eye_info": {
+    "objects": [
+      "Eye vessel | continuous pale body and flattened contact base",
+      "Eye vessel | recessed central food opening",
+      "Blue iris | recessed layered stromal foundation",
+      "Blue iris | broad pale forked stromal bundles and frayed tongues",
+      "Blue iris | actual overlapping branching fiber ribbons",
+      "Eye iris | shallow closed clear cast-resin encasement"
+    ],
+    "body_width_m": 0.14,
+    "base_z_m": 0.002,
+    "iris_outer_radius_m": 0.0405,
+    "iris_outer_edge_z_m": 0.0918,
+    "opening_radius_m": 0.0158,
+    "opening_edge_z_m": 0.102,
+    "food_interface": "Insert top supplied separately at .1055 m; clear roe surface .106 m",
+    "packed_original_images": [
+      "Eye | original tapered branching sub-surface veins"
+    ],
+    "materials": {
+      "body": "Eye | warm pale body, capillaries beneath thin finish",
+      "well": "Eye | deeply shadowed inner opening wall",
+      "images": [
+        "Eye | original tapered branching sub-surface veins"
+      ]
+    },
+    "mesh_vertices": 703947,
+    "iris_detail": {
+      "inner_radius_m": 0.0158,
+      "outer_radius_m": 0.0405,
+      "inner_surface_z_m": 0.102,
+      "outer_surface_z_m": 0.0918,
+      "fiber_ribbons": 3689,
+      "recessed_crypts": 48,
+      "packed_image": "Blue iris | original short radial pigment density",
+      "broad_stromal_bundles": {
+        "primary_bundles": 156,
+        "forks": 92,
+        "fine_frayed_ends": 692
+      },
+      "materials": [
+        "Blue iris | deep cyan pigment bed and recessed crypts",
+        "Blue iris | stromal fiber pigment 00",
+        "Blue iris | stromal fiber pigment 01",
+        "Blue iris | stromal fiber pigment 02",
+        "Blue iris | stromal fiber pigment 03",
+        "Blue iris | stromal fiber pigment 04",
+        "Blue iris | stromal fiber pigment 05",
+        "Blue iris | stromal fiber pigment 06",
+        "Blue iris | stromal fiber pigment 07",
+        "Blue iris | stromal fiber pigment 08",
+        "Blue iris | stromal fiber pigment 09",
+        "Blue iris | stromal fiber pigment 10",
+        "Eye iris | clear cast resin, shallow enclosing volume"
+      ],
+      "vertices": 612377,
+      "faces": 525198,
+      "resin_ior": 1.49,
+      "resin_bulk_thickness_legacy_m": 0.00038,
+      "legacy_scale": "Caller scales complete assembly 10/7 with the rest of the vessel",
+      "notes": "Original cyan stroma, actual branching layered fibers and recessed crypts under closed resin; no source-image mapping."
+    },
+    "notes": "Resin vessel with actual layered iris fibers and embedded vascular pigment; verified physical scale applied by build script."
+  }
+}

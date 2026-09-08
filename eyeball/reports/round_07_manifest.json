@@ -1,0 +1,64 @@
+{
+  "method_trial": "07",
+  "full_photorealism_gate": "FAIL",
+  "iris_method_assessment": "improved",
+  "generator": "built-in imagegen",
+  "files": [
+    {
+      "path": "eye_07.blend",
+      "bytes": 62402975,
+      "sha256": "b04b8777cb0f633ade81ab6d8c61d97debd2ffcdc8800178ae9441b68cb3b745"
+    },
+    {
+      "path": "renders/eye_07.png",
+      "bytes": 15270592,
+      "sha256": "d0cba97e122d0e3006be6ea57470314f91527bd22b069698227bb9bb3b54d986",
+      "resolution": [
+        1600,
+        2000
+      ]
+    },
+    {
+      "path": "renders/eye_07_linear.exr",
+      "bytes": 11041514,
+      "sha256": "5d3e3c727145828559aba90cfbd46634e69e26ed8ebfe8db1a4496fda86c5141"
+    },
+    {
+      "path": "renders/eye_07_orbit_135.png",
+      "bytes": 5595363,
+      "sha256": "374b2e67a9ff6df9cd57139c9be5e7c69ad0f7161349b541498eb615f174fcb7",
+      "resolution": [
+        960,
+        1200
+      ]
+    },
+    {
+      "path": "renders/eye_07_orbit_255.png",
+      "bytes": 4345078,
+      "sha256": "b2b1b33b1bd77f38f30de1dd16e7dea8b0e33127270b96f9a1b568c5bcbf3428",
+      "resolution": [
+        960,
+        1200
+      ]
+    },
+    {
+      "path": "textures/iris_07_albedo.png",
+      "bytes": 2074510,
+      "sha256": "8eb35edf96b5e3e8f3c71171585ddcd28c44f92ec5b7b5439bb8ea0b30546463",
+      "resolution": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "textures/iris_07_prompt.txt",
+      "bytes": 2176,
+      "sha256": "c97bd4127e627fad586a531a987c8b50124ad8412e32821431590f0974de4886"
+    },
+    {
+      "path": "reports/rotation_material_workflow.md",
+      "bytes": 4335,
+      "sha256": "42c50c93bcc4e642b4a1180c981b838e5ab179c4f055a5007401dfeaae371d3f"
+    }
+  ]
+}

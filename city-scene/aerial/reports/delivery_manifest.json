@@ -1,0 +1,69 @@
+{
+  "scene_file": "copenhagen_aerial_final.blend",
+  "size_bytes": 109851784,
+  "scope_km2": 146.04,
+  "osm_footprints": 81774,
+  "city_meshes": 770,
+  "lod_counts": {
+    "1": 77538,
+    "2": 4034,
+    "3": 202
+  },
+  "trees": 38000,
+  "cameras": 5,
+  "fps": 24,
+  "animation_frames": [
+    1,
+    673
+  ],
+  "duration_seconds": 28,
+  "handoff_altitude_m": 180,
+  "world_labs_connected": false,
+  "validation_status": "pass",
+  "validation_issues": [],
+  "images_packed": [
+    {
+      "image": "aerial_imagery.jpg",
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/copenhagen_aerial/data/aerial_imagery.jpg",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "image": "nyhavn_imagery.jpg",
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/copenhagen_aerial/data/nyhavn_imagery.jpg",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "image": "overcast_soil_puresky_2k.hdr",
+      "path": "/Users/touyuumiyabi/Desktop/open ai hackathon/copenhagen/textures/overcast_soil_puresky_2k.hdr",
+      "packed": true,
+      "exists": true
+    }
+  ],
+  "renders": [
+    "hero_aerial.png",
+    "harbor_aerial.png",
+    "nyhavn_handoff.png",
+    "dive_0505.png",
+    "transition_0673.png"
+  ],
+  "limitations": [
+    "Approximate building heights and roof shapes outside tagged data.",
+    "Aerial visualization still has visible CGI cues; not indistinguishable from photographed footage.",
+    "World Labs environment/footage is not supplied or connected.",
+    "Orthophoto contains capture lighting and some alignment/capture-era differences."
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors, ODbL 1.0",
+    "Orthophoto © GeoDanmark / Klimadatastyrelsen, CC BY4.0",
+    "Overcast Soil Pure Sky © Poly Haven, CC0"
+  ],
+  "pipeline": [
+    "build_aerial.py",
+    "refine_aerial.py",
+    "finalize_aerial.py",
+    "apply_orthophoto.py",
+    "final_grade.py"
+  ]
+}

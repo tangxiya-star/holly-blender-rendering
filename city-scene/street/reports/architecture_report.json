@@ -1,0 +1,827 @@
+{
+  "buildings": 82,
+  "mesh_objects": 2039,
+  "vertices": 1861612,
+  "details": [
+    {
+      "id": "Hero_-1_0_00",
+      "width": 9.866165788341032,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 23326
+    },
+    {
+      "id": "Hero_-1_0_01",
+      "width": 9.633834211658968,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 23120
+    },
+    {
+      "id": "Hero_-1_1_00",
+      "width": 10.527567037780248,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25384
+    },
+    {
+      "id": "Hero_-1_1_01",
+      "width": 9.009305260114768,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "zinc",
+      "mesh_objects": 22,
+      "vertices": 4060
+    },
+    {
+      "id": "Hero_-1_1_02",
+      "width": 11.124649631470763,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 23,
+      "vertices": 5460
+    },
+    {
+      "id": "Hero_-1_1_03",
+      "width": 13.330720808309298,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 33146
+    },
+    {
+      "id": "Hero_-1_1_04",
+      "width": 13.363518250601114,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "zinc",
+      "mesh_objects": 26,
+      "vertices": 7446
+    },
+    {
+      "id": "Hero_-1_1_05",
+      "width": 10.799762027240806,
+      "height": 9.75,
+      "floors": 3,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 24552
+    },
+    {
+      "id": "Hero_-1_1_06",
+      "width": 12.844476984482995,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 29796
+    },
+    {
+      "id": "Hero_-1_2_00",
+      "width": 13.490487015064517,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 32940
+    },
+    {
+      "id": "Hero_-1_2_01",
+      "width": 9.645350284583687,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 23062
+    },
+    {
+      "id": "Hero_-1_2_02",
+      "width": 10.575679396186802,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 4,
+      "roof": "zinc",
+      "mesh_objects": 22,
+      "vertices": 5706
+    },
+    {
+      "id": "Hero_-1_2_03",
+      "width": 10.103095087866931,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25396
+    },
+    {
+      "id": "Hero_-1_2_04",
+      "width": 13.159272972248015,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 29604
+    },
+    {
+      "id": "Hero_-1_2_05",
+      "width": 10.526115244050049,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25998
+    },
+    {
+      "id": "Hero_1_0_00",
+      "width": 8.377042008429743,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 19818
+    },
+    {
+      "id": "Hero_1_0_01",
+      "width": 11.122957991570257,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25340
+    },
+    {
+      "id": "Hero_1_1_00",
+      "width": 11.627309808216198,
+      "height": 9.75,
+      "floors": 3,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 21,
+      "vertices": 3664
+    },
+    {
+      "id": "Hero_1_1_01",
+      "width": 14.046220176750513,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "zinc",
+      "mesh_objects": 26,
+      "vertices": 7384
+    },
+    {
+      "id": "Hero_1_1_02",
+      "width": 11.649595835085394,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 28074
+    },
+    {
+      "id": "Hero_1_1_03",
+      "width": 10.489985421648653,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 24062
+    },
+    {
+      "id": "Hero_1_1_04",
+      "width": 10.726469147650304,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 26332
+    },
+    {
+      "id": "Hero_1_1_05",
+      "width": 11.052802969183503,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25948
+    },
+    {
+      "id": "Hero_1_1_06",
+      "width": 11.407616641465438,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 27822
+    },
+    {
+      "id": "Hero_1_2_00",
+      "width": 11.769205267688337,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 27548
+    },
+    {
+      "id": "Hero_1_2_01",
+      "width": 11.692033452306397,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 26110
+    },
+    {
+      "id": "Hero_1_2_02",
+      "width": 11.508627276831405,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 23,
+      "vertices": 5764
+    },
+    {
+      "id": "Hero_1_2_03",
+      "width": 11.837535579440544,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 27366
+    },
+    {
+      "id": "Hero_1_2_04",
+      "width": 10.052694588624625,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 23744
+    },
+    {
+      "id": "Hero_1_2_05",
+      "width": 10.639903835108692,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 24786
+    },
+    {
+      "id": "Cross_-40_-1_-80_00",
+      "width": 11.903293738390476,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 27944
+    },
+    {
+      "id": "Cross_-40_-1_-80_01",
+      "width": 11.03958689882348,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25712
+    },
+    {
+      "id": "Cross_-40_-1_-80_02",
+      "width": 10.395081218222483,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 24862
+    },
+    {
+      "id": "Cross_-40_-1_-80_03",
+      "width": 13.084241580935952,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 30212
+    },
+    {
+      "id": "Cross_-40_-1_-80_04",
+      "width": 12.577796563627611,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 28438
+    },
+    {
+      "id": "Cross_-40_-1_21_00",
+      "width": 11.28106830063025,
+      "height": 9.75,
+      "floors": 3,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 23,
+      "vertices": 24426
+    },
+    {
+      "id": "Cross_-40_-1_21_01",
+      "width": 10.779691950912236,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 26832
+    },
+    {
+      "id": "Cross_-40_-1_21_02",
+      "width": 10.70128860735029,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 26840
+    },
+    {
+      "id": "Cross_-40_-1_21_03",
+      "width": 12.845729070179067,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 22,
+      "vertices": 5968
+    },
+    {
+      "id": "Cross_-40_-1_21_04",
+      "width": 13.39222207092816,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 32014
+    },
+    {
+      "id": "Cross_-40_1_-80_00",
+      "width": 14.719642907574164,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 32504
+    },
+    {
+      "id": "Cross_-40_1_-80_01",
+      "width": 11.680221755443043,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 26236
+    },
+    {
+      "id": "Cross_-40_1_-80_02",
+      "width": 11.140812853738066,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25234
+    },
+    {
+      "id": "Cross_-40_1_-80_03",
+      "width": 10.580320045645157,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 23104
+    },
+    {
+      "id": "Cross_-40_1_-80_04",
+      "width": 10.879002437599565,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25188
+    },
+    {
+      "id": "Cross_-40_1_21_00",
+      "width": 11.214171475232027,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 26632
+    },
+    {
+      "id": "Cross_-40_1_21_01",
+      "width": 12.070355709467082,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 29660
+    },
+    {
+      "id": "Cross_-40_1_21_02",
+      "width": 10.504847452763295,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 25998
+    },
+    {
+      "id": "Cross_-40_1_21_03",
+      "width": 13.177270467406723,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 32762
+    },
+    {
+      "id": "Cross_-40_1_21_04",
+      "width": 12.033354895130866,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 23,
+      "vertices": 5118
+    },
+    {
+      "id": "Cross_52_-1_-80_00",
+      "width": 11.222919437844935,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 25244
+    },
+    {
+      "id": "Cross_52_-1_-80_01",
+      "width": 13.201657987147103,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 29952
+    },
+    {
+      "id": "Cross_52_-1_-80_02",
+      "width": 11.990521707248856,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 28670
+    },
+    {
+      "id": "Cross_52_-1_-80_03",
+      "width": 11.344956997456851,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 22,
+      "vertices": 4754
+    },
+    {
+      "id": "Cross_52_-1_-80_04",
+      "width": 11.239943870302255,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 26500
+    },
+    {
+      "id": "Cross_52_-1_21_00",
+      "width": 14.200845796514473,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 26,
+      "vertices": 34442
+    },
+    {
+      "id": "Cross_52_-1_21_01",
+      "width": 10.320410946144976,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 24078
+    },
+    {
+      "id": "Cross_52_-1_21_02",
+      "width": 10.525564994092441,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 23,
+      "vertices": 5188
+    },
+    {
+      "id": "Cross_52_-1_21_03",
+      "width": 13.109999970296943,
+      "height": 9.75,
+      "floors": 3,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 28512
+    },
+    {
+      "id": "Cross_52_-1_21_04",
+      "width": 10.84317829295116,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 24298
+    },
+    {
+      "id": "Cross_52_1_-80_00",
+      "width": 13.086662780776475,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 30726
+    },
+    {
+      "id": "Cross_52_1_-80_01",
+      "width": 10.08332716353733,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 23582
+    },
+    {
+      "id": "Cross_52_1_-80_02",
+      "width": 9.987909223928794,
+      "height": 9.75,
+      "floors": 3,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 21416
+    },
+    {
+      "id": "Cross_52_1_-80_03",
+      "width": 12.81991216580353,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 31624
+    },
+    {
+      "id": "Cross_52_1_-80_04",
+      "width": 13.022188665953868,
+      "height": 9.75,
+      "floors": 3,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 29358
+    },
+    {
+      "id": "Cross_52_1_21_00",
+      "width": 11.528048488003824,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 26630
+    },
+    {
+      "id": "Cross_52_1_21_01",
+      "width": 10.230868816616903,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 23412
+    },
+    {
+      "id": "Cross_52_1_21_02",
+      "width": 12.143601946037245,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 22,
+      "vertices": 5034
+    },
+    {
+      "id": "Cross_52_1_21_03",
+      "width": 12.489520625902742,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 28440
+    },
+    {
+      "id": "Cross_52_1_21_04",
+      "width": 12.607960123439288,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 27890
+    },
+    {
+      "id": "North_close_00",
+      "width": 9.89723662037132,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 23084
+    },
+    {
+      "id": "North_close_01",
+      "width": 12.969671796559368,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 23,
+      "vertices": 29054
+    },
+    {
+      "id": "North_close_02",
+      "width": 13.516562746350004,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 28,
+      "vertices": 32108
+    },
+    {
+      "id": "North_close_03",
+      "width": 9.876062094613618,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 4,
+      "roof": "zinc",
+      "mesh_objects": 26,
+      "vertices": 6060
+    },
+    {
+      "id": "North_close_04",
+      "width": 12.295962843000648,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 5,
+      "roof": "zinc",
+      "mesh_objects": 21,
+      "vertices": 5774
+    },
+    {
+      "id": "North_close_05",
+      "width": 9.44450389910505,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 22180
+    },
+    {
+      "id": "South_close_00",
+      "width": 14.250783262881427,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 6,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 33420
+    },
+    {
+      "id": "South_close_01",
+      "width": 13.582016130267137,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 6,
+      "roof": "zinc",
+      "mesh_objects": 23,
+      "vertices": 6114
+    },
+    {
+      "id": "South_close_02",
+      "width": 10.440183827426438,
+      "height": 15.85,
+      "floors": 5,
+      "bays": 5,
+      "roof": "tile",
+      "mesh_objects": 25,
+      "vertices": 24724
+    },
+    {
+      "id": "South_close_03",
+      "width": 9.674037465088983,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "zinc",
+      "mesh_objects": 22,
+      "vertices": 4370
+    },
+    {
+      "id": "South_close_04",
+      "width": 10.392330755769828,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 24,
+      "vertices": 23318
+    },
+    {
+      "id": "South_close_05",
+      "width": 9.660648558566189,
+      "height": 12.799999999999999,
+      "floors": 4,
+      "bays": 4,
+      "roof": "tile",
+      "mesh_objects": 27,
+      "vertices": 23214
+    }
+  ]
+}

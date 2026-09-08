@@ -1,0 +1,40 @@
+{
+  "photographic_gate": "FAIL",
+  "render_round": "06",
+  "files": [
+    {
+      "path": "eye_06.blend",
+      "bytes": 83848359,
+      "sha256": "8c698760459334295d930f0c3e834a3191e098aa3b9400dd02b0d5ffae0fed5a"
+    },
+    {
+      "path": "renders/eye_06.png",
+      "bytes": 15310536,
+      "sha256": "f91930ff6d704769d73f37fc5639cad08d48c5c99390e178702fa10afd362682"
+    },
+    {
+      "path": "renders/eye_06_linear.exr",
+      "bytes": 11046769,
+      "sha256": "632a53b41b5dfc3379c2f213c32f3cdb8bdaf71ecba6473916391604ee7405b2"
+    },
+    {
+      "path": "reports/reference_analysis.md",
+      "bytes": 6799,
+      "sha256": "07d7c733bf69aa0742304a46f4bb65a478ca75ecedfde4b9eb753e2dbf71fbf9"
+    },
+    {
+      "path": "reports/critique.md",
+      "bytes": 11705,
+      "sha256": "9b91311ed3818b40230522b175112ab021b47db6bbae5d673e8443e7d070b6a5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2633,
+      "sha256": "94a7f408ef18b37c2892965c4ad5eeb8bb08aaad65251b587047502932f67232"
+    }
+  ],
+  "png_resolution": [
+    1600,
+    2000
+  ]
+}

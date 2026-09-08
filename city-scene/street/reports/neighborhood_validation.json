@@ -1,0 +1,67 @@
+{
+  "file": "/Users/touyuumiyabi/Desktop/open ai hackathon/copenhagen/copenhagen_neighborhood.blend",
+  "streets": 4,
+  "buildings": 104,
+  "loop_closed": true,
+  "loop_length_m": 269.26529302961575,
+  "walking_surface_samples": 544,
+  "building_collisions": [],
+  "walking_surface_issues": [],
+  "road_junctions": [
+    {
+      "xy": [
+        64,
+        -40
+      ],
+      "hit": true,
+      "z": 0.0,
+      "object": "CPH_Asphalt"
+    },
+    {
+      "xy": [
+        64,
+        -35
+      ],
+      "hit": true,
+      "z": 0.0,
+      "object": "CPH_Neighborhood_Asphalt.001"
+    },
+    {
+      "xy": [
+        64,
+        52
+      ],
+      "hit": true,
+      "z": 0.0,
+      "object": "CPH_Asphalt"
+    },
+    {
+      "xy": [
+        64,
+        47
+      ],
+      "hit": true,
+      "z": 0.0,
+      "object": "CPH_Neighborhood_Asphalt.001"
+    },
+    {
+      "xy": [
+        64,
+        5
+      ],
+      "hit": true,
+      "z": 0.0,
+      "object": "CPH_Neighborhood_Asphalt.001"
+    }
+  ],
+  "missing_images": [],
+  "camera_count": 13,
+  "renders": [
+    "neighborhood_overview.png",
+    "neighborhood_east_street.png",
+    "neighborhood_north_street.png",
+    "neighborhood_south_street.png",
+    "neighborhood_turn.png"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,44 @@
+{
+  "round": "07",
+  "source_blend": "eye_06.blend",
+  "geometry_cleanup_status": "passed",
+  "hidden_legacy_ribbon_objects": [
+    "Blue iris | broad pale forked stromal bundles and frayed tongues",
+    "Blue iris | actual overlapping branching fiber ribbons"
+  ],
+  "texture_size": [
+    1254,
+    1254
+  ],
+  "texture_sha256": "8eb35edf96b5e3e8f3c71171585ddcd28c44f92ec5b7b5439bb8ea0b30546463",
+  "material_method": "Reference-guided AI-assisted diffuse pigment texture on curved iris bed beneath closed 3D resin",
+  "geometry_full_circumference": true,
+  "unseen_surfaces": "inferred, not documented by supplied photographs",
+  "hero_resolution": [
+    1600,
+    2000
+  ],
+  "hero_max_samples": 768,
+  "hero_camera_lighting": "same as round 06",
+  "renders": [
+    {
+      "file": "renders/eye_07.png",
+      "type": "hero",
+      "seconds": 117.26825523376465
+    },
+    {
+      "file": "renders/eye_07_orbit_135.png",
+      "type": "orbit",
+      "azimuth": 135,
+      "elevation": 45,
+      "seconds": 18.856625080108643
+    },
+    {
+      "file": "renders/eye_07_orbit_255.png",
+      "type": "orbit",
+      "azimuth": 255,
+      "elevation": 28,
+      "seconds": 13.72490406036377
+    }
+  ]
+}

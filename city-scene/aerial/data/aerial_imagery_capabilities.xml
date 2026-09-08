@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd">
+<Service>
+  <Name>WMS</Name>
+  <Title>Septimas MapProxy-baserede proxy og cache</Title>
+  <Abstract>Seeder, cacher og proxyer en række ting, som jeg synes om.</Abstract>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://septima.dk"/>
+  <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson>Gregers Petersen</ContactPerson>
+        <ContactOrganization></ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition>Partner, Senior Consultant</ContactPosition>
+      <ContactAddress>
+        <AddressType>postal</AddressType>
+        <Address>Frederiksberggade 19, 2. sal</Address>
+        <City>Copenhagen</City>
+        <StateOrProvince></StateOrProvince>
+        <PostCode>1459</PostCode>
+        <Country>Denmark</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone>+45 7230 0672</ContactVoiceTelephone>
+      <ContactFacsimileTelephone></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress>kontakt@septima.dk</ContactElectronicMailAddress>
+  </ContactInformation>
+    <Fees>There might be some, contact us for details</Fees>
+    <AccessConstraints>This service is intended for private and evaluation use only. ANY use of it against our will or express permission is not allowed, and such use will be blocked and coverage of damages etc will possibly be sought. Data is delivered AS IS and we are under no circumstances liable for any damages.</AccessConstraints>
+    <MaxWidth>4000</MaxWidth>
+    <MaxHeight>4000</MaxHeight>
+</Service>
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xlink:href="https://osmtools.septima.dk/mapproxy/service?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/gif</Format>
+      <Format>image/GeoTIFF</Format>
+      <Format>image/tiff</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xlink:href="https://osmtools.septima.dk/mapproxy/service?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/plain</Format>
+      <Format>text/html</Format>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xlink:href="https://osmtools.septima.dk/mapproxy/service?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+  </Request>
+  <Exception>
+    <Format>XML</Format>
+    <Format>INIMAGE</Format>
+    <Format>BLANK</Format>
+  </Exception>
+  <Layer>
+    <Title>Septimas MapProxy-baserede proxy og cache</Title>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:4258</CRS>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+      <westBoundLongitude>2.47833</westBoundLongitude>
+      <eastBoundLongitude>17.5575</eastBoundLongitude>
+      <southBoundLatitude>53.015</southBoundLatitude>
+      <northBoundLatitude>58.4744</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox CRS="CRS:84" minx="2.47833" miny="53.015" maxx="17.5575" maxy="58.4744" />
+    <BoundingBox CRS="EPSG:900913" minx="275886.433618" miny="6985772.99652" maxx="1954491.9596" maxy="8067641.46175" />
+    <BoundingBox CRS="EPSG:4326" minx="53.015" miny="2.47833" maxx="58.4744" maxy="17.5575" />
+    <BoundingBox CRS="EPSG:3857" minx="275886.433618" miny="6985772.99652" maxx="1954491.9596" maxy="8067641.46175" />
+    <Layer>
+      <Name>kortforsyningen_ortoforaar</Name>
+      <Title>Cache af Datafordelerens lag Orto Forår</Title>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>2.47833</westBoundLongitude>
+        <eastBoundLongitude>17.5575</eastBoundLongitude>
+        <southBoundLatitude>53.015</southBoundLatitude>
+        <northBoundLatitude>58.4744</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="2.47833" miny="53.015" maxx="17.5575" maxy="58.4744" />
+      <BoundingBox CRS="EPSG:900913" minx="275886.433618" miny="6985772.99652" maxx="1954491.9596" maxy="8067641.46175" />
+      <BoundingBox CRS="EPSG:4326" minx="53.015" miny="2.47833" maxx="58.4744" maxy="17.5575" />
+      <BoundingBox CRS="EPSG:3857" minx="275886.433618" miny="6985772.99652" maxx="1954491.9596" maxy="8067641.46175" />
+    </Layer>
+    <Layer>
+      <Name>DAF_ortoforaar</Name>
+      <Title>Cache af Datafordelerens lag Orto Forår</Title>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>2.47833</westBoundLongitude>
+        <eastBoundLongitude>17.5575</eastBoundLongitude>
+        <southBoundLatitude>53.015</southBoundLatitude>
+        <northBoundLatitude>58.4744</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="2.47833" miny="53.015" maxx="17.5575" maxy="58.4744" />
+      <BoundingBox CRS="EPSG:900913" minx="275886.433618" miny="6985772.99652" maxx="1954491.9596" maxy="8067641.46175" />
+      <BoundingBox CRS="EPSG:4326" minx="53.015" miny="2.47833" maxx="58.4744" maxy="17.5575" />
+      <BoundingBox CRS="EPSG:3857" minx="275886.433618" miny="6985772.99652" maxx="1954491.9596" maxy="8067641.46175" />
+    </Layer>
+  </Layer>
+</Capability>
+</WMS_Capabilities>

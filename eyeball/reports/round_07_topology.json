@@ -1,0 +1,412 @@
+{
+  "operation": "Conservative coincident seam weld and degenerate cleanup",
+  "weld_distance_local_m": 1e-07,
+  "dissolve_degenerate_distance_local_m": 1e-10,
+  "selection_prefixes": [
+    "Eye vessel | continuous pale body and flattened contact base",
+    "Blue iris | recessed layered stromal foundation",
+    "Eye iris | shallow closed clear cast-resin encasement",
+    "Eye vessel | recessed central food opening"
+  ],
+  "objects": [
+    {
+      "object": "Eye vessel | continuous pale body and flattened contact base",
+      "before": {
+        "vertices": 90801,
+        "edges": 180912,
+        "faces": 90112,
+        "zero_length_edges": 512,
+        "degenerate_faces": 0,
+        "boundary_edges": 1376,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [
+          {
+            "edges": 1376,
+            "vertices": 1376,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.042500000447034836,
+                -0.042500000447034836,
+                0.0020000000949949026
+              ],
+              "max": [
+                0.07017317414283752,
+                0.042500000447034836,
+                0.09179999679327011
+              ]
+            }
+          }
+        ],
+        "local_bounds": {
+          "min": [
+            -0.06983810663223267,
+            -0.07041895389556885,
+            0.0020000000949949026
+          ],
+          "max": [
+            0.07017317414283752,
+            0.0696004182100296,
+            0.09179999679327011
+          ]
+        },
+        "uv_layers": [
+          "PigmentUV"
+        ],
+        "material_indices": [
+          0
+        ]
+      },
+      "after": {
+        "vertices": 90113,
+        "edges": 180224,
+        "faces": 90112,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 512,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [
+          {
+            "edges": 512,
+            "vertices": 512,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.042500000447034836,
+                -0.042500000447034836,
+                0.09179999679327011
+              ],
+              "max": [
+                0.042500000447034836,
+                0.042500000447034836,
+                0.09179999679327011
+              ]
+            }
+          }
+        ],
+        "local_bounds": {
+          "min": [
+            -0.06983810663223267,
+            -0.07041895389556885,
+            0.0020000000949949026
+          ],
+          "max": [
+            0.07017317414283752,
+            0.0696004182100296,
+            0.09179999679327011
+          ]
+        },
+        "uv_layers": [
+          "PigmentUV"
+        ],
+        "material_indices": [
+          0
+        ]
+      },
+      "vertices_removed": 688,
+      "faces_removed": 0,
+      "maximum_local_bounds_difference_m": 0.0,
+      "maximum_world_bounds_difference_m": 0.0,
+      "uv_layers_preserved": true,
+      "material_slots_preserved": true,
+      "warnings": []
+    },
+    {
+      "object": "Blue iris | recessed layered stromal foundation",
+      "before": {
+        "vertices": 181425,
+        "edges": 361648,
+        "faces": 180224,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 2400,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [
+          {
+            "edges": 2400,
+            "vertices": 2400,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.042500000447034836,
+                -0.042500000447034836,
+                0.09179999679327011
+              ],
+              "max": [
+                0.042500000447034836,
+                0.042500000447034836,
+                0.10199999809265137
+              ]
+            }
+          }
+        ],
+        "local_bounds": {
+          "min": [
+            -0.042500000447034836,
+            -0.042500000447034836,
+            0.09179999679327011
+          ],
+          "max": [
+            0.042500000447034836,
+            0.042500000447034836,
+            0.10199999809265137
+          ]
+        },
+        "uv_layers": [
+          "OriginalPolarPigmentUV"
+        ],
+        "material_indices": [
+          0
+        ]
+      },
+      "after": {
+        "vertices": 181248,
+        "edges": 361472,
+        "faces": 180224,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 2048,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [
+          {
+            "edges": 1024,
+            "vertices": 1024,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.042500000447034836,
+                -0.042500000447034836,
+                0.09179999679327011
+              ],
+              "max": [
+                0.042500000447034836,
+                0.042500000447034836,
+                0.09179999679327011
+              ]
+            }
+          },
+          {
+            "edges": 1024,
+            "vertices": 1024,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.015799999237060547,
+                -0.015799999237060547,
+                0.10199999809265137
+              ],
+              "max": [
+                0.015799999237060547,
+                0.015799999237060547,
+                0.10199999809265137
+              ]
+            }
+          }
+        ],
+        "local_bounds": {
+          "min": [
+            -0.042500000447034836,
+            -0.042500000447034836,
+            0.09179999679327011
+          ],
+          "max": [
+            0.042500000447034836,
+            0.042500000447034836,
+            0.10199999809265137
+          ]
+        },
+        "uv_layers": [
+          "OriginalPolarPigmentUV"
+        ],
+        "material_indices": [
+          0
+        ]
+      },
+      "vertices_removed": 177,
+      "faces_removed": 0,
+      "maximum_local_bounds_difference_m": 0.0,
+      "maximum_world_bounds_difference_m": 0.0,
+      "uv_layers_preserved": true,
+      "material_slots_preserved": true,
+      "warnings": []
+    },
+    {
+      "object": "Eye iris | shallow closed clear cast-resin encasement",
+      "before": {
+        "vertices": 173568,
+        "edges": 347136,
+        "faces": 173568,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 0,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [],
+        "local_bounds": {
+          "min": [
+            -0.042500000447034836,
+            -0.042500000447034836,
+            0.09176500141620636
+          ],
+          "max": [
+            0.042500000447034836,
+            0.042500000447034836,
+            0.10234499722719193
+          ]
+        },
+        "uv_layers": [],
+        "material_indices": [
+          0
+        ]
+      },
+      "after": {
+        "vertices": 173568,
+        "edges": 347136,
+        "faces": 173568,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 0,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [],
+        "local_bounds": {
+          "min": [
+            -0.042500000447034836,
+            -0.042500000447034836,
+            0.09176500141620636
+          ],
+          "max": [
+            0.042500000447034836,
+            0.042500000447034836,
+            0.10234499722719193
+          ]
+        },
+        "uv_layers": [],
+        "material_indices": [
+          0
+        ]
+      },
+      "vertices_removed": 0,
+      "faces_removed": 0,
+      "maximum_local_bounds_difference_m": 0.0,
+      "maximum_world_bounds_difference_m": 0.0,
+      "uv_layers_preserved": true,
+      "material_slots_preserved": true,
+      "warnings": []
+    },
+    {
+      "object": "Eye vessel | recessed central food opening",
+      "before": {
+        "vertices": 769,
+        "edges": 1536,
+        "faces": 768,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 256,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [
+          {
+            "edges": 256,
+            "vertices": 256,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.015799999237060547,
+                -0.015799999237060547,
+                0.10199999809265137
+              ],
+              "max": [
+                0.015799999237060547,
+                0.015799999237060547,
+                0.10199999809265137
+              ]
+            }
+          }
+        ],
+        "local_bounds": {
+          "min": [
+            -0.015799999237060547,
+            -0.015799999237060547,
+            0.08900000154972076
+          ],
+          "max": [
+            0.015799999237060547,
+            0.015799999237060547,
+            0.10199999809265137
+          ]
+        },
+        "uv_layers": [],
+        "material_indices": [
+          0
+        ]
+      },
+      "after": {
+        "vertices": 769,
+        "edges": 1536,
+        "faces": 768,
+        "zero_length_edges": 0,
+        "degenerate_faces": 0,
+        "boundary_edges": 256,
+        "wire_edges": 0,
+        "nonmanifold_nonboundary_edges": 0,
+        "boundary_components": [
+          {
+            "edges": 256,
+            "vertices": 256,
+            "closed_loop": true,
+            "local_bounds": {
+              "min": [
+                -0.015799999237060547,
+                -0.015799999237060547,
+                0.10199999809265137
+              ],
+              "max": [
+                0.015799999237060547,
+                0.015799999237060547,
+                0.10199999809265137
+              ]
+            }
+          }
+        ],
+        "local_bounds": {
+          "min": [
+            -0.015799999237060547,
+            -0.015799999237060547,
+            0.08900000154972076
+          ],
+          "max": [
+            0.015799999237060547,
+            0.015799999237060547,
+            0.10199999809265137
+          ]
+        },
+        "uv_layers": [],
+        "material_indices": [
+          0
+        ]
+      },
+      "vertices_removed": 0,
+      "faces_removed": 0,
+      "maximum_local_bounds_difference_m": 0.0,
+      "maximum_world_bounds_difference_m": 0.0,
+      "uv_layers_preserved": true,
+      "material_slots_preserved": true,
+      "warnings": []
+    }
+  ],
+  "holes_filled": false,
+  "decimation": false,
+  "fiber_ribbons_untouched": true,
+  "status": "passed",
+  "missing_expected_prefixes": [],
+  "objects_processed": 4,
+  "vertices_removed": 865,
+  "remaining_degenerate_faces": 0,
+  "remaining_zero_length_edges": 0,
+  "maximum_world_bounds_difference_m": 0.0
+}

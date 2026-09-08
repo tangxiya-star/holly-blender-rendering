@@ -1,0 +1,726 @@
+{
+  "architecture": {
+    "buildings": 104,
+    "retained_buildings": 66,
+    "removed_buildings": 20,
+    "added_buildings": 38,
+    "corner_returns": [
+      {
+        "source": "Neighborhood_Quiet_-1_0_01",
+        "boundary_y": -45.5,
+        "rotation": 3.141592653589793,
+        "width": 12.0,
+        "height": 9.75,
+        "removed_shell_faces": 6,
+        "mesh_objects": 20,
+        "origin": [
+          51.0,
+          -45.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_-1_1_00",
+        "boundary_y": -34.5,
+        "rotation": 0,
+        "width": 12.0,
+        "height": 12.799999999999999,
+        "removed_shell_faces": 6,
+        "mesh_objects": 20,
+        "origin": [
+          51.0,
+          -34.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_-1_1_07",
+        "boundary_y": 46.5,
+        "rotation": 3.141592653589793,
+        "width": 12.0,
+        "height": 9.75,
+        "removed_shell_faces": 6,
+        "mesh_objects": 19,
+        "origin": [
+          51.0,
+          46.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_-1_2_00",
+        "boundary_y": 57.5,
+        "rotation": 0,
+        "width": 12.0,
+        "height": 12.799999999999999,
+        "removed_shell_faces": 6,
+        "mesh_objects": 19,
+        "origin": [
+          51.0,
+          57.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_1_0_01",
+        "boundary_y": -45.5,
+        "rotation": 3.141592653589793,
+        "width": 12.0,
+        "height": 9.75,
+        "removed_shell_faces": 6,
+        "mesh_objects": 20,
+        "origin": [
+          77.0,
+          -45.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_1_1_00",
+        "boundary_y": -34.5,
+        "rotation": 0,
+        "width": 12.0,
+        "height": 12.799999999999999,
+        "removed_shell_faces": 6,
+        "mesh_objects": 20,
+        "origin": [
+          77.0,
+          -34.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_1_1_07",
+        "boundary_y": 46.5,
+        "rotation": 3.141592653589793,
+        "width": 12.0,
+        "height": 9.75,
+        "removed_shell_faces": 6,
+        "mesh_objects": 20,
+        "origin": [
+          77.0,
+          46.5,
+          0.18000000715255737
+        ]
+      },
+      {
+        "source": "Neighborhood_Quiet_1_2_00",
+        "boundary_y": 57.5,
+        "rotation": 0,
+        "width": 12.0,
+        "height": 12.799999999999999,
+        "removed_shell_faces": 6,
+        "mesh_objects": 20,
+        "origin": [
+          77.0,
+          57.5,
+          0.18000000715255737
+        ]
+      }
+    ],
+    "details": [
+      {
+        "id": "Neighborhood_Quiet_-1_0_00",
+        "width": 9.4,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 22098
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_0_01",
+        "width": 10.1,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 23128
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_00",
+        "width": 9.3,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 21990
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_01",
+        "width": 11.2,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 26,
+        "vertices": 26194
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_02",
+        "width": 8.8,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "zinc",
+        "mesh_objects": 21,
+        "vertices": 4242
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_03",
+        "width": 10.7,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 23266
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_04",
+        "width": 9.8,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 23062
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_05",
+        "width": 11.3,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 27,
+        "vertices": 25790
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_06",
+        "width": 9.9,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 23176
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_1_07",
+        "width": 10.0,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 21800
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_2_00",
+        "width": 12.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 27854
+      },
+      {
+        "id": "Neighborhood_Quiet_-1_2_01",
+        "width": 12.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 27,
+        "vertices": 28866
+      },
+      {
+        "id": "Neighborhood_Quiet_1_0_00",
+        "width": 9.4,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 22924
+      },
+      {
+        "id": "Neighborhood_Quiet_1_0_01",
+        "width": 10.1,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 23,
+        "vertices": 21910
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_00",
+        "width": 9.3,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 22292
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_01",
+        "width": 11.2,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 26,
+        "vertices": 26078
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_02",
+        "width": 8.8,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 20960
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_03",
+        "width": 10.7,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 23444
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_04",
+        "width": 9.8,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 22428
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_05",
+        "width": 11.3,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 26,
+        "vertices": 25800
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_06",
+        "width": 9.9,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 24220
+      },
+      {
+        "id": "Neighborhood_Quiet_1_1_07",
+        "width": 10.0,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 4,
+        "roof": "tile",
+        "mesh_objects": 23,
+        "vertices": 21686
+      },
+      {
+        "id": "Neighborhood_Quiet_1_2_00",
+        "width": 12.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "zinc",
+        "mesh_objects": 22,
+        "vertices": 5980
+      },
+      {
+        "id": "Neighborhood_Quiet_1_2_01",
+        "width": 12.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 26,
+        "vertices": 28794
+      },
+      {
+        "id": "Neighborhood_Cross_-40_-1_0",
+        "width": 11.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 26286
+      },
+      {
+        "id": "Neighborhood_Cross_-40_-1_1",
+        "width": 12.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 6,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 28350
+      },
+      {
+        "id": "Neighborhood_Cross_-40_-1_2",
+        "width": 11.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 25112
+      },
+      {
+        "id": "Neighborhood_Cross_-40_1_0",
+        "width": 11.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 26,
+        "vertices": 26348
+      },
+      {
+        "id": "Neighborhood_Cross_-40_1_1",
+        "width": 12.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 29174
+      },
+      {
+        "id": "Neighborhood_Cross_-40_1_2",
+        "width": 11.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "zinc",
+        "mesh_objects": 23,
+        "vertices": 4564
+      },
+      {
+        "id": "Neighborhood_Cross_52_-1_0",
+        "width": 11.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "zinc",
+        "mesh_objects": 23,
+        "vertices": 5346
+      },
+      {
+        "id": "Neighborhood_Cross_52_-1_1",
+        "width": 12.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 6,
+        "roof": "tile",
+        "mesh_objects": 27,
+        "vertices": 30614
+      },
+      {
+        "id": "Neighborhood_Cross_52_-1_2",
+        "width": 11.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 25316
+      },
+      {
+        "id": "Neighborhood_Cross_52_1_0",
+        "width": 11.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 24,
+        "vertices": 25858
+      },
+      {
+        "id": "Neighborhood_Cross_52_1_1",
+        "width": 12.5,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 29132
+      },
+      {
+        "id": "Neighborhood_Cross_52_1_2",
+        "width": 11.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 5,
+        "roof": "zinc",
+        "mesh_objects": 24,
+        "vertices": 5336
+      },
+      {
+        "id": "Neighborhood_End_South",
+        "width": 28.0,
+        "height": 12.799999999999999,
+        "floors": 4,
+        "bays": 6,
+        "roof": "tile",
+        "mesh_objects": 25,
+        "vertices": 59742
+      },
+      {
+        "id": "Neighborhood_End_North",
+        "width": 28.0,
+        "height": 9.75,
+        "floors": 3,
+        "bays": 6,
+        "roof": "tile",
+        "mesh_objects": 23,
+        "vertices": 56368
+      }
+    ]
+  },
+  "surfaces": {
+    "collection": "CPH_Neighborhood_Surfaces",
+    "faces": 22531,
+    "cut_existing": [
+      {
+        "object": "CPH_Joint_bed",
+        "cut_faces": 16
+      },
+      {
+        "object": "CPH_Sett_0",
+        "cut_faces": 568
+      },
+      {
+        "object": "CPH_Sett_1",
+        "cut_faces": 554
+      },
+      {
+        "object": "CPH_Sett_2",
+        "cut_faces": 487
+      },
+      {
+        "object": "CPH_Sett_3",
+        "cut_faces": 565
+      },
+      {
+        "object": "CPH_Slab_1",
+        "cut_faces": 124
+      },
+      {
+        "object": "CPH_Slab_0",
+        "cut_faces": 136
+      },
+      {
+        "object": "CPH_Slab_5",
+        "cut_faces": 123
+      },
+      {
+        "object": "CPH_Slab_2",
+        "cut_faces": 129
+      },
+      {
+        "object": "CPH_Slab_4",
+        "cut_faces": 141
+      },
+      {
+        "object": "CPH_Slab_3",
+        "cut_faces": 119
+      },
+      {
+        "object": "CPH_Kerb_1",
+        "cut_faces": 146
+      },
+      {
+        "object": "CPH_Kerb_2",
+        "cut_faces": 113
+      },
+      {
+        "object": "CPH_Kerb_0",
+        "cut_faces": 179
+      }
+    ],
+    "road_width_m": 6.4,
+    "sidewalk_width_m": 3.8,
+    "curb_ramps": 4,
+    "road_openings": [
+      [
+        64,
+        -44.4,
+        0
+      ],
+      [
+        64,
+        47.6,
+        0
+      ],
+      [
+        64,
+        -35.6,
+        0
+      ],
+      [
+        64,
+        56.4,
+        0
+      ]
+    ],
+    "pedestrian_crossings": [
+      [
+        69.25,
+        -40.0,
+        0
+      ],
+      [
+        69.25,
+        52.0,
+        0
+      ]
+    ]
+  },
+  "navigation": {
+    "street_count": 4,
+    "intersection_centres": [
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        52
+      ],
+      [
+        64,
+        52
+      ],
+      [
+        64,
+        -40
+      ]
+    ],
+    "streets": [
+      {
+        "name": "Main street",
+        "axis": "Y",
+        "centre_x": 0
+      },
+      {
+        "name": "North cross street",
+        "axis": "X",
+        "centre_y": 52
+      },
+      {
+        "name": "East neighborhood street",
+        "axis": "Y",
+        "centre_x": 64
+      },
+      {
+        "name": "South cross street",
+        "axis": "X",
+        "centre_y": -40
+      }
+    ],
+    "closed_loop": true,
+    "route_points": [
+      [
+        6.7,
+        -36.1
+      ],
+      [
+        6.7,
+        42
+      ],
+      [
+        6.8,
+        46
+      ],
+      [
+        7.4,
+        47.5
+      ],
+      [
+        9,
+        48.1
+      ],
+      [
+        54,
+        48.1
+      ],
+      [
+        57.2,
+        48.1
+      ],
+      [
+        59,
+        46.5
+      ],
+      [
+        59,
+        43
+      ],
+      [
+        59,
+        -30
+      ],
+      [
+        59,
+        -33
+      ],
+      [
+        58,
+        -35
+      ],
+      [
+        55,
+        -36.1
+      ],
+      [
+        11,
+        -36.1
+      ],
+      [
+        8,
+        -36.1
+      ],
+      [
+        6.7,
+        -36.1
+      ]
+    ],
+    "eye_z": 1.88,
+    "surface_z": 0.18,
+    "length_m": 269.26529302961575,
+    "fps": 24,
+    "frames": 4617,
+    "camera": "13 | FULL LOOP - all four streets",
+    "overview_camera": "08 | FOUR STREETS - overview",
+    "per_street_cameras": [
+      "01 | Human eye street",
+      "09 | North street - eastbound",
+      "10 | East street - southbound",
+      "11 | South street - westbound"
+    ]
+  }
+}

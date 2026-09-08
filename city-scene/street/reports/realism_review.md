@@ -1,0 +1,47 @@
+# First street render: realism review
+
+Reviewed image: `copenhagen/renders/02_first_street.png`, at its full 1200 × 800 display size. This review describes the image actually rendered, not a hypothetical finished scene. Reference comparison uses the Sankt Peders Stræde photograph and Studiestræde 13 restoration photograph previously inspected and recorded in `references/reference_analysis.md`.
+
+The view already reads as a coherent Copenhagen-inspired street: attached narrow facades, subdued plaster colors, crosspost windows, overhead wire lamps, slab/setts paving and practical city bicycles are all present. Eye height and perspective are plausible. The remaining gap is mostly in openings, surface response and repetition, rather than missing object count.
+
+## Five largest CGI cues, ranked
+
+| Rank | Visible evidence in this render | Why it breaks the photographic impression | Specific correction |
+|---|---|---|---|
+| **1. Window and shop openings look assembled from large rectangular extrusions** | The nearest left-hand window surrounds project strongly and cast repeated rectangular shadows. Storefront vertical posts are wide and deep. Many upper panes are uniformly near-black; the nearest shops read as empty frames around dark recesses. | In the inspected Copenhagen photographs, painted frames are much finer, many upper windows sit simply within the wall, and glass shows mixed interior darkness and recognizable neighboring facade reflections. The contrast between thick pale surrounds and dark centers makes the modules conspicuous. | Reduce surround projection and width substantially on plain plaster buildings; keep richer surrounds on selected facades. Preserve actual inset glass with a legible sky/opposite-facade reflection. Give ground-floor glass a few visible interior planes or curtains, rather than a black rectangle behind every opening. |
+| **2. Pavement and asphalt variation operate at the wrong scale** | The foreground footway has conspicuous alternating light/dark slabs, close to a checkerboard. The slabs and their joins remain uniformly straight and sharp. Road variation is dominated by broad blurry tonal islands over a smooth surface. | Real reference paving has coherent stone/concrete coloration with small local variation; joints and aggregate add much more of the visible texture. Fine asphalt roughness is missing relative to the large patches. | Compress adjacent slab value variation to roughly a few percent. Keep narrow joints, fine aggregate and light wear. Reduce the broad asphalt patch contrast; add fine roughness/normal variation, slight repair-edge definition and muted paint wear. Avoid turning the street dirty. |
+| **3. Light and glazing response flatten the depth** | The sky is a mostly featureless grey field. Many surfaces share a similar low-contrast grey cast, while shop recesses are extremely dark. Numerous windows show almost the same dark value irrespective of orientation or position. | Soft overcast light is appropriate, but a photograph still contains directional sky brightness, reflected facade structure in windows and local bounce. Here the similarity of pane values makes the view resemble an untextured architectural preview in places. | Use the planned photographic overcast HDRI and restrained neutral exposure; ensure it contributes to glossy reflections. Tune glass roughness and interior darkness after that change. Recover storefront detail without globally brightening every shadow or adding bloom. |
+| **4. The facade and roof grammar repeats too continuously** | The long street wall repeatedly uses very similar window proportions, projecting trim and ground-floor post/beam grids. Many roof dormers have the same broad flat cap. The ground-floor fascia height visually continues across numerous buildings. | Real Sankt Peders Stræde is coherent, but the facade width, floor relationships, storefront conversion and level of ornament vary by parcel. Repetition here persists across more buildings than the eye expects. | Make a few targeted parcel changes: one plain facade without outer window casings, one taller ground floor, one alternate window subdivision, one portal, and a less repetitive roof/dormer profile. Use coherent variation within each building. Do not jitter individual window spacing. |
+| **5. Repeated frontage detail reinforces the procedural arrangement** | Foreground bicycles have convincing construction but form a very regular lengthwise queue; similar empty storefronts continue far into the distance. Signs use similar restrained but nearly identical treatments. | The street feels staged because the eye sees the same relationships repeatedly, rather than a few particular occupied destinations. The references have localized activity and differing shop/door conditions, with substantial clear pavement between them. | Break up one bicycle line with a small empty gap and a noticeably different parking angle. Give only the hero shop a more specific occupied interior/window display. Add at most one subtle local detail justified by that shop. Trees, crowds or many more props are not needed for this view. |
+
+## Top three fixes for the next render
+
+1. **Fix facade openings:** thinner and selectively omitted exterior surrounds; slimmer shop framing; real reflective glass over interior depth. This affects a large image area and the most obvious foreground geometry.
+2. **Correct the surface scale:** subdued slab color variation, granular asphalt/concrete roughness and credible seam/repair detail. Judge the footway at the nearest ten metres, where its current checkerboard is most visible.
+3. **Replace the generic sky/reflection response:** photographic overcast illumination with neutral exposure, then re-balance glass and storefront shadows. Do not judge the new glazing until the environment is in place.
+
+The parent agent's planned trim/glazing changes, pavement refinements and CC0 Overcast Soil Pure Sky HDRI match these priorities. They are planned fixes at the time of this review; this report does not claim their second-render result has been inspected.
+
+## Keep stable during the comparison
+
+- Use the same eye-level camera, lens, framing and image dimensions so the effect of the corrections is clear.
+- Keep the broad street scale and building enclosure. A wider cycling street is a reasonable representative choice, even though the narrow historic reference street is more compressed.
+- Preserve the restrained material palette and clean, lived-in character. Extra grunge or saturation would weaken the Copenhagen reference.
+- Keep the useful bicycle geometry and suspended lamps. The silhouette and local identity cues are already working.
+
+The next pass should look more photographic without a significant increase in object count. Compare the nearest window surround, the nearest shop pane, three adjacent paving slabs and one mid-distance reflected window before spending effort on additional decoration.
+
+
+## Verified final pass
+
+The final 1600px street render and 1400px bakery, walking, cross-street and establishing renders were visually inspected. The three ranked priorities were addressed and re-rendered:
+
+1. **Openings:** exterior trim projection was reduced, ornamental surrounds became selective, frame members were narrowed, and Fresnel-based glazing replaced the constant transparency mix. A subsequent close review identified the shop panes behind opaque returns; moving panes into their frame rebates restored readable opposite-facade/bicycle reflections. The bakery view now has visible display depth and a real doorway.
+2. **Surfaces:** the sidewalk checkerboard was reduced to a narrow tonal range, kerbs received darker stone/joints, and road/track surfaces now use packed CC0 scanned asphalt at 3m tile scale, with color, roughness and normal detail. Concrete remains comparatively regular; scanned crack patterns can repeat at longer viewing distances.
+3. **Light:** a packed photographic overcast HDRI replaced the flat procedural sky. It provides visible cloud structure and reflection information with cool-neutral diffuse illumination. No bloom or sunset lighting was used.
+
+The broader viewpoints revealed two additional environment defects after the first comparison: blank sidewalls at all eight junction corners and open horizons at cross-street ends. Eight windowed return facades and four context end buildings now close those gaps. Their corrected views were rendered and inspected. The establishing camera was moved above the street rather than behind inaccessible building backs. Foreground bicycle positions were loosened and two sparse linden-style trees were added at the junction.
+
+The result is a coherent, explorable Copenhagen-style Blender prototype ready for visual review, not a claim that every frame is indistinguishable from a photograph. Remaining visual limitations are the similar ground-floor conversion pattern across parcels, highly orderly facade conditions, repeated roof/dormer forms and shallow retail interiors. Inaccessible backs stay simple. A bespoke parked vehicle and people are not included. Native Blender walk/fly and animated cameras are available; destination interiors and a game-style controller are deferred.
+
+Scene validation passed: 86 buildings, eight corner returns, seven cameras, 26 bicycle instances, all four external texture images packed, and no sampled walking-route intersections with building volumes.

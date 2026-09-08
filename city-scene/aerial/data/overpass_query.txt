@@ -1,0 +1,15 @@
+[out:json][timeout:180][maxsize:536870912];
+(
+  way[building](55.625,12.48,55.735,12.67);
+  relation[building](55.625,12.48,55.735,12.67);
+  way[highway](55.625,12.48,55.735,12.67);
+  way[railway=rail](55.625,12.48,55.735,12.67);
+  way[natural=coastline](55.615,12.47,55.745,12.68);
+  nwr[natural=water](55.625,12.48,55.735,12.67);
+  nwr[waterway=riverbank](55.625,12.48,55.735,12.67);
+  way[waterway~"canal|river"](55.625,12.48,55.735,12.67);
+  nwr[leisure~"park|garden|nature_reserve|golf_course"](55.625,12.48,55.735,12.67);
+  nwr[landuse~"grass|forest|recreation_ground|cemetery|allotments"](55.625,12.48,55.735,12.67);
+  nwr[natural~"wood|scrub|wetland|beach"](55.625,12.48,55.735,12.67);
+);
+out body geom;

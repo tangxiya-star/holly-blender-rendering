@@ -1,0 +1,74 @@
+[
+  {
+    "source": "Hero_-1_0_01",
+    "boundary_y": -45.5,
+    "rotation": 3.141592653589793,
+    "width": 12.0,
+    "height": 12.799999999999999,
+    "removed_shell_faces": 6,
+    "mesh_objects": 23
+  },
+  {
+    "source": "Hero_-1_1_00",
+    "boundary_y": -34.5,
+    "rotation": 0,
+    "width": 12.0,
+    "height": 15.85,
+    "removed_shell_faces": 6,
+    "mesh_objects": 20
+  },
+  {
+    "source": "Hero_-1_1_06",
+    "boundary_y": 46.5,
+    "rotation": 3.141592653589793,
+    "width": 12.0,
+    "height": 15.85,
+    "removed_shell_faces": 6,
+    "mesh_objects": 22
+  },
+  {
+    "source": "Hero_-1_2_00",
+    "boundary_y": 57.5,
+    "rotation": 0,
+    "width": 12.0,
+    "height": 15.85,
+    "removed_shell_faces": 6,
+    "mesh_objects": 22
+  },
+  {
+    "source": "Hero_1_0_01",
+    "boundary_y": -45.5,
+    "rotation": 3.141592653589793,
+    "width": 12.0,
+    "height": 12.799999999999999,
+    "removed_shell_faces": 6,
+    "mesh_objects": 20
+  },
+  {
+    "source": "Hero_1_1_00",
+    "boundary_y": -34.5,
+    "rotation": 0,
+    "width": 12.0,
+    "height": 9.75,
+    "removed_shell_faces": 6,
+    "mesh_objects": 20
+  },
+  {
+    "source": "Hero_1_1_06",
+    "boundary_y": 46.5,
+    "rotation": 3.141592653589793,
+    "width": 12.0,
+    "height": 15.85,
+    "removed_shell_faces": 6,
+    "mesh_objects": 20
+  },
+  {
+    "source": "Hero_1_2_00",
+    "boundary_y": 57.5,
+    "rotation": 0,
+    "width": 12.0,
+    "height": 12.799999999999999,
+    "removed_shell_faces": 6,
+    "mesh_objects": 20
+  }
+]

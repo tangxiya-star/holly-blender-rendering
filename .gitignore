@@ -22,16 +22,22 @@ next-env.d.ts
 *.gltf
 *.bin
 *.exr
+*.hdr
 *.png
 *.jpg
 *.jpeg
 *.webp
 *.zip
-alchemist/references/*.html
+restaurant/references/*.html
+city-scene/aerial/data/*.json
 
-# Keep two final previews visible in the repository.
-!alchemist/renders/alchemist_hero.png
-!alchemist/food_stress_test/renders/food_final.png
+# Keep one preview per project visible in the repository.
+!restaurant/renders/alchemist_hero.png
+!food/renders/food_final.png
+!eyeball/renders/eye_07.png
+!city-scene/street/renders/neighborhood_overview.png
+!city-scene/aerial/renders/hero_aerial.png
+!dome/alchemist_dome_preview.png
 
 # Render sequences and finished video also belong in Releases.
 **/frames/

@@ -1,0 +1,120 @@
+{
+  "fps": 24,
+  "frame_end": 1912,
+  "approx_duration_seconds": 79.66666666666667,
+  "walking_speed_m_s": 1.35,
+  "eye_height_m": 1.7,
+  "route": [
+    {
+      "frame": 1,
+      "position": [
+        -6.599999904632568,
+        -25.0,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        -3.0,
+        5.0,
+        3.0
+      ]
+    },
+    {
+      "frame": 303,
+      "position": [
+        -6.599999904632568,
+        -8.0,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        -4.0,
+        16.0,
+        3.0
+      ]
+    },
+    {
+      "frame": 747,
+      "position": [
+        -6.599999904632568,
+        17.0,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        -9.0,
+        21.520000457763672,
+        2.0
+      ]
+    },
+    {
+      "frame": 871,
+      "position": [
+        -6.599999904632568,
+        24.0,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        -1.0,
+        49.0,
+        3.0
+      ]
+    },
+    {
+      "frame": 1173,
+      "position": [
+        -6.599999904632568,
+        41.0,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        0.0,
+        58.0,
+        3.0
+      ]
+    },
+    {
+      "frame": 1301,
+      "position": [
+        -6.599999904632568,
+        48.20000076293945,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        -22.0,
+        51.0,
+        2.700000047683716
+      ]
+    },
+    {
+      "frame": 1610,
+      "position": [
+        -24.0,
+        48.20000076293945,
+        1.8799999952316284
+      ],
+      "lookAt": [
+        -32.0,
+        57.5,
+        2.5999999046325684
+      ]
+    },
+    {
+      "frame": 1912,
+      "position": [
+        -41,
+        48.2,
+        1.88
+      ],
+      "lookAt": [
+        -60,
+        51.3,
+        2.8
+      ]
+    }
+  ],
+  "drive_preview": {
+    "camera": "07 | Driving perspective",
+    "frame_start": 1,
+    "frame_end": 697,
+    "distance_m": 174
+  },
+  "navigation_instructions": "For interactive walking use F3 > Walk Navigation in Blender 3D View; WASD, mouse look, Q/E vertical, wheel speed. For animated preview choose camera 06 | Walkthrough and play timeline."
+}

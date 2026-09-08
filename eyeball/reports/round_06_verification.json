@@ -1,0 +1,21 @@
+{
+  "qa_process_background": true,
+  "source": "/Users/touyuumiyabi/Desktop/open ai hackathon/alchemist/eye_food_stress_test/eye_06.blend",
+  "scene": "Food study | 1984 eye dish.001",
+  "objects": 25,
+  "engine": "CYCLES",
+  "resolution": [
+    1600,
+    2000
+  ],
+  "samples": 768,
+  "camera_lens": 85.0,
+  "packed_images": [
+    "Blue iris | original short radial pigment density",
+    "Blue iris | original short radial pigment density.001",
+    "Eye | original tapered branching sub-surface veins",
+    "Eye | original tapered branching sub-surface veins.001"
+  ],
+  "unpacked_external_images": [],
+  "external_libraries": 1
+}

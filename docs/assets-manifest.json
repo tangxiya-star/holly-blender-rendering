@@ -1,497 +1,981 @@
 {
   "schema_version": 1,
   "repository": "tangxiya-star/holly-blender-rendering",
-  "release_tag": "v2026.09.08",
-  "created_at": "2026-09-08T18:42:45.299538+00:00",
+  "release_tag": "v2026.09.08-projects",
+  "created_at": "2026-09-08T21:01:41.024353+00:00",
   "archives": [
     {
-      "name": "renders.zip",
-      "bytes": 89454086,
-      "sha256": "b863d60ed071c4c5a21e8e5ce49c079ea1de4a61ba2319e950b20ecb8e7fea5b",
+      "name": "city-aerial-assets.zip",
+      "bytes": 306670165,
+      "sha256": "7323313d5956632f48cc1c214949c47e0df1a5be109118067f70dc87549fab5b",
       "files": [
         {
-          "path": "alchemist/food_stress_test/renders/food_01.png",
-          "bytes": 5434743,
-          "sha256": "e3caed5b1372aed73bf8440ba66c602b8600d95f232579faf619c99ac76e6d65"
+          "path": "city-scene/aerial/copenhagen_aerial.blend",
+          "bytes": 69197283,
+          "sha256": "5dd49c471f7d0ace43c73dc2122f709df5f99bd8fe9fea68e652b06e9f5ce962"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_01_linear.exr",
-          "bytes": 3967443,
-          "sha256": "5aba0209fa6530e50241f02f2db463e2617d9b033bdf64a12f207ab8937c7153"
+          "path": "city-scene/aerial/copenhagen_aerial_final.blend",
+          "bytes": 109922206,
+          "sha256": "6cd6edd9bb13e01babbed6e959874b61efe171564a478b9b9ae9028dae2a1197"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_02.png",
-          "bytes": 5526831,
-          "sha256": "cea78f082562c7a850d3dca9eaf735b0d85a28b086aa10c57432370aa95caddb"
+          "path": "city-scene/aerial/data/aerial_imagery.jpg",
+          "bytes": 40037406,
+          "sha256": "70f176f1262e81bbaec08bced466214cffd0b2e3138640818bb5819f626a0dd5"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_02_linear.exr",
-          "bytes": 4212986,
-          "sha256": "2ff9e453d8299d51ca5ece9ea16d2794394f31db33e1a48fbf9a12cef04e59ae"
+          "path": "city-scene/aerial/data/aerial_imagery.json",
+          "bytes": 7993,
+          "sha256": "094836ceb05a0cad420a6de34d55d3cdae9f8f4fcb1a037c0ff379eb70daf546"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_03.png",
-          "bytes": 5257990,
-          "sha256": "257361aa69666d7ac1c57ed5fa98439451189d89aa7579c24b7af2b92cd40bea"
+          "path": "city-scene/aerial/data/aerial_imagery_4096.jpg",
+          "bytes": 10770558,
+          "sha256": "f4515fa848a2eb0126a6b64c4c34b7587c66934d18d7c425a5c27ae0de1ae013"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_03_linear.exr",
-          "bytes": 3878432,
-          "sha256": "ce8f62ba8c868ca3351617e97160667b7e8e45e1389b47dad1ec53986a582d66"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_0_0.jpg",
+          "bytes": 1893613,
+          "sha256": "0a8103c4826e28632faff63e1404b10fcfd44217273b4b70cc1387b66e6871c9"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_04.png",
-          "bytes": 5280489,
-          "sha256": "fc88627cdfd5fe2def15ce18a71e0fcf91df1dbe3898e6bb14e169d701d762ae"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_0_1.jpg",
+          "bytes": 2187432,
+          "sha256": "d2c352efe9401364fac92339835d9ea49a82119505cdb35f27db666876a4edea"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_04_linear.exr",
-          "bytes": 3842890,
-          "sha256": "457c14a76becd0e736968dbb15f734c2c9d5c480b85c6aaebaaa6ceafc45ebe1"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_0_2.jpg",
+          "bytes": 2053944,
+          "sha256": "a9a2ce324f73ba7ebdce7a9ae8355c2557c5ce4290c897bdbf6a3cb6d4b4720d"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_final.png",
-          "bytes": 11503187,
-          "sha256": "730df69bee4e514b6b57fbcb8bf5a83afd8ed2f90f5dfc5080856fce77e8c96a"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_0_3.jpg",
+          "bytes": 1769352,
+          "sha256": "d3e6a85e5c5a1bb444133a475b00aca8e524611b04266ecf211623091c6fce08"
         },
         {
-          "path": "alchemist/food_stress_test/renders/food_final_linear.exr",
-          "bytes": 8176373,
-          "sha256": "7f4f5c279bb25e7b72717630a38bb8097db86690f9e12734dd820bfa5d05fbd9"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_1_0.jpg",
+          "bytes": 2080192,
+          "sha256": "87f5cdb37406656ad1d4efe61ecde0dd0399a3923a012e823a5a7ae2ea87db87"
         },
         {
-          "path": "alchemist/renders/01_blockout_arrival.png",
-          "bytes": 516561,
-          "sha256": "a005f2e179b0be81831772a6b2b714e18702f0c200e1cb2f3d82f5557b217c01"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_1_1.jpg",
+          "bytes": 2069230,
+          "sha256": "454437547fdb803ef097d00f5870977d5806d0c0f58b899408f4dbda1cf1e211"
         },
         {
-          "path": "alchemist/renders/01_blockout_hero.png",
-          "bytes": 767685,
-          "sha256": "8adac9876c1fc957c3eda77cb155cacd7dac4f9557f70f6f6c076fb7c87036fb"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_1_2.jpg",
+          "bytes": 1965295,
+          "sha256": "89d30ec0bf600a1f57d4334e5bf517bb3cc68da74d28fc41fc93b0b675ce5f1d"
         },
         {
-          "path": "alchemist/renders/01_blockout_plan.png",
-          "bytes": 952221,
-          "sha256": "754228ca2b127f0c2016a4963aec3c36983f73b1c38881476c0becf7c4c8a9e3"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_1_3.jpg",
+          "bytes": 1646634,
+          "sha256": "de4803368080a970795b1a6238f0f5ec24554bbfb7f67bf840b269b703c8af76"
         },
         {
-          "path": "alchemist/renders/02_architecture_arrival.png",
-          "bytes": 666595,
-          "sha256": "4880d938612afbb69669f8fcd11e3f2eaa44ebf18bc4513d5af10d13989994a5"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_2_0.jpg",
+          "bytes": 1356165,
+          "sha256": "8a91eca29327cebb8380764aa88927551635538ea87c8f6c04bd8195d9a6f286"
         },
         {
-          "path": "alchemist/renders/02_architecture_hero.png",
-          "bytes": 797866,
-          "sha256": "44ef58f7fa8009388173f897cf2338f2ad9de5eb66552495a9f22b9a965300ab"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_2_1.jpg",
+          "bytes": 1589672,
+          "sha256": "b5de30374e6e4abec32c9367212ccb3c955cbe4f3b4ea470201403d6177d4d34"
         },
         {
-          "path": "alchemist/renders/02_architecture_table.png",
-          "bytes": 676875,
-          "sha256": "2d79b1216411d79b26d1828be5f9723fb8753ec2701a88896ee04eac5a06bd90"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_2_2.jpg",
+          "bytes": 1937724,
+          "sha256": "0dbf38a9bce062fe238662396a25e70c4df8c87fee0136f36541a3b46f540067"
         },
         {
-          "path": "alchemist/renders/03_materials_hero.png",
-          "bytes": 817220,
-          "sha256": "d2701022b5e8dd759b0afcf5c7bdb1e6056ca6e7baf0895823c0d7fedbe53ef0"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_2_3.jpg",
+          "bytes": 2076436,
+          "sha256": "024bc4811c0ab45e6511787aa0cdc20f1387127ab4c20a8ab4951d222fd3eff5"
         },
         {
-          "path": "alchemist/renders/03_materials_table.png",
-          "bytes": 712772,
-          "sha256": "0c6c26d10803346ce691480328872c90b53e346b6ba2b778bea9bb9cfbba79bf"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_3_0.jpg",
+          "bytes": 672157,
+          "sha256": "7f9137abdc0e8cf0ec293c2f96427c1e1e930adbbe9137dc78928ac7f436b3d5"
         },
         {
-          "path": "alchemist/renders/04_projection_dome.png",
-          "bytes": 1015958,
-          "sha256": "9652e7f3b281e677aacef2d0ffcc5cb2ae22a39daee1a3e73ff46af2a1f9a57a"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_3_1.jpg",
+          "bytes": 821782,
+          "sha256": "c87d2618eff98214500bf3c3192ab014e2f8d856088d7e8b67ae1d876766d6af"
         },
         {
-          "path": "alchemist/renders/04_projection_hero.png",
-          "bytes": 993532,
-          "sha256": "844eda180cf67630dd9f7b738f5ef2a1d2a19f1cdf5d803149b0008ea2110d9d"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_3_2.jpg",
+          "bytes": 1173059,
+          "sha256": "e30ddfc8eed6696820d932e3600e08223eccc79655a20e23d1a571e91c43bd37"
         },
         {
-          "path": "alchemist/renders/05_lighting_arrival.png",
-          "bytes": 689218,
-          "sha256": "16d05329c3b1bfb98349c083b9bd7bbf270b87370d5687da05b3fc18726d345a"
+          "path": "city-scene/aerial/data/aerial_imagery_tile_3_3.jpg",
+          "bytes": 1545326,
+          "sha256": "b1d253c25e2a40d0f23748f2342b0a2d65a708ff5de0d82d2d051bc478c147f6"
         },
         {
-          "path": "alchemist/renders/05_lighting_exit.png",
-          "bytes": 627556,
-          "sha256": "e454ce6d23b2096cd27468604c4315b9c98313cae622644646aa9eb3c54da973"
+          "path": "city-scene/aerial/data/context_coastline_raw.json",
+          "bytes": 1114705,
+          "sha256": "a09b851b774f912ca5ec8ba8dc90a0b853a2400df0aecfe0816d55f9aadf885a"
         },
         {
-          "path": "alchemist/renders/05_lighting_hero.png",
-          "bytes": 1292270,
-          "sha256": "9d973fd692629035638769aef8642c5829e3881b6ab68407e489d687db771054"
+          "path": "city-scene/aerial/data/context_geography.json",
+          "bytes": 897463,
+          "sha256": "de9e25456646637463639cca6d847647d19bbbf8bd6fcc9e17a329f5c1b188c6"
         },
         {
-          "path": "alchemist/renders/06_furniture_hero.png",
-          "bytes": 1736822,
-          "sha256": "a52daf3bf1f28a2123eed874133e8f4f6af36371740c346bce7732e5448e5aa8"
+          "path": "city-scene/aerial/data/copenhagen_geo.json",
+          "bytes": 42838527,
+          "sha256": "754931cb4cdc108237d122cb6a04d1c3d3e0ab1da8898a69b8818193298a9c18"
         },
         {
-          "path": "alchemist/renders/06_furniture_table.png",
-          "bytes": 856779,
-          "sha256": "701b027c4365b50161d102e5e74e67bc6714768d940b117dcfc75cc37a443107"
+          "path": "city-scene/aerial/data/fetch_metadata.json",
+          "bytes": 488,
+          "sha256": "9cd47e95168cb109c8ca55016cac944713a274ee6c6cc7f55a0c7c180c778d3c"
         },
         {
-          "path": "alchemist/renders/07_refined_arrival.png",
-          "bytes": 1038250,
-          "sha256": "08d7bae63282777d846e8dbaba784e183cd6c6ae97bc5f43587cc47a38e68006"
+          "path": "city-scene/aerial/data/geography_preview.png",
+          "bytes": 639960,
+          "sha256": "6ebf865a18173ea00b01baeb1b1529ca90b00bd48a413d4527d8a03f88b115c7"
         },
         {
-          "path": "alchemist/renders/07_refined_dome.png",
-          "bytes": 1090272,
-          "sha256": "06ec73d733fbb9df1d8044dd670deffa3ff64ae5b9855db03957ff2f873a9aed"
+          "path": "city-scene/aerial/data/geography_report.json",
+          "bytes": 6041,
+          "sha256": "102d815f08a3f2620fe41f822284f9dda0546185ef26f2de6991abc583acc4e9"
         },
         {
-          "path": "alchemist/renders/07_refined_exit.png",
-          "bytes": 974057,
-          "sha256": "8440a9f7d3a54b9b1b5c5ff1bd9a7134f6dcb3fa18b3342bc0510f37d9234ebd"
+          "path": "city-scene/aerial/data/harbour_control_points.json",
+          "bytes": 1201,
+          "sha256": "97fa83dce9c28bfa1bd71586f37c1461882ad0ea1ce796e81cf846286c4fd305"
         },
         {
-          "path": "alchemist/renders/07_refined_hero.png",
-          "bytes": 1733561,
-          "sha256": "f62ce52efcb96dda8552eafbbcb1e02b4caf1b593fce9e0ab61f8bad22e5caa2"
+          "path": "city-scene/aerial/data/harbour_preview.png",
+          "bytes": 301285,
+          "sha256": "ccd228b7401665760d9466551783bb9ca6ce95df5d36c4b8925daadd989cf138"
         },
         {
-          "path": "alchemist/renders/07_refined_lounge.png",
-          "bytes": 750879,
-          "sha256": "0f7f45205e41bc1d44caec3f67bd88be6451b5e2e655f205f391d36b370a060c"
+          "path": "city-scene/aerial/data/landmark_parts_raw.json",
+          "bytes": 905681,
+          "sha256": "df08f20bf26c902be2c6d8559f5b7ff406399ca0fcca0e1d17ad812fdb01e850"
         },
         {
-          "path": "alchemist/renders/07_refined_table.png",
-          "bytes": 883113,
-          "sha256": "b2b30dd63c897d332a1c83bd89768491afa708748f8136d7140af3e53f748ea9"
+          "path": "city-scene/aerial/data/landmarks_osm.json",
+          "bytes": 27389,
+          "sha256": "b66317e4311de08206f30111fdd1ced4480d9b700c08eb612549fcd322bde946"
         },
         {
-          "path": "alchemist/renders/08_polished_hero.png",
-          "bytes": 1270004,
-          "sha256": "1b5152bcab45638b6ae74bfa0e63a8aa748c5024ff6e987ebda373e34a7af0f3"
+          "path": "city-scene/aerial/data/nyhavn_imagery.jpg",
+          "bytes": 1511151,
+          "sha256": "a3856ea764e518e15d9c093de359149f5caa022b031f705366ea904ade85e137"
         },
         {
-          "path": "alchemist/renders/08_polished_table.png",
-          "bytes": 874616,
-          "sha256": "885005b971b80ce1179da3fe84bbfd5967f52a1ec01f54e4cf6784545f0dde41"
+          "path": "city-scene/aerial/data/nyhavn_imagery.json",
+          "bytes": 1430,
+          "sha256": "6643705d1e5342c3887801cae0954136ffad5a79cceec53c81d28012d287a574"
         },
         {
-          "path": "alchemist/renders/alchemist_arrival.png",
-          "bytes": 1369661,
-          "sha256": "0e951d55ddf486703a6d9142f24880bf96f64a03ed6cc047775b5a887ee74622"
+          "path": "city-scene/aerial/data/osm_raw.json",
+          "bytes": 114308450,
+          "sha256": "fd74ca9f5c1857960d46bfecb920983977b2b5cca9fe33e7623fac7c97fcd420"
         },
         {
-          "path": "alchemist/renders/alchemist_dome.png",
-          "bytes": 1529354,
-          "sha256": "1469522367cd26dc94918455df404b09472ec14080df2f6f19f3cd86f6b23cf1"
+          "path": "city-scene/aerial/renders/dive_0505.png",
+          "bytes": 1723329,
+          "sha256": "0c8642d3ec4b853d87c5d7137060153710b0833654614a17e13ccab06f25246b"
         },
         {
-          "path": "alchemist/renders/alchemist_exit.png",
-          "bytes": 973568,
-          "sha256": "fb0a3d0fc0721d66a8fbfd71826b696596bccc3a3d3970e780b62e165ea39cd3"
+          "path": "city-scene/aerial/renders/harbor_aerial.png",
+          "bytes": 3159325,
+          "sha256": "a64b0a0da062c2fabc631855192a3f069da5cd51c76ec14c4ed0f7056c460db1"
         },
         {
-          "path": "alchemist/renders/alchemist_hero.png",
-          "bytes": 2472833,
-          "sha256": "621db6183bb1de72e777f787760f49492b14a3177775a298370bc193d1a7a89d"
+          "path": "city-scene/aerial/renders/hero_aerial.png",
+          "bytes": 4621883,
+          "sha256": "65645d9c6d4649c4650843be426679ec6166f565adfd7cea3c805fcb69eb1dcd"
         },
         {
-          "path": "alchemist/renders/alchemist_lounge.png",
-          "bytes": 819713,
-          "sha256": "7de302f301284507f33e99a3566d53dbad3a8c97eb3384a1690cc19f6967db9a"
+          "path": "city-scene/aerial/renders/hero_initial.png",
+          "bytes": 2174750,
+          "sha256": "9b108a1168581eecd92ffa2d19a0f4383e182f5361719ac8e67cf716eaf54eab"
         },
         {
-          "path": "alchemist/renders/alchemist_table.png",
-          "bytes": 1164669,
-          "sha256": "ce4b3d456dfa03a874f41cb01d0ce4c6538ec6a63546c157e67ff6a88d41fe6f"
+          "path": "city-scene/aerial/renders/hero_refined_check.png",
+          "bytes": 2632177,
+          "sha256": "cbd2faf704bdba97ee01ed4e85646e694cae1cb550c5ab25694fee52b0068c2e"
         },
         {
-          "path": "alchemist/renders/web_reimport_hero.png",
-          "bytes": 1136088,
-          "sha256": "d2381c8966b4561fc8355145967b203348c44acc63e7f121fb8d2603f16d417d"
+          "path": "city-scene/aerial/renders/nyhavn_handoff.png",
+          "bytes": 1951043,
+          "sha256": "3d0163c65d51adcf5a334192639fd61c5b7a7c3de6df9774183d3cb901a45e61"
         },
         {
-          "path": "alchemist_dome_preview.png",
+          "path": "city-scene/aerial/renders/transition_0673.png",
+          "bytes": 1452522,
+          "sha256": "066ae943eb000922ba7d169746be44b10b085f46c1bd3358d5e784aeb8f05c03"
+        },
+        {
+          "path": "city-scene/aerial/textures/overcast_soil_puresky_2k.hdr",
+          "bytes": 4568000,
+          "sha256": "5414e1ac0c35e451d28595b2a2cba05e2ca301fdeb755b0a469408443093dafc"
+        }
+      ]
+    },
+    {
+      "name": "city-street-assets.zip",
+      "bytes": 162523020,
+      "sha256": "c3a918cc89b78741174a224363264451501498e1405f0788cb050068ed06b29a",
+      "files": [
+        {
+          "path": "city-scene/street/copenhagen_01_blockout.blend",
+          "bytes": 140748,
+          "sha256": "61b0dc10f10173dddd73f55023ea9e343a36f15599f3d82ab157e005c7d930e9"
+        },
+        {
+          "path": "city-scene/street/copenhagen_02_detailed.blend",
+          "bytes": 19712077,
+          "sha256": "b1f03467d7918909e20e007b6f44bb30a3b9aa0558c57447f26477a7687f0389"
+        },
+        {
+          "path": "city-scene/street/copenhagen_03_refined.blend",
+          "bytes": 25004865,
+          "sha256": "c79a19ffaffd399363ab8097098b02a634e10245025064860fd0b33702d660ef"
+        },
+        {
+          "path": "city-scene/street/copenhagen_final.blend",
+          "bytes": 36939650,
+          "sha256": "5a33a08255609e8aef9091fa401bfb021f83b57f5488d86bdad91596430f77ad"
+        },
+        {
+          "path": "city-scene/street/copenhagen_neighborhood.blend",
+          "bytes": 43689663,
+          "sha256": "6059375535355dc0eabfc039634fcb478677c39c4ccc37c8e3ce626cc14fafa5"
+        },
+        {
+          "path": "city-scene/street/references/jaegersborggade.jpg",
+          "bytes": 463378,
+          "sha256": "c02a5c0fdbcd8f35f2dadbfff809c4557cb1b2dd14e332a1cff0ed79903c1bdf"
+        },
+        {
+          "path": "city-scene/street/references/sankt_peders_street.jpg",
+          "bytes": 1462347,
+          "sha256": "04257a68be6c57ff932388166f08449a2b4e1886cfb9c84903fc3adfe84909f7"
+        },
+        {
+          "path": "city-scene/street/references/studiestraede13.jpg",
+          "bytes": 150459,
+          "sha256": "69373088ea1c7d1f8c2e7fd5d45c240b516da16c51560948d84cf9075ef6e84c"
+        },
+        {
+          "path": "city-scene/street/renders/01_blockout_street.png",
+          "bytes": 543020,
+          "sha256": "e1c1bb1c089dbd34db03373a311b8639e651d1faff99bd882b8c9108b5ed02d2"
+        },
+        {
+          "path": "city-scene/street/renders/02_first_street.png",
+          "bytes": 1456303,
+          "sha256": "78d5c99831666b4d1cbef4004a3844c395a1a841cd358144ffaac5c96786fe6b"
+        },
+        {
+          "path": "city-scene/street/renders/03_refined_street.png",
+          "bytes": 1482632,
+          "sha256": "e25740fd7f833f95af7bd287d5201618bd435a37424ea4029cd451c6e5693c5a"
+        },
+        {
+          "path": "city-scene/street/renders/copenhagen_bakery.png",
+          "bytes": 1933183,
+          "sha256": "6e9de5988200a3232f3311e73eca266495111d27f5a581a02220ce637b75198c"
+        },
+        {
+          "path": "city-scene/street/renders/copenhagen_cross_street.png",
+          "bytes": 1980129,
+          "sha256": "1ddbc3cbd2acb9b6a5796dcd59f63e017f264bf972f6fb92213bc2f148f95d53"
+        },
+        {
+          "path": "city-scene/street/renders/copenhagen_establishing.png",
+          "bytes": 2129775,
+          "sha256": "4b3d8ed721fa59809ada327fbeec0898df14ce12090fb07418155f00ab511c60"
+        },
+        {
+          "path": "city-scene/street/renders/copenhagen_street.png",
+          "bytes": 2688261,
+          "sha256": "2346120580f79cb0ca0c9d28f65ec5aec747907587366fcc12136222a2a15f9d"
+        },
+        {
+          "path": "city-scene/street/renders/copenhagen_walking.png",
+          "bytes": 2046648,
+          "sha256": "854da28ee23cbe97b9a8160019810f8cf8093f01de4bb8af0ddcf3ef55a901f6"
+        },
+        {
+          "path": "city-scene/street/renders/neighborhood_east_street.png",
+          "bytes": 2209484,
+          "sha256": "a59403a68857cd4ff80ced8ac862ae41ead4ff25dd1bfa21f6aa64402a76d7cc"
+        },
+        {
+          "path": "city-scene/street/renders/neighborhood_north_street.png",
+          "bytes": 2097074,
+          "sha256": "3273ed7433f6858592586f7d1335a575ac930e406210840e64f84b58a0053cc2"
+        },
+        {
+          "path": "city-scene/street/renders/neighborhood_overview.png",
+          "bytes": 2079666,
+          "sha256": "791c942fafde765706884b8ebd05e6b81a86f5f06b91fbe44e5789d5008e8592"
+        },
+        {
+          "path": "city-scene/street/renders/neighborhood_south_street.png",
+          "bytes": 2116182,
+          "sha256": "3c456c992593fba306414ce6b137ec2e26776903ab24eadd1ccfe2afe6c1d0bc"
+        },
+        {
+          "path": "city-scene/street/renders/neighborhood_turn.png",
+          "bytes": 2033812,
+          "sha256": "e7321a21955996a60ae890cd9c692d220c88a211c9086795f7f86082a7cee8e7"
+        },
+        {
+          "path": "city-scene/street/textures/asphalt_02_diff_2k.jpg",
+          "bytes": 3075676,
+          "sha256": "28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c"
+        },
+        {
+          "path": "city-scene/street/textures/asphalt_02_nor_gl_2k.jpg",
+          "bytes": 4943950,
+          "sha256": "ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21"
+        },
+        {
+          "path": "city-scene/street/textures/asphalt_02_rough_2k.jpg",
+          "bytes": 2230457,
+          "sha256": "b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c"
+        },
+        {
+          "path": "city-scene/street/textures/overcast_soil_puresky_2k.hdr",
+          "bytes": 4568000,
+          "sha256": "5414e1ac0c35e451d28595b2a2cba05e2ca301fdeb755b0a469408443093dafc"
+        }
+      ]
+    },
+    {
+      "name": "dome-assets.zip",
+      "bytes": 1812746,
+      "sha256": "7305da4e666625ba65b5ca3e5bc9885b4ca209ba5f2a769f0f6edfd8b133c833",
+      "files": [
+        {
+          "path": "dome/alchemist_dome.blend",
+          "bytes": 557837,
+          "sha256": "47625de5973fecdbd53951f2e57855162f9d904978fd64aa006c9be526756140"
+        },
+        {
+          "path": "dome/alchemist_dome_preview.png",
           "bytes": 1263162,
           "sha256": "d989dd010e96abc5852d945c08498ff3c16ba26967505a36e2a206a384bf462c"
         }
       ]
     },
     {
-      "name": "restaurant-assets.zip",
-      "bytes": 53710120,
-      "sha256": "a15dee35f94437fbddbe218330b279b636eea1a886255d4ca20266b3f6fa7115",
+      "name": "eyeball-assets.zip",
+      "bytes": 623836934,
+      "sha256": "e6f7bb8d4dc362c990c5c5c0f4a8bf1eb8af64dae887154d197ea6fc628d43c0",
       "files": [
         {
-          "path": "alchemist/alchemist_01_blockout.blend",
-          "bytes": 374234,
-          "sha256": "bfca0812003a8f50e2335276bef61c72ad9611cf0f1073acae5e211e08ccaa45"
+          "path": "eyeball/eye_01.blend",
+          "bytes": 66787113,
+          "sha256": "55421882cf2e306dd63c320356c511cdf372be4db8a69900b7d5f1100b207b1c"
         },
         {
-          "path": "alchemist/alchemist_02_architecture.blend",
-          "bytes": 553377,
-          "sha256": "89cae405ce822da1e0613994950ae53d13dbe1d2f669d5d0c23baf8847251956"
+          "path": "eyeball/eye_02.blend",
+          "bytes": 68050186,
+          "sha256": "a7073d60f958d775aeb658a102bed721750087da07ca3816791153cddbb266ab"
         },
         {
-          "path": "alchemist/alchemist_03_materials.blend",
-          "bytes": 3191091,
-          "sha256": "e7748a332175f1a571646efa0508ac38ba7c60b0528be855516077fee9620b56"
+          "path": "eyeball/eye_03.blend",
+          "bytes": 67777483,
+          "sha256": "4205eb40300a596b81372cea1b63c7eef01f2657af43afaa4f39ffd71487703b"
         },
         {
-          "path": "alchemist/alchemist_03b_projection.blend",
-          "bytes": 5220770,
-          "sha256": "011f2083b222b548a31c33bb8da5eac445ce9a02cd10ce1399cb34845a9d14c9"
+          "path": "eyeball/eye_04.blend",
+          "bytes": 66715303,
+          "sha256": "01af23bb3b926882402ab0addfd7593f00f41d268df3ffe01f30b7809e8a5a15"
         },
         {
-          "path": "alchemist/alchemist_04_lighting.blend",
-          "bytes": 5236248,
-          "sha256": "655242a2256ff04908f17d7c043a43ea6b909f1d77d691622ae39f852cf1177f"
+          "path": "eyeball/eye_05.blend",
+          "bytes": 90598820,
+          "sha256": "e560d6a11828dbc2102bacf7e342f05f6eda08cba334305782ba8f0130e2a280"
         },
         {
-          "path": "alchemist/alchemist_04b_furnished.blend",
-          "bytes": 6783341,
-          "sha256": "9f111c71e79f63ec5ef60ea83437d3f5caaf5a3a8448a918e1bd22a69c672441"
+          "path": "eyeball/eye_06.blend",
+          "bytes": 83848359,
+          "sha256": "8c698760459334295d930f0c3e834a3191e098aa3b9400dd02b0d5ffae0fed5a"
         },
         {
-          "path": "alchemist/alchemist_04c_review.blend",
-          "bytes": 8226124,
-          "sha256": "45f7f74f961be7de32bd91443ef62190cbfd3177901761503df9386963d7b0e7"
+          "path": "eyeball/eye_07.blend",
+          "bytes": 62402975,
+          "sha256": "b04b8777cb0f633ade81ab6d8c61d97debd2ffcdc8800178ae9441b68cb3b745"
         },
         {
-          "path": "alchemist/alchemist_04d_polished.blend",
-          "bytes": 8230464,
-          "sha256": "aa46ceac15fc972ddbb41b957f7fa7a832fb9dcb84261a6380287fb7170fd59e"
+          "path": "eyeball/references/reference_blue_newyorker.jpg",
+          "bytes": 559193,
+          "sha256": "2cf7572d2d3cb6fa21f3fc9fe4ba9b7f230dea2d03649fc1a07e67545fc359e2"
         },
         {
-          "path": "alchemist/alchemist_05_final.blend",
-          "bytes": 8235610,
-          "sha256": "317aafc6bdcaa9fa9f6b8fbb8c23414ab1cd6ce24f8b363c03c04c14ab622e86"
+          "path": "eyeball/references/reference_eye.jpg",
+          "bytes": 317309,
+          "sha256": "38d2d46deb7a4f4f4381e2a77b535a640d21ffea253352f6b758c9afa60cb04b"
         },
         {
-          "path": "alchemist/references/dinesen.html",
-          "bytes": 113486,
-          "sha256": "77ed1afda9e7c319aadf6b95b66e02e6384c02716dd35e405e432bdf81e79eb4"
+          "path": "eyeball/renders/eye_01.png",
+          "bytes": 6170746,
+          "sha256": "2bc6c22f40fee387eb0045c5f353b560fcf925a503c5ff9990c14373a7978959"
         },
         {
-          "path": "alchemist/references/entrance.jpg",
-          "bytes": 285265,
-          "sha256": "a5390ebbdef0ce61c7c8e3ede630b1da62a7ec4bf4db8e37abd4f37a5cc8476f"
+          "path": "eyeball/renders/eye_01_linear.exr",
+          "bytes": 3618176,
+          "sha256": "6088820b46a68c3fd23ee183311c5f963ba7f6799ae495a61ed580079201dff9"
         },
         {
-          "path": "alchemist/references/reference_dome.jpg",
-          "bytes": 108512,
-          "sha256": "59a53b413e1679df82017b8cc61878204f3a8594790851e6133419271afaf1d2"
+          "path": "eyeball/renders/eye_02.png",
+          "bytes": 6022364,
+          "sha256": "46331ca549a54f653871870686b322f3d731be2c0a74a2e6fcc6f3f08a58e30f"
         },
         {
-          "path": "alchemist/references/reference_lounge_01.jpg",
-          "bytes": 295687,
-          "sha256": "8b282fe110cfbbdbd5c847a5872af980590849e2db17b9322f23c0114407286c"
+          "path": "eyeball/renders/eye_02_linear.exr",
+          "bytes": 3879002,
+          "sha256": "82b7a7af9f31677406279d3876063f44723507d43ff05298eabdf7453f05409e"
         },
         {
-          "path": "alchemist/references/reference_lounge_02.jpg",
-          "bytes": 290204,
-          "sha256": "c81f6528858daefec45ac3b08a08def595e298acb9118984c82d199f7b7d526d"
+          "path": "eyeball/renders/eye_03.png",
+          "bytes": 6215880,
+          "sha256": "c2440ed990ee2c8832f01e9fc310ca042a995f001a2ffe31378f0b16d657ebc4"
         },
         {
-          "path": "alchemist/references/reference_room_03.jpg",
-          "bytes": 273170,
-          "sha256": "d2cd984d9625f4e1cbf1ce29bb7500e3671405baa2e8599a6d29857a53b345ad"
+          "path": "eyeball/renders/eye_03_linear.exr",
+          "bytes": 3679788,
+          "sha256": "c79461338e028b0c35a6dee94c1fc629100065b5e701e6a1f0cef7419b6b51fa"
         },
         {
-          "path": "alchemist/textures/pbr_brass_basecolor.png",
-          "bytes": 160723,
-          "sha256": "3ac6bb97f8027d82b544908a59dadc91e5e3f7ea2299e107419d4c644e2d76c8"
+          "path": "eyeball/renders/eye_04.png",
+          "bytes": 11452653,
+          "sha256": "e3b84c903933efce17fb7c060732699eb8bb9a768ca9a81ac5b72945a08aa179"
         },
         {
-          "path": "alchemist/textures/pbr_brass_normal.png",
-          "bytes": 69120,
-          "sha256": "82ad1bbb5e53ac3d2ff6f4613243fecc8c4d41d447ad02752dadf3c96048dfaf"
+          "path": "eyeball/renders/eye_04_linear.exr",
+          "bytes": 7620014,
+          "sha256": "4f035ad967018958655f40221a816d38ee4b47a82cf2870577601c81baf9d1cc"
         },
         {
-          "path": "alchemist/textures/pbr_brass_roughness.png",
-          "bytes": 64415,
-          "sha256": "002a57b9f0e724c0531fb60441758896d1a437b3a51b08fe55d131e54633fcc4"
+          "path": "eyeball/renders/eye_05.png",
+          "bytes": 13888032,
+          "sha256": "10ca152bd09de7fa245eed53aa5954d4c765695fea2e7158581dee87f41fa33f"
         },
         {
-          "path": "alchemist/textures/pbr_charcoal_basecolor.png",
-          "bytes": 98799,
-          "sha256": "6a13b707bb694603c376fde1880facfa7e55208aec4872ea2235a067b9330b6a"
+          "path": "eyeball/renders/eye_05_linear.exr",
+          "bytes": 8835603,
+          "sha256": "f81e2be1f9c56a6ef9b0c4f239c0efae4189daac83e19347c28508761476cfd6"
         },
         {
-          "path": "alchemist/textures/pbr_charcoal_normal.png",
-          "bytes": 208511,
-          "sha256": "616db4896d434f4fd81247ece6f965469e6bd4a4cab6efd69e75039f9b395be9"
+          "path": "eyeball/renders/eye_06.png",
+          "bytes": 15310536,
+          "sha256": "f91930ff6d704769d73f37fc5639cad08d48c5c99390e178702fa10afd362682"
         },
         {
-          "path": "alchemist/textures/pbr_charcoal_roughness.png",
-          "bytes": 114129,
-          "sha256": "e53b914a161dae96eae44cbdf4ec2e3f518d9108fefdf2d5381c08990e6d452b"
+          "path": "eyeball/renders/eye_06_linear.exr",
+          "bytes": 11046769,
+          "sha256": "632a53b41b5dfc3379c2f213c32f3cdb8bdaf71ecba6473916391604ee7405b2"
         },
         {
-          "path": "alchemist/textures/pbr_concrete_basecolor.png",
-          "bytes": 84580,
-          "sha256": "1e895d68e78e5813a9b866f9de48914f0c93e0d2d1037eb8f6cce16e52e34982"
+          "path": "eyeball/renders/eye_07.png",
+          "bytes": 15270592,
+          "sha256": "d0cba97e122d0e3006be6ea57470314f91527bd22b069698227bb9bb3b54d986"
         },
         {
-          "path": "alchemist/textures/pbr_concrete_normal.png",
-          "bytes": 276438,
-          "sha256": "b1439b238075d902440f1b70788954c0f42bfe0d1d446ee2444eaecf89c27bdd"
+          "path": "eyeball/renders/eye_07_linear.exr",
+          "bytes": 11041514,
+          "sha256": "5d3e3c727145828559aba90cfbd46634e69e26ed8ebfe8db1a4496fda86c5141"
         },
         {
-          "path": "alchemist/textures/pbr_concrete_roughness.png",
-          "bytes": 105579,
-          "sha256": "2e9b907697e168ae2a433456c9d3488ffb98b513fd11a796d3a4951cc36edd0f"
+          "path": "eyeball/renders/eye_07_orbit_135.png",
+          "bytes": 5595363,
+          "sha256": "374b2e67a9ff6df9cd57139c9be5e7c69ad0f7161349b541498eb615f174fcb7"
         },
         {
-          "path": "alchemist/textures/pbr_fabric_basecolor.png",
-          "bytes": 59280,
-          "sha256": "b22b43ecaa079dd3592a54e27c60d83621ca32748de1ed1df5bae9c24c83b8aa"
+          "path": "eyeball/renders/eye_07_orbit_255.png",
+          "bytes": 4345078,
+          "sha256": "b2b1b33b1bd77f38f30de1dd16e7dea8b0e33127270b96f9a1b568c5bcbf3428"
         },
         {
-          "path": "alchemist/textures/pbr_fabric_normal.png",
-          "bytes": 111525,
-          "sha256": "b1bd97acd6655c30fc19807968f0f679e38052d777c4934df3ff883ec3a371f0"
-        },
-        {
-          "path": "alchemist/textures/pbr_fabric_roughness.png",
-          "bytes": 101134,
-          "sha256": "27317052aec44b54afb4a8f69398b66e6f623c859c8ff25c0ed354569555e793"
-        },
-        {
-          "path": "alchemist/textures/pbr_oak_basecolor.png",
-          "bytes": 41807,
-          "sha256": "e3c08e59d9beeda0ba26dbf22c132f4f28253268536ad7e2fb6009e60cd730f7"
-        },
-        {
-          "path": "alchemist/textures/pbr_oak_normal.png",
-          "bytes": 15426,
-          "sha256": "b92b4692da1b1216f0b863b97b54cb1ec77929135c8f77257a6953bf5d907671"
-        },
-        {
-          "path": "alchemist/textures/pbr_oak_roughness.png",
-          "bytes": 20702,
-          "sha256": "90a979046726064705616984d37a891754ed1ed5cb219ad139f74f554c9fb7af"
-        },
-        {
-          "path": "alchemist/textures/pbr_preview.png",
-          "bytes": 226030,
-          "sha256": "986cdc97aa701edb4f36badd059c2cd43813c6d9d170296bc62fe81fe905bbf0"
-        },
-        {
-          "path": "alchemist/textures/pbr_stone_basecolor.png",
-          "bytes": 491693,
-          "sha256": "a3f161cf0a9e25c198d0dfd6fd2c2c50fcb1cce10d2a07a4f5fa5a2d1719f6b0"
-        },
-        {
-          "path": "alchemist/textures/pbr_stone_normal.png",
-          "bytes": 310837,
-          "sha256": "4033bea8dca22f4e53463355c3db69b1f76c6ba10ba39a34bae36d7725ddcce2"
-        },
-        {
-          "path": "alchemist/textures/pbr_stone_roughness.png",
-          "bytes": 202435,
-          "sha256": "161e59cf67003ee1a73ab836961b62142e4263898e8cd3fd717d59f8b018bc99"
-        },
-        {
-          "path": "alchemist/textures/projection_underwater.png",
-          "bytes": 2005817,
-          "sha256": "ad1bbfbe20a2572253924c28466bd3f70c3b0cd014f962834ef7505a787558a4"
-        },
-        {
-          "path": "alchemist/textures/projection_underwater_refined.png",
-          "bytes": 1641911,
-          "sha256": "84cefa2307e2e0a4eab114af6953b66e40fd264281b1780aaea2843fab4b6236"
-        },
-        {
-          "path": "alchemist_dome.blend",
-          "bytes": 557837,
-          "sha256": "47625de5973fecdbd53951f2e57855162f9d904978fd64aa006c9be526756140"
+          "path": "eyeball/textures/iris_07_albedo.png",
+          "bytes": 2074510,
+          "sha256": "8eb35edf96b5e3e8f3c71171585ddcd28c44f92ec5b7b5439bb8ea0b30546463"
         }
       ]
     },
     {
-      "name": "food-scenes.zip",
-      "bytes": 289900963,
-      "sha256": "54e981e2ee015af0a495d6224081126afa416ac9c5db0d522731b322dfe67157",
+      "name": "food-assets.zip",
+      "bytes": 494236283,
+      "sha256": "5936a859366d282b710944cdcf7ed711e42d8881de77b276f56641cc17ba1047",
       "files": [
         {
-          "path": "alchemist/food_stress_test/food_01.blend",
+          "path": "food/food_01.blend",
           "bytes": 30863165,
           "sha256": "a15de115e4accb46b204c0f162d9486b3c6e6ab7f8903c871eef8738f15e1dae"
         },
         {
-          "path": "alchemist/food_stress_test/food_02.blend",
+          "path": "food/food_02.blend",
           "bytes": 53142845,
           "sha256": "b4b3a6084137107d75a6274cdcb782fb6a50fc874a935c7c204f330df54168d4"
         },
         {
-          "path": "alchemist/food_stress_test/food_03.blend",
+          "path": "food/food_03.blend",
           "bytes": 68684818,
           "sha256": "0b921b92924660835523d4dc238c811cd40e6a9c60fbea87a442291d17140b9e"
         },
         {
-          "path": "alchemist/food_stress_test/food_04.blend",
+          "path": "food/food_04.blend",
           "bytes": 74595261,
           "sha256": "b68aee8f72cef8b929ff5f4b126e7cae7d27606fa6f07d619abdcb850e807870"
         },
         {
-          "path": "alchemist/food_stress_test/food_final.blend",
-          "bytes": 73663157,
-          "sha256": "80f9962cf5935671a9f7bac30d8fa1721fc1091e41a4a1c257d8b989bf2c548e"
+          "path": "food/food_final.blend",
+          "bytes": 73689783,
+          "sha256": "ba29b94aae8eef9d590f4b25b35784abff0c776f614cf82beec15d9c1d6acb76"
         },
         {
-          "path": "alchemist/food_stress_test/references/reference_dish.jpg",
+          "path": "food/references/reference_dish.jpg",
           "bytes": 210258,
           "sha256": "e20c4d477d84ebea5d0b27c3b179ad600daa89252bc3c0b67712ce0894fc8fb4"
-        }
-      ]
-    },
-    {
-      "name": "web-assets.zip",
-      "bytes": 168082976,
-      "sha256": "85d77d057c95e3955880aef4916372850846ac43fe9f64da166114801d65b4e0",
-      "files": [
-        {
-          "path": "alchemist/alchemist_web.blend",
-          "bytes": 10335382,
-          "sha256": "4422cbae68903d542c1e6c12218a968deb1c2241e55b24431471346562cc4234"
         },
         {
-          "path": "alchemist/alchemist_web.glb",
-          "bytes": 19861116,
-          "sha256": "bf6d8b05dc64d20ac11be5f82fd8213b6616e51ecd72cf770adfa36d8826acb1"
+          "path": "food/renders/food_01.png",
+          "bytes": 5434743,
+          "sha256": "e3caed5b1372aed73bf8440ba66c602b8600d95f232579faf619c99ac76e6d65"
         },
         {
-          "path": "alchemist/food_stress_test/web_exports/food_web.blend",
+          "path": "food/renders/food_01_linear.exr",
+          "bytes": 3967443,
+          "sha256": "5aba0209fa6530e50241f02f2db463e2617d9b033bdf64a12f207ab8937c7153"
+        },
+        {
+          "path": "food/renders/food_02.png",
+          "bytes": 5526831,
+          "sha256": "cea78f082562c7a850d3dca9eaf735b0d85a28b086aa10c57432370aa95caddb"
+        },
+        {
+          "path": "food/renders/food_02_linear.exr",
+          "bytes": 4212986,
+          "sha256": "2ff9e453d8299d51ca5ece9ea16d2794394f31db33e1a48fbf9a12cef04e59ae"
+        },
+        {
+          "path": "food/renders/food_03.png",
+          "bytes": 5257990,
+          "sha256": "257361aa69666d7ac1c57ed5fa98439451189d89aa7579c24b7af2b92cd40bea"
+        },
+        {
+          "path": "food/renders/food_03_linear.exr",
+          "bytes": 3878432,
+          "sha256": "ce8f62ba8c868ca3351617e97160667b7e8e45e1389b47dad1ec53986a582d66"
+        },
+        {
+          "path": "food/renders/food_04.png",
+          "bytes": 5280489,
+          "sha256": "fc88627cdfd5fe2def15ce18a71e0fcf91df1dbe3898e6bb14e169d701d762ae"
+        },
+        {
+          "path": "food/renders/food_04_linear.exr",
+          "bytes": 3842890,
+          "sha256": "457c14a76becd0e736968dbb15f734c2c9d5c480b85c6aaebaaa6ceafc45ebe1"
+        },
+        {
+          "path": "food/renders/food_final.png",
+          "bytes": 11503187,
+          "sha256": "730df69bee4e514b6b57fbcb8bf5a83afd8ed2f90f5dfc5080856fce77e8c96a"
+        },
+        {
+          "path": "food/renders/food_final_linear.exr",
+          "bytes": 8176373,
+          "sha256": "7f4f5c279bb25e7b72717630a38bb8097db86690f9e12734dd820bfa5d05fbd9"
+        },
+        {
+          "path": "food/web_exports/food_web.blend",
           "bytes": 95176868,
           "sha256": "c8c0824bed8539ae5918da06e24519efed88606672a5b2b19c8661e078742720"
         },
         {
-          "path": "alchemist/food_stress_test/web_exports/food_web.glb",
+          "path": "food/web_exports/food_web.glb",
           "bytes": 28059276,
           "sha256": "7bba52db3a9acbc95cdbee3cea5bff327feb0c8521b9b11f468d1beb0d0f2ded"
         },
         {
-          "path": "alchemist/food_stress_test/web_exports/food_web.gltf",
+          "path": "food/web_exports/food_web.gltf",
           "bytes": 82423,
           "sha256": "a2eac7b50706e4d7fb3b6fbed5c64940e865af91585d0efd94dca05440e8976f"
         },
         {
-          "path": "alchemist/food_stress_test/web_exports/food_web_01.bin",
+          "path": "food/web_exports/food_web_01.bin",
           "bytes": 10840199,
           "sha256": "a47cb27234009d63dfcd08fcfc0033c1ae7ac6d8af7ea5fcc03921773a742ee1"
         },
         {
-          "path": "alchemist/food_stress_test/web_exports/food_web_02.bin",
+          "path": "food/web_exports/food_web_02.bin",
           "bytes": 10362608,
           "sha256": "62c2fb03b8bbc4300cecca5a88e77a951853ab605a84a31b04d62f323c8314ea"
         },
         {
-          "path": "alchemist/food_stress_test/web_exports/food_web_03.bin",
+          "path": "food/web_exports/food_web_03.bin",
           "bytes": 6774111,
           "sha256": "af1d69b5d7075896393db8611919e9afadfdf5c251ac60e33ad9355806efbd45"
+        }
+      ]
+    },
+    {
+      "name": "restaurant-assets.zip",
+      "bytes": 113285047,
+      "sha256": "fabcf8a5e0dfbb0fd9285bc9e4103ffb3f6faeec61da0c6ab0aa3c58b683215f",
+      "files": [
+        {
+          "path": "restaurant/alchemist_01_blockout.blend",
+          "bytes": 374234,
+          "sha256": "bfca0812003a8f50e2335276bef61c72ad9611cf0f1073acae5e211e08ccaa45"
         },
         {
-          "path": "alchemist/textures/restaurant_environment.exr",
+          "path": "restaurant/alchemist_02_architecture.blend",
+          "bytes": 553377,
+          "sha256": "89cae405ce822da1e0613994950ae53d13dbe1d2f669d5d0c23baf8847251956"
+        },
+        {
+          "path": "restaurant/alchemist_03_materials.blend",
+          "bytes": 3191091,
+          "sha256": "e7748a332175f1a571646efa0508ac38ba7c60b0528be855516077fee9620b56"
+        },
+        {
+          "path": "restaurant/alchemist_03b_projection.blend",
+          "bytes": 5220770,
+          "sha256": "011f2083b222b548a31c33bb8da5eac445ce9a02cd10ce1399cb34845a9d14c9"
+        },
+        {
+          "path": "restaurant/alchemist_04_lighting.blend",
+          "bytes": 5236248,
+          "sha256": "655242a2256ff04908f17d7c043a43ea6b909f1d77d691622ae39f852cf1177f"
+        },
+        {
+          "path": "restaurant/alchemist_04b_furnished.blend",
+          "bytes": 6783341,
+          "sha256": "9f111c71e79f63ec5ef60ea83437d3f5caaf5a3a8448a918e1bd22a69c672441"
+        },
+        {
+          "path": "restaurant/alchemist_04c_review.blend",
+          "bytes": 8264406,
+          "sha256": "ff93d8cb30bcb11ea8cdb5d7c96f2ee9f8881aa10182ce9bf9c2dddf2d8ab8fd"
+        },
+        {
+          "path": "restaurant/alchemist_04d_polished.blend",
+          "bytes": 8230464,
+          "sha256": "aa46ceac15fc972ddbb41b957f7fa7a832fb9dcb84261a6380287fb7170fd59e"
+        },
+        {
+          "path": "restaurant/alchemist_05_final.blend",
+          "bytes": 8235610,
+          "sha256": "317aafc6bdcaa9fa9f6b8fbb8c23414ab1cd6ce24f8b363c03c04c14ab622e86"
+        },
+        {
+          "path": "restaurant/alchemist_web.blend",
+          "bytes": 10335382,
+          "sha256": "4422cbae68903d542c1e6c12218a968deb1c2241e55b24431471346562cc4234"
+        },
+        {
+          "path": "restaurant/alchemist_web.glb",
+          "bytes": 19861116,
+          "sha256": "bf6d8b05dc64d20ac11be5f82fd8213b6616e51ecd72cf770adfa36d8826acb1"
+        },
+        {
+          "path": "restaurant/backups/restaurant_unsaved_backup_20260908_125825.blend",
+          "bytes": 8255369,
+          "sha256": "02e7dfb6cc6c458267fb874ac937cc337058f4ff2f795d1cc9a6aeb3302d8664"
+        },
+        {
+          "path": "restaurant/references/dinesen.html",
+          "bytes": 113486,
+          "sha256": "77ed1afda9e7c319aadf6b95b66e02e6384c02716dd35e405e432bdf81e79eb4"
+        },
+        {
+          "path": "restaurant/references/entrance.jpg",
+          "bytes": 285265,
+          "sha256": "a5390ebbdef0ce61c7c8e3ede630b1da62a7ec4bf4db8e37abd4f37a5cc8476f"
+        },
+        {
+          "path": "restaurant/references/reference_dome.jpg",
+          "bytes": 108512,
+          "sha256": "59a53b413e1679df82017b8cc61878204f3a8594790851e6133419271afaf1d2"
+        },
+        {
+          "path": "restaurant/references/reference_lounge_01.jpg",
+          "bytes": 295687,
+          "sha256": "8b282fe110cfbbdbd5c847a5872af980590849e2db17b9322f23c0114407286c"
+        },
+        {
+          "path": "restaurant/references/reference_lounge_02.jpg",
+          "bytes": 290204,
+          "sha256": "c81f6528858daefec45ac3b08a08def595e298acb9118984c82d199f7b7d526d"
+        },
+        {
+          "path": "restaurant/references/reference_room_03.jpg",
+          "bytes": 273170,
+          "sha256": "d2cd984d9625f4e1cbf1ce29bb7500e3671405baa2e8599a6d29857a53b345ad"
+        },
+        {
+          "path": "restaurant/renders/01_blockout_arrival.png",
+          "bytes": 516561,
+          "sha256": "a005f2e179b0be81831772a6b2b714e18702f0c200e1cb2f3d82f5557b217c01"
+        },
+        {
+          "path": "restaurant/renders/01_blockout_hero.png",
+          "bytes": 767685,
+          "sha256": "8adac9876c1fc957c3eda77cb155cacd7dac4f9557f70f6f6c076fb7c87036fb"
+        },
+        {
+          "path": "restaurant/renders/01_blockout_plan.png",
+          "bytes": 952221,
+          "sha256": "754228ca2b127f0c2016a4963aec3c36983f73b1c38881476c0becf7c4c8a9e3"
+        },
+        {
+          "path": "restaurant/renders/02_architecture_arrival.png",
+          "bytes": 666595,
+          "sha256": "4880d938612afbb69669f8fcd11e3f2eaa44ebf18bc4513d5af10d13989994a5"
+        },
+        {
+          "path": "restaurant/renders/02_architecture_hero.png",
+          "bytes": 797866,
+          "sha256": "44ef58f7fa8009388173f897cf2338f2ad9de5eb66552495a9f22b9a965300ab"
+        },
+        {
+          "path": "restaurant/renders/02_architecture_table.png",
+          "bytes": 676875,
+          "sha256": "2d79b1216411d79b26d1828be5f9723fb8753ec2701a88896ee04eac5a06bd90"
+        },
+        {
+          "path": "restaurant/renders/03_materials_hero.png",
+          "bytes": 817220,
+          "sha256": "d2701022b5e8dd759b0afcf5c7bdb1e6056ca6e7baf0895823c0d7fedbe53ef0"
+        },
+        {
+          "path": "restaurant/renders/03_materials_table.png",
+          "bytes": 712772,
+          "sha256": "0c6c26d10803346ce691480328872c90b53e346b6ba2b778bea9bb9cfbba79bf"
+        },
+        {
+          "path": "restaurant/renders/04_projection_dome.png",
+          "bytes": 1015958,
+          "sha256": "9652e7f3b281e677aacef2d0ffcc5cb2ae22a39daee1a3e73ff46af2a1f9a57a"
+        },
+        {
+          "path": "restaurant/renders/04_projection_hero.png",
+          "bytes": 993532,
+          "sha256": "844eda180cf67630dd9f7b738f5ef2a1d2a19f1cdf5d803149b0008ea2110d9d"
+        },
+        {
+          "path": "restaurant/renders/05_lighting_arrival.png",
+          "bytes": 689218,
+          "sha256": "16d05329c3b1bfb98349c083b9bd7bbf270b87370d5687da05b3fc18726d345a"
+        },
+        {
+          "path": "restaurant/renders/05_lighting_exit.png",
+          "bytes": 627556,
+          "sha256": "e454ce6d23b2096cd27468604c4315b9c98313cae622644646aa9eb3c54da973"
+        },
+        {
+          "path": "restaurant/renders/05_lighting_hero.png",
+          "bytes": 1292270,
+          "sha256": "9d973fd692629035638769aef8642c5829e3881b6ab68407e489d687db771054"
+        },
+        {
+          "path": "restaurant/renders/06_furniture_hero.png",
+          "bytes": 1736822,
+          "sha256": "a52daf3bf1f28a2123eed874133e8f4f6af36371740c346bce7732e5448e5aa8"
+        },
+        {
+          "path": "restaurant/renders/06_furniture_table.png",
+          "bytes": 856779,
+          "sha256": "701b027c4365b50161d102e5e74e67bc6714768d940b117dcfc75cc37a443107"
+        },
+        {
+          "path": "restaurant/renders/07_refined_arrival.png",
+          "bytes": 1038250,
+          "sha256": "08d7bae63282777d846e8dbaba784e183cd6c6ae97bc5f43587cc47a38e68006"
+        },
+        {
+          "path": "restaurant/renders/07_refined_dome.png",
+          "bytes": 1090272,
+          "sha256": "06ec73d733fbb9df1d8044dd670deffa3ff64ae5b9855db03957ff2f873a9aed"
+        },
+        {
+          "path": "restaurant/renders/07_refined_exit.png",
+          "bytes": 974057,
+          "sha256": "8440a9f7d3a54b9b1b5c5ff1bd9a7134f6dcb3fa18b3342bc0510f37d9234ebd"
+        },
+        {
+          "path": "restaurant/renders/07_refined_hero.png",
+          "bytes": 1733561,
+          "sha256": "f62ce52efcb96dda8552eafbbcb1e02b4caf1b593fce9e0ab61f8bad22e5caa2"
+        },
+        {
+          "path": "restaurant/renders/07_refined_lounge.png",
+          "bytes": 750879,
+          "sha256": "0f7f45205e41bc1d44caec3f67bd88be6451b5e2e655f205f391d36b370a060c"
+        },
+        {
+          "path": "restaurant/renders/07_refined_table.png",
+          "bytes": 883113,
+          "sha256": "b2b30dd63c897d332a1c83bd89768491afa708748f8136d7140af3e53f748ea9"
+        },
+        {
+          "path": "restaurant/renders/08_polished_hero.png",
+          "bytes": 1270004,
+          "sha256": "1b5152bcab45638b6ae74bfa0e63a8aa748c5024ff6e987ebda373e34a7af0f3"
+        },
+        {
+          "path": "restaurant/renders/08_polished_table.png",
+          "bytes": 874616,
+          "sha256": "885005b971b80ce1179da3fe84bbfd5967f52a1ec01f54e4cf6784545f0dde41"
+        },
+        {
+          "path": "restaurant/renders/alchemist_arrival.png",
+          "bytes": 1369661,
+          "sha256": "0e951d55ddf486703a6d9142f24880bf96f64a03ed6cc047775b5a887ee74622"
+        },
+        {
+          "path": "restaurant/renders/alchemist_dome.png",
+          "bytes": 1529354,
+          "sha256": "1469522367cd26dc94918455df404b09472ec14080df2f6f19f3cd86f6b23cf1"
+        },
+        {
+          "path": "restaurant/renders/alchemist_exit.png",
+          "bytes": 973568,
+          "sha256": "fb0a3d0fc0721d66a8fbfd71826b696596bccc3a3d3970e780b62e165ea39cd3"
+        },
+        {
+          "path": "restaurant/renders/alchemist_hero.png",
+          "bytes": 2472833,
+          "sha256": "621db6183bb1de72e777f787760f49492b14a3177775a298370bc193d1a7a89d"
+        },
+        {
+          "path": "restaurant/renders/alchemist_lounge.png",
+          "bytes": 819713,
+          "sha256": "7de302f301284507f33e99a3566d53dbad3a8c97eb3384a1690cc19f6967db9a"
+        },
+        {
+          "path": "restaurant/renders/alchemist_table.png",
+          "bytes": 1164669,
+          "sha256": "ce4b3d456dfa03a874f41cb01d0ce4c6538ec6a63546c157e67ff6a88d41fe6f"
+        },
+        {
+          "path": "restaurant/renders/web_reimport_hero.png",
+          "bytes": 1136088,
+          "sha256": "d2381c8966b4561fc8355145967b203348c44acc63e7f121fb8d2603f16d417d"
+        },
+        {
+          "path": "restaurant/textures/pbr_brass_basecolor.png",
+          "bytes": 160723,
+          "sha256": "3ac6bb97f8027d82b544908a59dadc91e5e3f7ea2299e107419d4c644e2d76c8"
+        },
+        {
+          "path": "restaurant/textures/pbr_brass_normal.png",
+          "bytes": 69120,
+          "sha256": "82ad1bbb5e53ac3d2ff6f4613243fecc8c4d41d447ad02752dadf3c96048dfaf"
+        },
+        {
+          "path": "restaurant/textures/pbr_brass_roughness.png",
+          "bytes": 64415,
+          "sha256": "002a57b9f0e724c0531fb60441758896d1a437b3a51b08fe55d131e54633fcc4"
+        },
+        {
+          "path": "restaurant/textures/pbr_charcoal_basecolor.png",
+          "bytes": 98799,
+          "sha256": "6a13b707bb694603c376fde1880facfa7e55208aec4872ea2235a067b9330b6a"
+        },
+        {
+          "path": "restaurant/textures/pbr_charcoal_normal.png",
+          "bytes": 208511,
+          "sha256": "616db4896d434f4fd81247ece6f965469e6bd4a4cab6efd69e75039f9b395be9"
+        },
+        {
+          "path": "restaurant/textures/pbr_charcoal_roughness.png",
+          "bytes": 114129,
+          "sha256": "e53b914a161dae96eae44cbdf4ec2e3f518d9108fefdf2d5381c08990e6d452b"
+        },
+        {
+          "path": "restaurant/textures/pbr_concrete_basecolor.png",
+          "bytes": 84580,
+          "sha256": "1e895d68e78e5813a9b866f9de48914f0c93e0d2d1037eb8f6cce16e52e34982"
+        },
+        {
+          "path": "restaurant/textures/pbr_concrete_normal.png",
+          "bytes": 276438,
+          "sha256": "b1439b238075d902440f1b70788954c0f42bfe0d1d446ee2444eaecf89c27bdd"
+        },
+        {
+          "path": "restaurant/textures/pbr_concrete_roughness.png",
+          "bytes": 105579,
+          "sha256": "2e9b907697e168ae2a433456c9d3488ffb98b513fd11a796d3a4951cc36edd0f"
+        },
+        {
+          "path": "restaurant/textures/pbr_fabric_basecolor.png",
+          "bytes": 59280,
+          "sha256": "b22b43ecaa079dd3592a54e27c60d83621ca32748de1ed1df5bae9c24c83b8aa"
+        },
+        {
+          "path": "restaurant/textures/pbr_fabric_normal.png",
+          "bytes": 111525,
+          "sha256": "b1bd97acd6655c30fc19807968f0f679e38052d777c4934df3ff883ec3a371f0"
+        },
+        {
+          "path": "restaurant/textures/pbr_fabric_roughness.png",
+          "bytes": 101134,
+          "sha256": "27317052aec44b54afb4a8f69398b66e6f623c859c8ff25c0ed354569555e793"
+        },
+        {
+          "path": "restaurant/textures/pbr_oak_basecolor.png",
+          "bytes": 41807,
+          "sha256": "e3c08e59d9beeda0ba26dbf22c132f4f28253268536ad7e2fb6009e60cd730f7"
+        },
+        {
+          "path": "restaurant/textures/pbr_oak_normal.png",
+          "bytes": 15426,
+          "sha256": "b92b4692da1b1216f0b863b97b54cb1ec77929135c8f77257a6953bf5d907671"
+        },
+        {
+          "path": "restaurant/textures/pbr_oak_roughness.png",
+          "bytes": 20702,
+          "sha256": "90a979046726064705616984d37a891754ed1ed5cb219ad139f74f554c9fb7af"
+        },
+        {
+          "path": "restaurant/textures/pbr_preview.png",
+          "bytes": 226030,
+          "sha256": "986cdc97aa701edb4f36badd059c2cd43813c6d9d170296bc62fe81fe905bbf0"
+        },
+        {
+          "path": "restaurant/textures/pbr_stone_basecolor.png",
+          "bytes": 491693,
+          "sha256": "a3f161cf0a9e25c198d0dfd6fd2c2c50fcb1cce10d2a07a4f5fa5a2d1719f6b0"
+        },
+        {
+          "path": "restaurant/textures/pbr_stone_normal.png",
+          "bytes": 310837,
+          "sha256": "4033bea8dca22f4e53463355c3db69b1f76c6ba10ba39a34bae36d7725ddcce2"
+        },
+        {
+          "path": "restaurant/textures/pbr_stone_roughness.png",
+          "bytes": 202435,
+          "sha256": "161e59cf67003ee1a73ab836961b62142e4263898e8cd3fd717d59f8b018bc99"
+        },
+        {
+          "path": "restaurant/textures/projection_underwater.png",
+          "bytes": 2005817,
+          "sha256": "ad1bbfbe20a2572253924c28466bd3f70c3b0cd014f962834ef7505a787558a4"
+        },
+        {
+          "path": "restaurant/textures/projection_underwater_refined.png",
+          "bytes": 1641911,
+          "sha256": "84cefa2307e2e0a4eab114af6953b66e40fd264281b1780aaea2843fab4b6236"
+        },
+        {
+          "path": "restaurant/textures/restaurant_environment.exr",
           "bytes": 1753514,
           "sha256": "f18bf3346b0c2b5b7f451bbc41c831385f89f95a87af3dc3504f834ce2a8e8c5"
         }
@@ -500,34 +984,45 @@
   ],
   "duplicates": [
     {
-      "source": "alchemist/food_stress_test/web_exports/food_web.gltf",
-      "target": "alchemist/food_web_preview/public/model/food_web.gltf",
+      "source": "food/web_exports/food_web.gltf",
+      "target": "food/web-preview/public/model/food_web.gltf",
       "bytes": 82423,
       "sha256": "a2eac7b50706e4d7fb3b6fbed5c64940e865af91585d0efd94dca05440e8976f"
     },
     {
-      "source": "alchemist/food_stress_test/web_exports/food_web_01.bin",
-      "target": "alchemist/food_web_preview/public/model/food_web_01.bin",
+      "source": "food/web_exports/food_web_01.bin",
+      "target": "food/web-preview/public/model/food_web_01.bin",
       "bytes": 10840199,
       "sha256": "a47cb27234009d63dfcd08fcfc0033c1ae7ac6d8af7ea5fcc03921773a742ee1"
     },
     {
-      "source": "alchemist/food_stress_test/web_exports/food_web_02.bin",
-      "target": "alchemist/food_web_preview/public/model/food_web_02.bin",
+      "source": "food/web_exports/food_web_02.bin",
+      "target": "food/web-preview/public/model/food_web_02.bin",
       "bytes": 10362608,
       "sha256": "62c2fb03b8bbc4300cecca5a88e77a951853ab605a84a31b04d62f323c8314ea"
     },
     {
-      "source": "alchemist/food_stress_test/web_exports/food_web_03.bin",
-      "target": "alchemist/food_web_preview/public/model/food_web_03.bin",
+      "source": "food/web_exports/food_web_03.bin",
+      "target": "food/web-preview/public/model/food_web_03.bin",
       "bytes": 6774111,
       "sha256": "af1d69b5d7075896393db8611919e9afadfdf5c251ac60e33ad9355806efbd45"
     }
   ],
   "excluded_local_files": [
-    "alchemist_dome.blend1",
+    "alchemist/.DS_Store",
     "alchemist/alchemist_03_materials.blend1",
+    "alchemist/alchemist_04c_review.blend1",
     "alchemist/alchemist_05_final.blend1",
+    "alchemist/eye_food_stress_test/eye_04.blend1",
+    "alchemist/eye_food_stress_test/reports/render_01.log",
+    "alchemist/eye_food_stress_test/reports/render_02.log",
+    "alchemist/eye_food_stress_test/reports/render_03.log",
+    "alchemist/eye_food_stress_test/reports/render_04.log",
+    "alchemist/eye_food_stress_test/reports/render_05.log",
+    "alchemist/eye_food_stress_test/reports/render_06.log",
+    "alchemist/eye_food_stress_test/reports/render_07.log",
+    "alchemist/eye_food_stress_test/reports/visible_07.log",
+    "alchemist/food_stress_test/food_final.blend1",
     "alchemist/food_stress_test/reports/gui_final.log",
     "alchemist/food_stress_test/reports/model_view_prepare.log",
     "alchemist/food_stress_test/reports/round_01.log",
@@ -552,21 +1047,51 @@
     "alchemist/reports/final_validation.log",
     "alchemist/reports/gui.log",
     "alchemist/reports/gui_final.log",
-    "alchemist/reports/threshold_fix.log"
+    "alchemist/reports/threshold_fix.log",
+    "copenhagen/copenhagen_03_refined.blend1",
+    "copenhagen/copenhagen_final.blend1",
+    "copenhagen/copenhagen_neighborhood.blend1",
+    "copenhagen/reports/02_build.log",
+    "copenhagen/reports/03_build.log",
+    "copenhagen/reports/04_review_renders.log",
+    "copenhagen/reports/final_build.log",
+    "copenhagen/reports/final_context_validation.log",
+    "copenhagen/reports/neighborhood_build.log",
+    "copenhagen/reports/neighborhood_validation.log",
+    "copenhagen_aerial/copenhagen_aerial.blend1",
+    "copenhagen_aerial/copenhagen_aerial_final.blend1",
+    "copenhagen_aerial/reports/build.log",
+    "copenhagen_aerial/reports/build_error.txt",
+    "copenhagen_aerial/reports/final_grade.log",
+    "copenhagen_aerial/reports/finalize.log",
+    "copenhagen_aerial/reports/orthophoto.log",
+    "copenhagen_aerial/reports/process_sample.txt",
+    "copenhagen_aerial/reports/refine.log",
+    "copenhagen_aerial/reports/validation.log",
+    "alchemist_dome.blend1",
+    "眼球菜品-第七版.blend"
   ],
   "excluded_directories": [
-    ".cache",
     ".git",
+    "node_modules",
+    "__pycache__",
     ".next",
     ".vinext",
     ".wrangler",
-    "__pycache__",
-    "build",
     "dist",
-    "node_modules"
+    "build",
+    ".cache"
   ],
-  "original_text_and_preview_snapshot": {
-    "files": 156,
-    "bytes": 22437817
-  }
+  "layout": {
+    "eyeball/": "Eye dish, latest eye_07.blend",
+    "city-scene/street/": "Street and expanded neighborhood",
+    "city-scene/aerial/": "Copenhagen city aerial",
+    "restaurant/": "Alchemist restaurant",
+    "food/": "Original dish and web preview",
+    "dome/": "Original dome study"
+  },
+  "notes": [
+    "The Chinese-named eye file is a symlink to eye_07.blend, which is included under eyeball/.",
+    "Historical build reports retain original paths and source hashes."
+  ]
 }
